@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4789916351335064175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789916351335064174}
+  - component: {fileID: 4789916351335064172}
+  - component: {fileID: 4789916351335064173}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789916351335064174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351335064175}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6098962, y: -0.74000347, z: -8.487293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4789916352405869578}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4789916351335064172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351335064175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &4789916351335064173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351335064175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!1 &4789916351605705818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789916351605705817}
+  - component: {fileID: 4789916351605705816}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789916351605705817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351605705818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4789916352405869578}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4789916351605705816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351605705818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d4cc140b0a571409556d9bf3720d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 0}
+  dialogueText: {fileID: 0}
+--- !u!1 &4789916351799538816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789916351799538879}
+  - component: {fileID: 4789916351799538877}
+  - component: {fileID: 4789916351799538878}
+  - component: {fileID: 4789916351799538876}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789916351799538879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351799538816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4789916352405869578}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4789916351799538877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351799538816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8a68a6280fc794681129173b8072a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strenghtsManager: {fileID: 4789916351799538878}
+  emotionManager: {fileID: 4789916351799538876}
+--- !u!114 &4789916351799538878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351799538816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ed8ca966550a5418a809accd3ad5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strengthButtons: {fileID: 0}
+  strengthNotes: {fileID: 0}
+  goalStrengths: []
+  highlightedStrengths: []
+  allStrenghts:
+  - name: Creativity
+    tasksDialogue:
+    - dialogueSentences:
+      - Bedenk 5 wiskundige vergelijkingen in verschillende contexten.
+      - In elke vergelijking moet 'X' een andere betekenis hebben.
+  - name: Curiosity
+    tasksDialogue:
+    - dialogueSentences:
+      - Blader eens door de toekomstige paginas van je wiskunde boek.
+      - Kies 3 nieuwe onderwerpen en vraag aan de docent waar ze over gaan.
+  - name: Open-mindedness
+    tasksDialogue:
+    - dialogueSentences:
+      - Zoek samen met een klasgenoot ieder een opgave over wiskundige vergelijkingen.
+      - "Zoek er \xE9\xE9n die je goed uitgewerkt en leerzaam vind."
+      - Vergelijk jouw opgave met de ander en bespreek welke het beste is.
+  - name: Love of learning
+    tasksDialogue:
+    - dialogueSentences:
+      - Blader eens door de toekomstige paginas van je wiskunde boek.
+      - Kies een opgave van een nieuw onderwerp en probeer deze te maken.
+      - Vraag of de docent kan helpen bij het uitleggen van het nieuwe onderwerp.
+  - name: Perspective
+    tasksDialogue:
+    - dialogueSentences:
+      - Zoek een wiskundige vergelijking met weinig context.
+      - Geef je eigen perspectief aan deze opgave en deel dit met een klasgenoot.
+  - name: 'Honesty '
+    tasksDialogue:
+    - dialogueSentences:
+      - Wees eerlijk tegenover jezelf en de docent over jou prestatie bij wiskunde.
+      - Vertel de docent waar je nog moeite mee hebt en waar je graag hulp bij zoekt.
+  - name: 'Bravery '
+    tasksDialogue:
+    - dialogueSentences:
+      - Probeer een lastige wiskundige vergelijking op het bord op te lossen...
+      - terwijl de hele klas mee kijkt.
+  - name: Persistence
+    tasksDialogue:
+    - dialogueSentences:
+      - Zet een doel voor jezelf en behaal dit ondanks je tegenslagen.
+      - Probeer een bepaalde hoeveelheid van je wiskunde huiswerk...
+      - binnen een dag te maken.
+  - name: Zest
+    tasksDialogue:
+    - dialogueSentences:
+      - Zoek een tijdstip uit waarop je vol energie en enthousiasme zit.
+      - Zet je favoriete muziek op en los 5 wiskundige vergelijkingen op.
+  - name: Kindness
+    tasksDialogue:
+    - dialogueSentences:
+      - Vraag aan je klasgenoot of je kan helpen bij een wiskundige vergelijking.
+      - Zo niet? Zeg dat ze goed bezig zijn.
+  - name: Love
+    tasksDialogue:
+    - dialogueSentences:
+      - Spreek af met een van je dierbare, een goede vriend(in) of familie.
+      - Los samen 10 wiskundige vergelijkingen op of maak huiswerkopgaven.
+      - Als beloning gaan jullie hierna samen wat leuks doen.
+  - name: Social intelligence
+    tasksDialogue:
+    - dialogueSentences:
+      - Kijk om je heen in de wiskunde klas.
+      - Probeer waar te nemen of sommige leerlingen moeite hebben.
+      - Kijk of je een van hen kan helpen door erover te praten.
+  - name: Fairness
+    tasksDialogue: []
+  - name: Leadership
+    tasksDialogue:
+    - dialogueSentences:
+      - Los samen met een groepje 20 wiskundige vergelijkingen op.
+      - Jij moet de groep sturen en de taken zo goed mogelijk verdelen over je groepje.
+  - name: 'Teamwork '
+    tasksDialogue: []
+  - name: 'Forgiveness '
+    tasksDialogue: []
+  - name: 'Modesty '
+    tasksDialogue: []
+  - name: 'Prudence '
+    tasksDialogue: []
+  - name: Self-regulation
+    tasksDialogue: []
+  - name: 'Appreciation of beauty '
+    tasksDialogue: []
+  - name: 'Gratitude '
+    tasksDialogue: []
+  - name: Hope
+    tasksDialogue: []
+  - name: Humor
+    tasksDialogue:
+    - dialogueSentences:
+      - Bedenkt en schrijf wiskundige vergelijking opdracht.
+      - Probeer de context van de opdracht grappig te maken...
+      - 'zodat het iemand aan het lachen kan maken.
+
+'
+  - name: Religiousness
+    tasksDialogue: []
+  randomStrengths: []
+  learnedStrengths: []
+--- !u!114 &4789916351799538876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916351799538816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72b17ac70b3c7647b948b003d25df84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experiencedEmotions: []
+  nonExperiencedEmotions: []
+  experiencedDiscussEmotion: {fileID: 0}
+  nonExperiencedDiscussEmotion: {fileID: 0}
+  finalNonExperiencedEmotions: []
+  finalExperiencedEmotions: []
+  experiencedQnA: []
+  nonExperiencedQnA: []
+  QnAUI: {fileID: 0}
+  experiencedQuestions:
+    dialogueSentences:
+    - Hoe hebben jullie deze emotie wel eens binnen de wiskunde klas ervaren?
+    - Wat kunnen jullie of de docent er aan doen om deze emotie te blijven ervaren?
+  nonExperiencedQuestions:
+    dialogueSentences:
+    - Hoe zouden jullie willen dat deze emotie meer naar voren komt binnen de wiskunde
+      klas?
+--- !u!1 &4789916352405869579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789916352405869578}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789916352405869578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789916352405869579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6098962, y: 0.74000347, z: 8.487293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4789916351335064174}
+  - {fileID: 4789916351605705817}
+  - {fileID: 4789916351799538879}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
