@@ -428,6 +428,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 3354543631565994288}
     m_Modifications:
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Drag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: centerPoint
       value: 
@@ -512,6 +520,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 3354543631565994288}
     m_Modifications:
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Drag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: centerPoint
       value: 
@@ -596,6 +612,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 3354543631565994288}
     m_Modifications:
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Drag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6440023306536870104, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_RootOrder
       value: -1
