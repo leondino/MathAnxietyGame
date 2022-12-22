@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class GateTeacher : TeacherTaskCheck
 {
@@ -12,7 +13,7 @@ public class GateTeacher : TeacherTaskCheck
         base.CheckTask();
 
         // Set dialogue position to player characters
-        dialogueTrigger.dialoguePosition =
+        dialogueTrigger.DialoguePosition =
                 GameManager.Instance.thePlayer.GetComponentInChildren<PlayerInteraction>().transform.position;
 
         if (GameManager.Instance.mathAnxietyLevel <= mathAnxietyCap)
@@ -27,6 +28,15 @@ public class GateTeacher : TeacherTaskCheck
         }
 
         // Set dialogue position back to teacher
-        dialogueTrigger.dialoguePosition = transform.position;
+        dialogueTrigger.DialoguePosition = transform.position;
+    }
+
+    public override void Completed()
+    {
+        dialogueTrigger.SwitchToDialogue(3);
+
+        // Subsscribe gate action to Interact() event
+
+        Interact();
     }
 }

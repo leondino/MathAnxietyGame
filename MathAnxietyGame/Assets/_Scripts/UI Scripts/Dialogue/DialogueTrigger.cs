@@ -11,13 +11,12 @@ public class DialogueTrigger : MonoBehaviour
     private int dialogueNumber = 0;
 
     //! Use to change where dialogue position apears
-    [HideInInspector]
-    public Vector3 dialoguePosition;
+    public Vector3 DialoguePosition { get; set; }
 
     //! Standard appearance of dialogue position is aboven the object that started it
     private void Start()
     {
-        dialoguePosition = transform.position;
+        DialoguePosition = transform.position;
     }
 
     /// <summary>
@@ -25,7 +24,7 @@ public class DialogueTrigger : MonoBehaviour
     /// </summary>
     public void TriggerDialogue()
     {
-        DialogueManager.Instance.StartDialogue(dialogue[dialogueNumber], this, dialoguePosition);
+        DialogueManager.Instance.StartDialogue(dialogue[dialogueNumber], this, DialoguePosition);
     }
 
     /// <summary>
