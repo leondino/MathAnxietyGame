@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
 
     public bool UIIsActive { get; set; }
 
+    public float mathAnxietyLevel;
+    public GameObject thePlayer;
+
     private static GameManager _instance;
 
     // Singleton of DialogueManager
@@ -22,10 +25,11 @@ public class GameManager : MonoBehaviour
         }        
     }
 
-    // Start is called before the first frame update
+    // Initsialize Game Manager instance and Math Anxiety level in start
     void Start()
     {
         _instance = this;
+        mathAnxietyLevel = 100;
     }
 
 }

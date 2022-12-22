@@ -32,10 +32,10 @@ public class DialogueManager : MonoBehaviour
         dialogueSentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue, DialogueTrigger trigger)
+    public void StartDialogue(Dialogue dialogue, DialogueTrigger trigger, Vector3 position)
     {
         dialogueBox.GetComponentInParent<Bilboard>().SetBilboard();
-        Vector3 dialoguePosition = trigger.transform.position;
+        Vector3 dialoguePosition = position;
         dialoguePosition.y += 2;
         dialogueBox.transform.position = dialoguePosition;
         dialogueBox.SetActive(true);

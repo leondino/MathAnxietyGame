@@ -10,11 +10,27 @@ public class DialogueTrigger : MonoBehaviour
 
     private int dialogueNumber = 0;
 
-    public void TriggerDialogue()
+    //! Use to change where dialogue position apears
+    [HideInInspector]
+    public Vector3 dialoguePosition;
+
+    //! Standard appearance of dialogue position is aboven the object that started it
+    private void Start()
     {
-        DialogueManager.Instance.StartDialogue(dialogue[dialogueNumber], this);
+        dialoguePosition = transform.position;
     }
 
+    /// <summary>
+    /// Triggers a dialogue cloud
+    /// </summary>
+    public void TriggerDialogue()
+    {
+        DialogueManager.Instance.StartDialogue(dialogue[dialogueNumber], this, dialoguePosition);
+    }
+
+    /// <summary>
+    /// Activates the actions after a certain dialogue ended
+    /// </summary>
     public void DialogueEndAction()
     {
         if (onDialogueEnd[dialogueNumber].GetPersistentEventCount() != 0)

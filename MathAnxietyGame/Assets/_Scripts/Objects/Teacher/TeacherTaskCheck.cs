@@ -3,6 +3,9 @@
 /// </summary>
 public class TeacherTaskCheck : DialogueInteractable
 {
+    //! How much Math Anxiety this task should reduce
+    public float MathAnxietyReduction;
+
     public virtual void CheckTask()
     {
         HasInteraction = false;
@@ -11,6 +14,7 @@ public class TeacherTaskCheck : DialogueInteractable
     public virtual void Completed()
     {
         // reduce math anxiety meter
+        GameManager.Instance.mathAnxietyLevel -= MathAnxietyReduction;
     }
 
     public virtual void InComplete()
