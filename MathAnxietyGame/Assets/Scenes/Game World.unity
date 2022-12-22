@@ -9186,6 +9186,22 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 84798667}
     m_Modifications:
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3]
+      value: De planken moeten gemeten worden. Er zijn namelijk verschillende lengtes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4]
+      value: Er zijn X aantal planken per lengte.
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5]
+      value: Dus jullie zullen X moeten berekenen met een wiskundige vergelijking.
+      objectReference: {fileID: 0}
     - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: UIPanel
       value: 
