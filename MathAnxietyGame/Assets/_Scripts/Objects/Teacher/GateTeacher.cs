@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
 public class GateTeacher : TeacherTaskCheck
 {
     [SerializeField]
     private float mathAnxietyCap;
+
+    //! Event that holds all methods that opens the gate
+    public UnityEvent onOpenGate;
 
     public override void CheckTask()
     {
@@ -33,10 +36,26 @@ public class GateTeacher : TeacherTaskCheck
 
     public override void Completed()
     {
+        HasInteraction = false;
         dialogueTrigger.SwitchToDialogue(3);
 
         // Subsscribe gate action to Interact() event
+        onInteract.AddListener(OpenGate);
 
         Interact();
+    }
+
+    public override void OpenUIPanel()
+    {
+        base.OpenUIPanel();
+        UIPanel.GetComponent<CheckGateCode>().GateTeacher = this;
+    }
+
+    /// <summary>
+    /// Opens the gate that this teacher is at
+    /// </summary>
+    public void OpenGate()
+    {
+        onOpenGate.Invoke();
     }
 }

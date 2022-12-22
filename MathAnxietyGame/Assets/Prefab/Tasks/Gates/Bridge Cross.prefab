@@ -943,6 +943,38 @@ PrefabInstance:
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5]
       value: Dus jullie zullen X moeten berekenen met een wiskundige vergelijking.
       objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7420213612925952635}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RepairBridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BrokenBridgeFix, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6901835878216449921, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: m_RootOrder
       value: -1
