@@ -459,6 +459,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7687973754094317395, guid: 170b0d04d03b3a44c846364ea6398bb1, type: 3}
   m_PrefabInstance: {fileID: 7687973753966735132}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &149405777 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 149405777, guid: 170b0d04d03b3a44c846364ea6398bb1, type: 3}
+  m_PrefabInstance: {fileID: 7687973753966735132}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4147d3ca64da2844aaaf5e4ec95e0c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &152967507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2491,6 +2502,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1523288894}
+    - target: {fileID: 4789916351799538877, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: mathAnxietyBar
+      value: 
+      objectReference: {fileID: 149405777}
     - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
       propertyPath: strengthNotes
       value: 

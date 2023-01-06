@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public const int START_MATH_ANXIETY = 100;
+
     public ManageStrengths strenghtsManager;
     public ManageEmotions emotionManager;
+    public AnxietyBar mathAnxietyBar;
 
     public bool UIIsActive { get; set; }
 
-    public float mathAnxietyLevel;
+    public int mathAnxietyLevel;
     public GameObject thePlayer;
 
     private static GameManager _instance;
@@ -29,7 +32,19 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         _instance = this;
-        mathAnxietyLevel = 100;
+        mathAnxietyLevel = START_MATH_ANXIETY;
+        mathAnxietyBar.SetMaxMathAnxiety(START_MATH_ANXIETY);
+    }
+
+
+    /// <summary>
+    /// Reduces Math Anxiety levels based on a given parameter
+    /// </summary>
+    /// <param name="mathAnxietyReduction">Amount of Math Anxiety that gets reduced</param>
+    public void ReduceMathAnxiety(int mathAnxietyReduction)
+    {
+        mathAnxietyLevel -= mathAnxietyReduction;
+        mathAnxietyBar.SetMathAnxiety(mathAnxietyLevel);
     }
 
 }
