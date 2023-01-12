@@ -56,15 +56,7 @@ public class PlayerCharacterMovement : MonoBehaviour
             targetVelocity *= followSpeed;
             targetVelocity.y = rBody.velocity.y;
             rBody.velocity = targetVelocity;
-
-            //Apply animation
-            animator.SetFloat("WalkSpeed", 2.2f);
         }
-        else 
-        {
-            animator.SetFloat("WalkSpeed", 1f);
-        }
-        animator.SetFloat("Vertical", rBody.velocity.magnitude/2.5f, 0.1f, Time.deltaTime);
 
         // Apply move away from other characters movement
         if (applyMoveAwayVelocity)
@@ -72,10 +64,21 @@ public class PlayerCharacterMovement : MonoBehaviour
             foreach (Collider moveAwayTarget in moveAwayTargets)
             {
                 MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
-                //Apply animation
-                animator.SetFloat("WalkSpeed", 2.2f);
             }
         }
+
+        // Change animation speed based on movement
+        if (!(applyMoveAwayVelocity && applyVelocity))
+        {
+            animator.SetFloat("WalkSpeed", 1f);
+        }
+        else
+        {
+            animator.SetFloat("WalkSpeed", 2.2f);
+        }
+
+        //Apply animation
+        animator.SetFloat("Vertical", rBody.velocity.magnitude / 2.8f, 0.1f, Time.deltaTime);
 
         // Calculate and apply rotation
         Quaternion targetRotation = Quaternion.LookRotation(targetVelocity);

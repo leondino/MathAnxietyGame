@@ -960,7 +960,7 @@ Transform:
   m_GameObject: {fileID: 1215949206467089712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3600055166244669755}
@@ -2888,7 +2888,7 @@ Transform:
   - {fileID: 4228227102749283215}
   - {fileID: 8694473733495356713}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5240589731700193787
 Animator:
@@ -2949,7 +2949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca8814d2dbef08458c1e419ed86e051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpPower: 120
+  jumpPower: 0
 --- !u!54 &-8998621201237389795
 Rigidbody:
   m_ObjectHideFlags: 0
