@@ -17,6 +17,7 @@ public class PlayerCharacterMovement : MonoBehaviour
     private float followSpeed = 0.5f;
 
     private Rigidbody rBody;
+    private Animator animator;
     private bool applyVelocity = true;
     private bool applyMoveAwayVelocity = false;
     private List<Collider> moveAwayTargets = new List<Collider>();
@@ -24,6 +25,7 @@ public class PlayerCharacterMovement : MonoBehaviour
     void Awake()
     {
         rBody = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
         followPoint = GetComponentInParent<PlayerControler>().followPoint;
     }
 
@@ -54,7 +56,15 @@ public class PlayerCharacterMovement : MonoBehaviour
             targetVelocity *= followSpeed;
             targetVelocity.y = rBody.velocity.y;
             rBody.velocity = targetVelocity;
+
+            //Apply animation
+            animator.SetFloat("WalkSpeed", 2.2f);
         }
+        else 
+        {
+            animator.SetFloat("WalkSpeed", 1f);
+        }
+        animator.SetFloat("Vertical", rBody.velocity.magnitude/2.5f, 0.1f, Time.deltaTime);
 
         // Apply move away from other characters movement
         if (applyMoveAwayVelocity)
@@ -62,6 +72,8 @@ public class PlayerCharacterMovement : MonoBehaviour
             foreach (Collider moveAwayTarget in moveAwayTargets)
             {
                 MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
+                //Apply animation
+                animator.SetFloat("WalkSpeed", 2.2f);
             }
         }
 
