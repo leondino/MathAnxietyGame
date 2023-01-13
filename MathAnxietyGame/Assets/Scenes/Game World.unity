@@ -1971,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emotion Task
       objectReference: {fileID: 0}
+    - target: {fileID: 5475177462571676101, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.56
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
@@ -3360,6 +3364,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8584216714509299994, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
@@ -3374,6 +3382,10 @@ PrefabInstance:
     - target: {fileID: 1050268983, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565769249, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 286647858271031378, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_IsActive
@@ -3735,6 +3747,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2585177075069976403, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 113.85
+      objectReference: {fileID: 0}
     - target: {fileID: 4014614253004699888, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
       propertyPath: UIPanel
       value: 

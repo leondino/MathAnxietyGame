@@ -98,6 +98,7 @@ public class PlayerControler : MonoBehaviour
             playerCenter += player.transform.position/3;
         }
         playersTrueCenter = playerCenter;
+        playersTrueCenter.y = centerPoint.transform.position.y;
         centerPoint.transform.position = playersTrueCenter;
     }
 
