@@ -2601,31 +2601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f474145e613ce14cb02b1a49925865a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1585738123 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3354543631474307946, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-  m_PrefabInstance: {fileID: 3354543631916292811}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1585738129
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585738123}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d49066af3ba1ddb41ad7178ee54e74e1, type: 3}
-  m_Controller: {fileID: 9100000, guid: eb2a1020c5ecef340a352a90c3370616, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1637987334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,42 +3354,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1050268983, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1565769249, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 286647858271031378, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 699122729958667027, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f03213e836b6d46eda1d4f0531452375, type: 2}
-    - target: {fileID: 1947707751117976612, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2612825872770568321, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2612825873016248055, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543630816845980, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631474307951, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3463,57 +3402,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4306018926254286107, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f705192970a61654fa7f1017ab24ba39, type: 2}
-    - target: {fileID: 4490740790648587976, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Name
-      value: Black Girl
-      objectReference: {fileID: 0}
-    - target: {fileID: 4530736699742573010, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4530736701598767012, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6215785817253751550, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7425837544348927617, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Name
-      value: Lightskin Boy
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416186512436927916, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416186512436927916, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416186512436927916, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8571914365988154888, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414389232419, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414605485397, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3354543631474307951, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-    - {fileID: 3354543631474307950, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
+    m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
 --- !u!1001 &6539953535843660196

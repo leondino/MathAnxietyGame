@@ -89,6 +89,13 @@ public class PlayerCharacterMovement : MonoBehaviour
         resetHorizontalRotation.z = 0;
         resetHorizontalRotation.x = 0;
         rBody.rotation = resetHorizontalRotation;
+
+        // Players stop walking/readjusting when interacting
+        if(GameManager.Instance.UIIsActive || DialogueManager.Instance.dialogueBox.activeSelf)
+        {
+            rBody.velocity = Vector3.zero;
+            animator.SetFloat("Vertical", 0, 0, Time.deltaTime);
+        }
     }
 
     /// <summary>
