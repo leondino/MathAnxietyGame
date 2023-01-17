@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public ManageStrengths strenghtsManager;
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
+    public GameObject endScreen;
 
     public bool UIIsActive { get; set; }
 
@@ -36,7 +37,6 @@ public class GameManager : MonoBehaviour
         mathAnxietyBar.SetMaxMathAnxiety(START_MATH_ANXIETY);
     }
 
-
     /// <summary>
     /// Reduces Math Anxiety levels based on a given parameter
     /// </summary>
@@ -47,4 +47,14 @@ public class GameManager : MonoBehaviour
         mathAnxietyBar.SetMathAnxiety(mathAnxietyLevel);
     }
 
+    /// <summary>
+    /// Ends the game to end game screen and fills in all data
+    /// </summary>
+    public void EndGame()
+    {
+        //Fill in all data for EndScreen (with EndScreen script or something)
+
+        UIIsActive = true;
+        endScreen.SetActive(true);
+    }
 }

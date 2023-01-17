@@ -2121,6 +2121,8 @@ MonoBehaviour:
     - Er liggen daar gelukkig een aantal planken om te gebruiken.
     - 'Jullie moeten wel zelf de wiskundige berekening maken... '
   - dialogueSentences:
+    - Gaan jullie de brug repareren?
+  - dialogueSentences:
     - Ik kan het niet!
     - Ik snap het niet...
     - ARHGH! Ik wil het niet!
@@ -2131,6 +2133,20 @@ MonoBehaviour:
   - dialogueSentences:
     - Goed gedaan! Jullie hebben de brug gerepareerd!
   onDialogueEnd:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4443315977939161541}
+        m_TargetAssemblyTypeName: DialogueInteractable, Assembly-CSharp
+        m_MethodName: ActivateDialogueEndAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4443315977939161541}
@@ -2177,7 +2193,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4443315977939161541}
         m_TargetAssemblyTypeName: TeacherTaskCheck, Assembly-CSharp
-        m_MethodName: Completed
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2218,6 +2234,7 @@ MonoBehaviour:
   dialogueType: 2
   dialogueTrigger: {fileID: 0}
   UIPanel: {fileID: 0}
+  autoOpenUI: 0
   MathAnxietyReduction: 0
   mathAnxietyCap: 75
   onOpenGate:

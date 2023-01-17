@@ -998,7 +998,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2805047017483084225}
-  m_LocalRotation: {x: -0, y: 0.42182708, z: -0, w: -0.9066763}
+  m_LocalRotation: {x: 0, y: 0.42182708, z: -0, w: -0.9066763}
   m_LocalPosition: {x: -2.45, y: 2, z: -2.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1006,7 +1006,7 @@ Transform:
   - {fileID: 4980882578862510741}
   - {fileID: 5033287256896478727}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 310.1, z: 0}
 --- !u!136 &2805047017483084227
 CapsuleCollider:
@@ -1052,23 +1052,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - dialogueSentences:
-    - 'Hoi Allemaal!
-
-      Jullie voelen vast wel eens negatieve emoties tijdens
-      wiskunde.'
-    - Het is echter belangrijker om op de positieve emoties te focussen!
-    - Welke van deze emoties ervaren jullie WEL binnen de wiskunde klas en welke
-      NIET?
-    - Overleg en discussieer per emotie goed met elkaar en duw ze in het juiste vak.
+    - Hoi Allemaal!
+    - Jullie wilde graag het examen halen om vervolgens jullie dromen na te streven.
+    - Helaas hebben jullie het wiskundige deel niet behaald.
+    - Uit onze observatie blijkt dat jullie alle 3 last hebben van een vorm van 'Math
+      Anxiety'.
+    - Dit betekend dat jullie angstig zijn bij het zien en denken aan wiskundige
+      problemen.
+    - Jullie kunnen zo niet meer logisch andenken en willen wiskunde het liever vermijden.
+    - Gelukkig is falen een leerprocess en geeft het een kans om het volgende keer
+      beter te doen.
+    - Daarom gaan jullie samen op avontuur om te leren hoe je om kan gaan met Math
+      Anxiety.
+    - Ik als leraar zal jullie hierbij helpen.
+    - Zo krijgen jullie een nieuwe kans voor het examen om je dromen te achtervolgen!
   - dialogueSentences:
-    - Hebben jullie alle emoties verdeeld?
+    - Zijn jullie klaar om het examen opnieuw te doen?
   - dialogueSentences:
-    - Jullie hebben nog niet alle emoties onder verdeeld.
-    - Geen probleem! Denk goed na over alle 10 de positieve emoties!
+    - NEE, ik durf het niet!
+    - Ik wil nooit meer zo een examen maken!!!
+    - Ik begin helemaal te trillen...
+  - dialogueSentences:
+    - Denk je dat we het aankunnen?
+    - We hebben wel veel geleerd... Laten we het proberen!
+    - JA, ik voel me zelfverzekerd. We gaan ons best doen!
+  - dialogueSentences:
+    - Wat goed! Jullie hebben het alle 3 gehaald!
+    - Blijf oefenen om om te gaan met je Math Anxiety en achtervolg je dromen!
   onDialogueEnd:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6959044663540038884}
         m_TargetAssemblyTypeName: DialogueInteractable, Assembly-CSharp
         m_MethodName: ActivateDialogueEndAction
         m_Mode: 1
@@ -1082,9 +1096,51 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: EmotionTeacher, Assembly-CSharp
+      - m_Target: {fileID: 6959044663540038884}
+        m_TargetAssemblyTypeName: GateTeacher, Assembly-CSharp
         m_MethodName: CheckTask
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6959044663540038884}
+        m_TargetAssemblyTypeName: TeacherTaskCheck, Assembly-CSharp
+        m_MethodName: InComplete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6959044663540038884}
+        m_TargetAssemblyTypeName: GateTeacher, Assembly-CSharp
+        m_MethodName: OpenUIPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6959044663540038884}
+        m_TargetAssemblyTypeName: GateTeacher, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1145,6 +1201,7 @@ MonoBehaviour:
   dialogueType: 2
   dialogueTrigger: {fileID: 0}
   UIPanel: {fileID: 0}
+  autoOpenUI: 0
   MathAnxietyReduction: 0
   mathAnxietyCap: 0
   onOpenGate:

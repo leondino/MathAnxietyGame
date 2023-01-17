@@ -21,12 +21,12 @@ public class GateTeacher : TeacherTaskCheck
 
         if (GameManager.Instance.mathAnxietyLevel <= mathAnxietyCap)
         {
-            dialogueTrigger.SwitchToDialogue(2);
+            dialogueTrigger.SwitchToDialogue(3);
             Interact();
         }
         else
         {
-            dialogueTrigger.SwitchToDialogue(1);
+            dialogueTrigger.SwitchToDialogue(2);
             Interact();
         }
 
@@ -37,7 +37,7 @@ public class GateTeacher : TeacherTaskCheck
     public override void Completed()
     {
         HasInteraction = false;
-        dialogueTrigger.SwitchToDialogue(3);
+        dialogueTrigger.SwitchToDialogue(4);
 
         // Subsscribe gate action to Interact() event
         onInteract.AddListener(OpenGate);

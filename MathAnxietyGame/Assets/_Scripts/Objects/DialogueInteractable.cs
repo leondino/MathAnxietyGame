@@ -17,6 +17,9 @@ public class DialogueInteractable : Interactable
     [SerializeField][Tooltip("This object can open a specific UI panel when the dialogue has ended.")]
     public GameObject UIPanel;
 
+    [SerializeField]
+    private bool autoOpenUI;
+
     protected override void Start()
     {
         base.Start();
@@ -40,7 +43,7 @@ public class DialogueInteractable : Interactable
             dialogueTrigger.NextDialogue();
         }
 
-        if (UIPanel != null)
+        if (UIPanel != null && autoOpenUI)
         {
             OpenUIPanel();
         }

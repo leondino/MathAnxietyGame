@@ -2755,6 +2755,7 @@ MonoBehaviour:
   dialogueType: 2
   dialogueTrigger: {fileID: 0}
   UIPanel: {fileID: 0}
+  autoOpenUI: 1
   MathAnxietyReduction: 0
 --- !u!1 &7108773333653931267
 GameObject:
