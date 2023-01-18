@@ -40,24 +40,24 @@ public class EndDataFiller : MonoBehaviour
         {
             data += $"{emotion.name}, ";
         }
-        data.TrimEnd(',', ' ');
+        data = data.TrimEnd(',', ' ');
         data += "\n\nNiet ervaren positieve emoties:\n";
         foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
         {
             data += $"{emotion.name}, ";
         }
-        data.TrimEnd(',', ' ');
-        data += $"\n\nBesproken wel eravren emotie: {emotionManager.experiencedDiscussEmotion.name}\n";
+        data = data.TrimEnd(',', ' ');
+        data += $"\n\nBesproken wel eravren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
         foreach (QnA QnA in emotionManager.experiencedQnA)
         {
-            data += $"{QnA.question}\n ";
-            data += $"{QnA.answer}\n\n ";
+            data += $"{QnA.question}\n";
+            data += $"{QnA.answer}\n\n";
         }
-        data += $"Besproken niet eravren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n";
+        data += $"Besproken niet eravren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
         foreach (QnA QnA in emotionManager.nonExperiencedQnA)
         {
-            data += $"{QnA.question}\n ";
-            data += $"{QnA.answer}\n\n ";
+            data += $"{QnA.question}\n";
+            data += $"{QnA.answer}\n\n";
         }
 
         return data;
@@ -72,11 +72,11 @@ public class EndDataFiller : MonoBehaviour
         {
             data += $"{strength.name}, ";
         }
-        data.TrimEnd(',', ' ');
+        data = data.TrimEnd(',', ' ');
         data += "\n\nOpdrachten op basis van jullie strengths:\n";
         foreach (Strength strength in strengthManager.learnedStrengths)
         {
-            data += $"\n{strength.name}:\n {strength.tasksDialogue[0].dialogueSentences}\n";
+            data += $"\n{strength.name}:\n{strength.tasksDialogue[0].dialogueSentences}\n";
         }
 
         return data;
