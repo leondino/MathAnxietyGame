@@ -14,9 +14,9 @@ public class EndDataFiller : MonoBehaviour
     // Awake is called when this object is enabled
     void Awake()
     {
-        FillEndData();
         emotionManager = GameManager.Instance.emotionManager;
         strengthManager = GameManager.Instance.strenghtsManager;
+        FillEndData();
     }
 
     /// <summary>
