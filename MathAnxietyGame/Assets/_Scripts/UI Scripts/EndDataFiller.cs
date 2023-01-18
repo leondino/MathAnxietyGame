@@ -47,13 +47,13 @@ public class EndDataFiller : MonoBehaviour
             data += $"{emotion.name}, ";
         }
         data = data.TrimEnd(',', ' ');
-        data += $"\n\nBesproken wel eravren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
+        data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
         foreach (QnA QnA in emotionManager.experiencedQnA)
         {
             data += $"{QnA.question}\n";
             data += $"{QnA.answer}\n\n";
         }
-        data += $"Besproken niet eravren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
+        data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
         foreach (QnA QnA in emotionManager.nonExperiencedQnA)
         {
             data += $"{QnA.question}\n";
