@@ -76,7 +76,7 @@ public class EndDataFiller : MonoBehaviour
         data += "\n\nOpdrachten op basis van jullie strengths:\n";
         foreach (Strength strength in strengthManager.learnedStrengths)
         {
-            data += $"\n{strength.name}:\n{strength.tasksDialogue[0].dialogueSentences}\n";
+            data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
         }
 
         return data;
