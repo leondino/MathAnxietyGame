@@ -161,6 +161,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strenghtsManager: {fileID: 4789916351799538878}
   emotionManager: {fileID: 4789916351799538876}
+  mathAnxietyBar: {fileID: 0}
+  endScreen: {fileID: 0}
+  mathAnxietyLevel: 0
+  thePlayer: {fileID: 0}
 --- !u!114 &4789916351799538878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,74 +185,74 @@ MonoBehaviour:
   - name: Creativity
     tasksDialogue:
     - dialogueSentences:
-      - Bedenk 5 wiskundige vergelijkingen in verschillende contexten.
+      - 'Bedenk 5 wiskundige vergelijkingen in verschillende contexten. '
       - In elke vergelijking moet 'X' een andere betekenis hebben.
   - name: Curiosity
     tasksDialogue:
     - dialogueSentences:
-      - Blader eens door de toekomstige paginas van je wiskunde boek.
+      - 'Blader eens door de toekomstige paginas van je wiskunde boek. '
       - Kies 3 nieuwe onderwerpen en vraag aan de docent waar ze over gaan.
   - name: Open-mindedness
     tasksDialogue:
     - dialogueSentences:
-      - Zoek samen met een klasgenoot ieder een opgave over wiskundige vergelijkingen.
-      - "Zoek er \xE9\xE9n die je goed uitgewerkt en leerzaam vind."
+      - 'Zoek samen met een klasgenoot ieder een opgave over wiskundige vergelijkingen. '
+      - "Zoek er \xE9\xE9n die je goed uitgewerkt en leerzaam vind. "
       - Vergelijk jouw opgave met de ander en bespreek welke het beste is.
   - name: Love of learning
     tasksDialogue:
     - dialogueSentences:
-      - Blader eens door de toekomstige paginas van je wiskunde boek.
-      - Kies een opgave van een nieuw onderwerp en probeer deze te maken.
+      - 'Blader eens door de toekomstige paginas van je wiskunde boek. '
+      - 'Kies een opgave van een nieuw onderwerp en probeer deze te maken. '
       - Vraag of de docent kan helpen bij het uitleggen van het nieuwe onderwerp.
   - name: Perspective
     tasksDialogue:
     - dialogueSentences:
-      - Zoek een wiskundige vergelijking met weinig context.
+      - 'Zoek een wiskundige vergelijking met weinig context. '
       - Geef je eigen perspectief aan deze opgave en deel dit met een klasgenoot.
   - name: 'Honesty '
     tasksDialogue:
     - dialogueSentences:
-      - Wees eerlijk tegenover jezelf en de docent over jou prestatie bij wiskunde.
+      - 'Wees eerlijk tegenover jezelf en de docent over jou prestatie bij wiskunde. '
       - Vertel de docent waar je nog moeite mee hebt en waar je graag hulp bij zoekt.
   - name: 'Bravery '
     tasksDialogue:
     - dialogueSentences:
-      - Probeer een lastige wiskundige vergelijking op het bord op te lossen...
+      - 'Probeer een lastige wiskundige vergelijking op het bord op te lossen... '
       - terwijl de hele klas mee kijkt.
   - name: Persistence
     tasksDialogue:
     - dialogueSentences:
-      - Zet een doel voor jezelf en behaal dit ondanks je tegenslagen.
-      - Probeer een bepaalde hoeveelheid van je wiskunde huiswerk...
+      - 'Zet een doel voor jezelf en behaal dit ondanks je tegenslagen. '
+      - 'Probeer een bepaalde hoeveelheid van je wiskunde huiswerk... '
       - binnen een dag te maken.
   - name: Zest
     tasksDialogue:
     - dialogueSentences:
-      - Zoek een tijdstip uit waarop je vol energie en enthousiasme zit.
+      - 'Zoek een tijdstip uit waarop je vol energie en enthousiasme zit. '
       - Zet je favoriete muziek op en los 5 wiskundige vergelijkingen op.
   - name: Kindness
     tasksDialogue:
     - dialogueSentences:
-      - Vraag aan je klasgenoot of je kan helpen bij een wiskundige vergelijking.
+      - 'Vraag aan je klasgenoot of je kan helpen bij een wiskundige vergelijking. '
       - Zo niet? Zeg dat ze goed bezig zijn.
   - name: Love
     tasksDialogue:
     - dialogueSentences:
-      - Spreek af met een van je dierbare, een goede vriend(in) of familie.
-      - Los samen 10 wiskundige vergelijkingen op of maak huiswerkopgaven.
+      - 'Spreek af met een van je dierbare, een goede vriend(in) of familie. '
+      - 'Los samen 10 wiskundige vergelijkingen op of maak huiswerkopgaven. '
       - Als beloning gaan jullie hierna samen wat leuks doen.
   - name: Social intelligence
     tasksDialogue:
     - dialogueSentences:
-      - Kijk om je heen in de wiskunde klas.
-      - Probeer waar te nemen of sommige leerlingen moeite hebben.
+      - 'Kijk om je heen in de wiskunde klas. '
+      - 'Probeer waar te nemen of sommige leerlingen moeite hebben. '
       - Kijk of je een van hen kan helpen door erover te praten.
   - name: Fairness
     tasksDialogue: []
   - name: Leadership
     tasksDialogue:
     - dialogueSentences:
-      - Los samen met een groepje 20 wiskundige vergelijkingen op.
+      - 'Los samen met een groepje 20 wiskundige vergelijkingen op. '
       - Jij moet de groep sturen en de taken zo goed mogelijk verdelen over je groepje.
   - name: 'Teamwork '
     tasksDialogue: []
@@ -269,8 +273,8 @@ MonoBehaviour:
   - name: Humor
     tasksDialogue:
     - dialogueSentences:
-      - Bedenkt en schrijf wiskundige vergelijking opdracht.
-      - Probeer de context van de opdracht grappig te maken...
+      - 'Bedenkt en schrijf wiskundige vergelijking opdracht. '
+      - 'Probeer de context van de opdracht grappig te maken... '
       - 'zodat het iemand aan het lachen kan maken.
 
 '
