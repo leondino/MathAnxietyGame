@@ -161,7 +161,8 @@ MonoBehaviour:
   dialogueType: 1
   dialogueTrigger: {fileID: 0}
   UIPanel: {fileID: 0}
-  strenght: 
+  autoOpenUI: 1
+  strength: 
   normalMaterial: {fileID: 2100000, guid: 81f4c0608aa0a6845be21adfb6d136aa, type: 2}
   highlightedMaterial: {fileID: 2100000, guid: e28f7d61df545b34ab5b8e0b0c0fa038, type: 2}
 --- !u!65 &5551018238194467268
