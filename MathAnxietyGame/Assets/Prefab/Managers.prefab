@@ -185,8 +185,9 @@ MonoBehaviour:
   - name: Creativity
     tasksDialogue:
     - dialogueSentences:
-      - 'Bedenk 5 wiskundige vergelijkingen in verschillende contexten. '
-      - In elke vergelijking moet 'X' een andere betekenis hebben.
+      - 'Maak een tekening door alleen gebruik te maken van wiskundige vormen. '
+      - 'Zorg dat deze vormen de juiste hoeken en afmetingen hebben. '
+      - Gebruik hiervoor je passer en geodriehoek.
   - name: Curiosity
     tasksDialogue:
     - dialogueSentences:
@@ -201,9 +202,10 @@ MonoBehaviour:
   - name: Love of learning
     tasksDialogue:
     - dialogueSentences:
-      - 'Blader eens door de toekomstige paginas van je wiskunde boek. '
-      - 'Kies een opgave van een nieuw onderwerp en probeer deze te maken. '
-      - Vraag of de docent kan helpen bij het uitleggen van het nieuwe onderwerp.
+      - 'Ga online op zoek naar een wiskundig onderwerp dat jij zou willen leren
+        om volledig te beheersen... '
+      - omdat het nuttig kan zijn voor jouw toekomstbeeld.
+      - Schrijf hierbij op waarom je hiervoor gekozen hebt.
   - name: Perspective
     tasksDialogue:
     - dialogueSentences:
@@ -212,7 +214,7 @@ MonoBehaviour:
   - name: 'Honesty '
     tasksDialogue:
     - dialogueSentences:
-      - 'Wees eerlijk tegenover jezelf en de docent over jou prestatie bij wiskunde. '
+      - 'Wees eerlijk tegenover jezelf en de docent over jouw prestatie bij wiskunde. '
       - Vertel de docent waar je nog moeite mee hebt en waar je graag hulp bij zoekt.
   - name: 'Bravery '
     tasksDialogue:
@@ -222,9 +224,9 @@ MonoBehaviour:
   - name: Persistence
     tasksDialogue:
     - dialogueSentences:
-      - 'Zet een doel voor jezelf en behaal dit ondanks je tegenslagen. '
-      - 'Probeer een bepaalde hoeveelheid van je wiskunde huiswerk... '
-      - binnen een dag te maken.
+      - 'Bespreek in je groepje een tegenslag die je (recentelijk) hebt meegemaakt... '
+      - 'op weg naar een doel. '
+      - "Wissel idee\xEBn uit over hoe je met zo\u2019n tegenslag om zou kunnen gaan"
   - name: Zest
     tasksDialogue:
     - dialogueSentences:
@@ -233,7 +235,7 @@ MonoBehaviour:
   - name: Kindness
     tasksDialogue:
     - dialogueSentences:
-      - 'Vraag aan je klasgenoot of je kan helpen bij een wiskundige vergelijking. '
+      - 'Vraag aan je klasgenoot of je hen kan helpen bij een wiskundige vergelijking. '
       - Zo niet? Zeg dat ze goed bezig zijn.
   - name: Love
     tasksDialogue:
@@ -248,28 +250,72 @@ MonoBehaviour:
       - 'Probeer waar te nemen of sommige leerlingen moeite hebben. '
       - Kijk of je een van hen kan helpen door erover te praten.
   - name: Fairness
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Doe samen met je groepje een klein onderzoek naar iets wiskundigs. '
+      - 'Verdeel de taken zo eerlijk mogelijk. '
+      - Doe dit door te denken aan iedereens individuele verschillen en waar zij
+        toe in staat zijn.
   - name: Leadership
     tasksDialogue:
     - dialogueSentences:
       - 'Los samen met een groepje 20 wiskundige vergelijkingen op. '
       - Jij moet de groep sturen en de taken zo goed mogelijk verdelen over je groepje.
   - name: 'Teamwork '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Communicatie, Tijdsmanagement, Probleemoplossende vaardigheden... '
+      - 'Samenwerking, Sociale vaardigheden en Intermenselijke vaardigheden... '
+      - 'zijn belangrijk om in teamverband te werken. '
+      - Schrijf een stukje over wat jij vanaf nu gaat doen om in 3 van deze vaardigheden
+        te groeien.
   - name: 'Forgiveness '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Pak je schrift of gemaakt proefwerk en zoek een opdracht die je fout hebt
+        gemaakt. '
+      - Lees nogmaals de opdracht en zoek uit waarom jij deze opdracht fout hebt
+        gemaakt.
   - name: 'Modesty '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Ga naar iemand op zoek die een lager cijfer heeft gehaald op de toets dan
+        jij. '
+      - 'Vertel aan deze persoon dat jullie evenveel waard zijn... '
+      - en dat zelfs op het gebied van wiskunde jullie allebei evenveel potentie
+        hebben.
   - name: 'Prudence '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Los een wiskundige taak op. '
+      - Ga je stappen extra zorgvuldig na om te checken of je het juiste antwoord
+        hebt.
   - name: Self-regulation
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Denk aan een moeilijke tijd waar jij je hebt moeten aanpassen en persoonlijk
+        in bent gegroeid. '
+      - 'Probeer deze technieken ook toe te passen...  '
+      - "om je motivatie en houding tegenover wiskunde positief te be\xEFnvloeden. "
+      - Schrijf je aanpak op.
   - name: 'Appreciation of beauty '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Zoek online of in een (wiskunde-)boek een voorbeeld van een wiskundig idee... '
+      - 'waar jij schoonheid in ziet. '
+      - Bespreek met andere waar die schoonheid in schuilt.
   - name: 'Gratitude '
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Bedank je leraar een keer voor het geven van de les en hun bijdrage aan
+        jouw ontwikkeling. '
+      - 'Bedank ook een keer een medeleerling bij het helpen met jouw opgaven. '
   - name: Hope
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Bespreek wat je denkt te kunnen leren in een week/maand/jaar... '
+      - 'op het gebied van je wiskundige skills. '
+      - Bespreek ook wat je hoopt daarna met die skills te kunnen doen.
   - name: Humor
     tasksDialogue:
     - dialogueSentences:
@@ -279,7 +325,10 @@ MonoBehaviour:
 
 '
   - name: Religiousness
-    tasksDialogue: []
+    tasksDialogue:
+    - dialogueSentences:
+      - 'Bedenk een religieuze spreuk die inspiratie kan bieden m.b.t. wiskunde... '
+      - Bespreek in je groepje wat jullie hieruit kunnen halen.
   randomStrengths: []
   learnedStrengths: []
 --- !u!114 &4789916351799538876
