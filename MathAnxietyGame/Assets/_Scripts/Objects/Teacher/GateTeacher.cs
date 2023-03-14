@@ -8,6 +8,9 @@ public class GateTeacher : TeacherTaskCheck
     [SerializeField]
     private float mathAnxietyCap;
 
+    [SerializeField]
+    private int correctGateCode = 123;
+
     //! Event that holds all methods that opens the gate
     public UnityEvent onOpenGate;
 
@@ -49,6 +52,7 @@ public class GateTeacher : TeacherTaskCheck
     {
         base.OpenUIPanel();
         UIPanel.GetComponent<CheckGateCode>().GateTeacher = this;
+        UIPanel.GetComponent<CheckGateCode>().correctCode = correctGateCode;
     }
 
     /// <summary>

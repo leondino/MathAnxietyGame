@@ -14,8 +14,7 @@ public class CheckGateCode : MonoBehaviour
     [SerializeField]
     private TMP_InputField codeInput;
 
-    [SerializeField]
-    private int correctCode;
+    public int correctCode;
 
     /// <summary>
     /// Checks if the code filled in code is correct or not
