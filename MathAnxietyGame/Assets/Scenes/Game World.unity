@@ -3495,22 +3495,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenUIPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GateTeacher, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8584216714509299994, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.26
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c95a715e330de0f4a94b7763953ed275, type: 3}

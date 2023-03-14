@@ -932,6 +932,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Hallo! Om aan de overkant te komen moeten jullie deze brug repareren.
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3]
       value: De planken moeten gemeten worden. Er zijn namelijk verschillende lengtes.
       objectReference: {fileID: 0}
@@ -945,7 +949,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: OpenUIPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GateTeacher, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.size
@@ -985,7 +993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6901835878216449921, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.22
+      value: 5.26
       objectReference: {fileID: 0}
     - target: {fileID: 6901835878216449921, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: m_LocalPosition.z
