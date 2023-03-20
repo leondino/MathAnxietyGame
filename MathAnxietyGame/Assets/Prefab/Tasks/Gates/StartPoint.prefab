@@ -215,6 +215,15 @@ PrefabInstance:
       value: 321
       objectReference: {fileID: 0}
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5]
+      value: Jullie kunnen zo niet meer logisch nadenken en willen wiskunde liever
+        vermijden.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[1]
+      value: Blijf oefenen om met je Math Anxiety om te gaan en achtervolg je dromen!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}

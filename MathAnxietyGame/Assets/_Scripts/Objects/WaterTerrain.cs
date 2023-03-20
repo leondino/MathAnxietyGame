@@ -69,7 +69,9 @@ public class WaterTerrain : MonoBehaviour
             verticeNumber++;
         }
     }
-
+    /// <summary>
+    /// Draws new vertices based on Perlin Noise value
+    /// </summary>
     void DrawVertices()
     {
         theUV = new Vector2[vertices.Length];
@@ -87,7 +89,9 @@ public class WaterTerrain : MonoBehaviour
             }
         }
     }
-
+    /// <summary>
+    /// Updates the mesh by clearing it and updating it with new values for vertices
+    /// </summary>
     void UpdateMesh()
     {
         mesh.Clear();

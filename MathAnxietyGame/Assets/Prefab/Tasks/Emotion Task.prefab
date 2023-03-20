@@ -1935,6 +1935,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 760662357770937754}
     m_Modifications:
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[7]
+      value: "Er zijn twee discussie kamers geopend. Kies voor beide categorie\xEBn
+        een emotie."
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -2008,7 +2013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6175780648025999184, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1.56
       objectReference: {fileID: 0}
     - target: {fileID: 6175780648025999184, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: m_LocalPosition.z

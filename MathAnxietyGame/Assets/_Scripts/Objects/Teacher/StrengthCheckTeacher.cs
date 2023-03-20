@@ -14,7 +14,7 @@ public class StrengthCheckTeacher : TeacherTaskCheck
         {
             dialogueTrigger.SwitchToDialogue(3);
             dialogueType = DialogueType.Single;
-            OpenUIPanel();
+            Interact();
         }
         else
         {
