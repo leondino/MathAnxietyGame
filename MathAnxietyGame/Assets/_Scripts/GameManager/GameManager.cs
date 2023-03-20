@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class GameManager : MonoBehaviour
     public ManageStrengths strenghtsManager;
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
-    public GameObject endScreen;
+    public GameObject endScreen, pauseScreen;
 
     public bool UIIsActive { get; set; }
 
@@ -56,5 +57,31 @@ public class GameManager : MonoBehaviour
 
         UIIsActive = true;
         endScreen.SetActive(true);
+    }
+
+    /// <summary>
+    /// Closed the game
+    /// </summary>
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void OnPauseGame(InputAction.CallbackContext value)
+    {
+        if (value.started)
+        {
+            PauseGame();
+        }
+    }
+
+    /// <summary>
+    /// Pauses the game
+    /// </summary>
+    public void PauseGame()
+    {
+        pauseScreen.transform.parent.gameObject.SetActive(!pauseScreen.activeSelf);
+        pauseScreen.SetActive(!pauseScreen.activeSelf);
+        UIIsActive = pauseScreen.activeSelf;
     }
 }

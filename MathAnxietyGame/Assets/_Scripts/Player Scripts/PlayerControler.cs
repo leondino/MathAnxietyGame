@@ -67,6 +67,7 @@ public class PlayerControler : MonoBehaviour
         if (GameManager.Instance.UIIsActive)
         {
             input.actions.Disable();
+            input.actions.FindAction("Pause Game").Enable();
         }
         else
         {
