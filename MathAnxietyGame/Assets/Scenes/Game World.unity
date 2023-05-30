@@ -3454,22 +3454,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3354543630816845980, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631474307945, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631474307945, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.588
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631474307945, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.87
-      objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3519,60 +3503,12 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
-      value: 7ae813dc-78a4-4aad-9657-24c62517ea75
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
-      value: PlayerControls/Pause Game[/Keyboard/escape]
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnPauseGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354543631565994295, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414389232416, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414389232416, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414605485398, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 8634021414605485398, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.28
+    - target: {fileID: 7646454673081969072, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
+      propertyPath: followSpeed
+      value: 0.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
