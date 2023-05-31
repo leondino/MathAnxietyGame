@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public GameObject endScreen, pauseScreen;
 
     public bool UIIsActive { get; set; }
+    //! Saves if the meditation has been completed
+    public bool MeditationCompleted { get; set; }
 
     public int mathAnxietyLevel;
     public GameObject thePlayer;
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
         _instance = this;
         mathAnxietyLevel = START_MATH_ANXIETY;
         mathAnxietyBar.SetMaxMathAnxiety(START_MATH_ANXIETY);
+        MeditationCompleted = false;
     }
 
     /// <summary>
