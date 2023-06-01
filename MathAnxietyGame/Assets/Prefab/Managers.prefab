@@ -164,6 +164,8 @@ MonoBehaviour:
   emotionManager: {fileID: 4789916351799538876}
   mathAnxietyBar: {fileID: 0}
   endScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
+  backgroundMusic: {fileID: 1690670938}
   mathAnxietyLevel: 0
   thePlayer: {fileID: 0}
 --- !u!114 &4789916351799538878

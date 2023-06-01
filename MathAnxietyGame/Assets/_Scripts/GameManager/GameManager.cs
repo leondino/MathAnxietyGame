@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
     public GameObject endScreen, pauseScreen;
+    public AudioSource backgroundMusic;
 
     public bool UIIsActive { get; set; }
     //! Saves if the meditation has been completed
