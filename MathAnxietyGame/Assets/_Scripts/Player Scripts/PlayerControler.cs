@@ -14,7 +14,7 @@ public class PlayerControler : MonoBehaviour
     public GameObject followPoint, centerPoint;
 
     //! Reference to the 3 player characters
-    private List<GameObject> playerCharacters = new List<GameObject>();
+    public List<GameObject> playerCharacters = new List<GameObject>();
 
     //! Refernce to player interaction script
     private PlayerInteraction playerInteraction;

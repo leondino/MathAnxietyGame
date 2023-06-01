@@ -7,6 +7,8 @@ public class MeditationBranch : Interactable
     private bool meditationStarted;
     private bool MeditationHasEnded { get { return meditationStarted & !meditationAudio.isPlaying; } }
     public AudioSource meditationAudio;
+    public List<GameObject> sitPlaces = new List<GameObject>();
+    public Transform followPointLocation;
 
     protected override void FixedUpdate()
     {
@@ -30,6 +32,14 @@ public class MeditationBranch : Interactable
     private IEnumerator SitForMeditation()
     {
         GameManager.Instance.UIIsActive = true;
+        GetComponent<Collider>().enabled = false;
+
+        PlayerControler player = GameManager.Instance.thePlayer.GetComponent<PlayerControler>();
+        player.followPoint.transform.position = followPointLocation.position;
+        for (int iPlayerCharacter = 0; iPlayerCharacter < player.playerCharacters.Count; iPlayerCharacter++)
+        {
+            player.playerCharacters[iPlayerCharacter].transform.position = sitPlaces[iPlayerCharacter].transform.position;
+        }
 
         yield return new WaitForSeconds(1);
 
@@ -45,6 +55,7 @@ public class MeditationBranch : Interactable
 
     private void FinishMeditation()
     {
+        GetComponent<Collider>().enabled = true;
         GameManager.Instance.UIIsActive = false;
         GameManager.Instance.MeditationCompleted = true;
         GameManager.Instance.backgroundMusic.UnPause();
