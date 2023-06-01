@@ -34363,7 +34363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155369, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: MathAnxietyReduction
-      value: 25
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7089206217130027525, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: m_Name
@@ -34379,7 +34379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7089206217130027526, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 112.75067
+      value: 113.85
       objectReference: {fileID: 0}
     - target: {fileID: 7089206217130027526, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: m_LocalPosition.z
