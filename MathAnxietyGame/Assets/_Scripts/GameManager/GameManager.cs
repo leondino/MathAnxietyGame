@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
 
     public void OnPauseGame(InputAction.CallbackContext value)
     {
-        if (value.started)
+        if (value.started && backgroundMusic.isPlaying)
         {
             PauseGame();
         }
