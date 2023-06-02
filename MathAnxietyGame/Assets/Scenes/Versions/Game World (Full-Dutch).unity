@@ -3887,6 +3887,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: 'Hoi Allemaal!
+
+        Zijn jullie bekend met de 24 persoonlijke sterke
+        kanten?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Hier zijn er een paar. Kies ieder een sterke kant die goed bij jou past.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0]
+      value: 'Jullie sterke kanten zijn: '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0]
+      value: Helaas niet alle gekozen taken passen bij jullie sterke kanten.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1]
+      value: Het inspelen op je sterke kanten in hetgene wat je doet...
+      objectReference: {fileID: 0}
     - target: {fileID: 8845047444960616380, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
       propertyPath: UIPanel
       value: 
