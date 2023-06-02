@@ -1100,6 +1100,102 @@ PrefabInstance:
       propertyPath: strengthButtons
       value: 
       objectReference: {fileID: 336024753}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[0].name
+      value: 'Creativiteit '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[1].name
+      value: 'Nieuwschierigheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[2].name
+      value: 'Kritisch denken '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[3].name
+      value: 'Leergierigheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[4].name
+      value: 'Levenswijs '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[5].name
+      value: 'Oprechtheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[6].name
+      value: 'Moed '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[7].name
+      value: 'Doorzettingsvermogen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[8].name
+      value: 'Enthousiast '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[9].name
+      value: 'Vriendelijkheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[10].name
+      value: 'Liefde '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[11].name
+      value: 'Sociale intelligentie '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[12].name
+      value: 'Rechtvaardigheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[13].name
+      value: 'Leiderschap '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[14].name
+      value: 'Teamwerk '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[15].name
+      value: 'Vergevingsgezindheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[16].name
+      value: 'Bescheidenheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[17].name
+      value: 'Bedachtzaamheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[18].name
+      value: 'Zelfregulatie '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[19].name
+      value: 'Waarderen van schoonheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[20].name
+      value: 'Dankbaarheid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[21].name
+      value: 'Hoopvol '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[22].name
+      value: 'Humor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[23].name
+      value: 'Spiritualiteit '
+      objectReference: {fileID: 0}
     - target: {fileID: 4789916352405869578, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
       propertyPath: m_RootOrder
       value: 0
