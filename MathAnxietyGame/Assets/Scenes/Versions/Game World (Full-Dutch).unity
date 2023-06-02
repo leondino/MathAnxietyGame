@@ -3488,6 +3488,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 47069247, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Positieve emoties
+      objectReference: {fileID: 0}
+    - target: {fileID: 253379277, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Persoonlijke sterke kanten
+      objectReference: {fileID: 0}
     - target: {fileID: 506953357, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -3496,10 +3504,31 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 954519670, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1329885141, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
+    - target: {fileID: 1499609004, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: "Hieronder staan jullie gemaakte keuzes. \nScreenshot deze voor in je
+        portfolio."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668329723, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391535840300011818, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391535840888507175, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: 'Kies 3 sterke kanten:'
+      objectReference: {fileID: 0}
     - target: {fileID: 697865072539993554, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3508,6 +3537,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
+    - target: {fileID: 697865074511790555, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214622899417361450, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214622900036539737, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6214622900055309808, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3595,6 +3636,14 @@ PrefabInstance:
     - target: {fileID: 6214622900055309809, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886450298959525575, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Past deze taak bij een van je sterke kanten?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886450300498016117, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

@@ -67,13 +67,13 @@ public class EndDataFiller : MonoBehaviour
     {
         string data = "";
 
-        data += "Jullie top 3 strengths:\n";
+        data += "Jullie top 3 sterke kanten:\n";
         foreach (Strength strength in strengthManager.learnedStrengths)
         {
             data += $"{strength.name}, ";
         }
         data = data.TrimEnd(',', ' ');
-        data += "\n\nOpdrachten op basis van jullie strengths:\n";
+        data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
         foreach (Strength strength in strengthManager.learnedStrengths)
         {
             data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
