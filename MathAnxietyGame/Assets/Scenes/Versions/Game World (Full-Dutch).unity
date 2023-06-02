@@ -2149,6 +2149,186 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 969689255533789249, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Dankbaarheid
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689255564294073, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Sereniteit
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689255946408183, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Vreugde
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689256046578104, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Vreugde
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689256075561031, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Interesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689256165788077, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Trots
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689256582026807, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Hoop
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689256844111533, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Ontzag
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689257369656263, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Vreugde
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689257553521108, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Liefde
+      objectReference: {fileID: 0}
+    - target: {fileID: 969689257586225944, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Inspiratie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804820926832553, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Hoop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804820958202627, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Trots
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821065042665, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Interesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821189044019, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Ontzag
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821239552928, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Dankbaarheid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821239552928, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 23.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821259037784, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Sereniteit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821259037784, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821609071343, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Dankbaarheid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821609071343, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 23.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821693642007, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Sereniteit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821693642007, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821716554329, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_Name
+      value: Vreugde
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821770179494, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Interesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821864731212, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Trots
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821888950346, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Liefde
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821922839174, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Inspiratie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804821922839174, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822008280396, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Ontzag
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822025161183, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Dankbaarheid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822025161183, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 23.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822049439271, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Sereniteit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822049439271, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822253571542, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Hoop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822273583994, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Liefde
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822374969782, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Inspiratie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822374969782, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822561554905, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Interesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822651977779, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Trots
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822691386521, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Hoop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822709170741, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Liefde
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822742526201, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Inspiratie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822742526201, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997804822982831107, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
+      propertyPath: m_text
+      value: Ontzag
+      objectReference: {fileID: 0}
     - target: {fileID: 3617233585692441979, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
       propertyPath: m_Name
       value: Emotion Task
