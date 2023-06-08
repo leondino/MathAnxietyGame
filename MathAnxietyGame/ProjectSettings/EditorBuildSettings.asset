@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game World.unity
     guid: ec5020c0578ba2049bb24ebab3a5bed5
+  - enabled: 1
+    path: Assets/Scenes/Versions/Game World (Full-Dutch).unity
+    guid: 302961b390823784d887c095d34f0e5e
   m_configObjects: {}
