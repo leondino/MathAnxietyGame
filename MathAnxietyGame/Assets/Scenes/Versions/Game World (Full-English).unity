@@ -3722,6 +3722,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Congratulations!
       objectReference: {fileID: 0}
+    - target: {fileID: 1912494699, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: translateToEnglish
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 391535839972294985, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_text
       value: Confirm

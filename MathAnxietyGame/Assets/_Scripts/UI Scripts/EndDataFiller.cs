@@ -10,6 +10,7 @@ public class EndDataFiller : MonoBehaviour
     private TextMeshProUGUI positiveEmotionData, strengthsData;
     private ManageEmotions emotionManager;
     private ManageStrengths strengthManager;
+    public bool translateToEnglish = false;
 
     // Awake is called when this object is enabled
     void Awake()
@@ -35,29 +36,59 @@ public class EndDataFiller : MonoBehaviour
     {
         string data = "";
 
-        data += "Wel ervaren positieve emoties:\n";
-        foreach (GameObject emotion in emotionManager.finalExperiencedEmotions)
+        if (translateToEnglish) 
         {
-            data += $"{emotion.name}, ";
+            data += "Experienced positive emotions:\n";
+            foreach (GameObject emotion in emotionManager.finalExperiencedEmotions)
+            {
+                data += $"{emotion.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += "\n\nNon-experienced positive emotions:\n";
+            foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
+            {
+                data += $"{emotion.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += $"\n\nDiscussed experienced emotion: {emotionManager.experiencedDiscussEmotion.name}\n\n";
+            foreach (QnA QnA in emotionManager.experiencedQnA)
+            {
+                data += $"{QnA.question}\n";
+                data += $"{QnA.answer}\n\n";
+            }
+            data += $"Discussed non-experienced emotion: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
+            foreach (QnA QnA in emotionManager.nonExperiencedQnA)
+            {
+                data += $"{QnA.question}\n";
+                data += $"{QnA.answer}\n\n";
+            }
         }
-        data = data.TrimEnd(',', ' ');
-        data += "\n\nNiet ervaren positieve emoties:\n";
-        foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
+        else
         {
-            data += $"{emotion.name}, ";
-        }
-        data = data.TrimEnd(',', ' ');
-        data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
-        foreach (QnA QnA in emotionManager.experiencedQnA)
-        {
-            data += $"{QnA.question}\n";
-            data += $"{QnA.answer}\n\n";
-        }
-        data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
-        foreach (QnA QnA in emotionManager.nonExperiencedQnA)
-        {
-            data += $"{QnA.question}\n";
-            data += $"{QnA.answer}\n\n";
+            data += "Wel ervaren positieve emoties:\n";
+            foreach (GameObject emotion in emotionManager.finalExperiencedEmotions)
+            {
+                data += $"{emotion.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += "\n\nNiet ervaren positieve emoties:\n";
+            foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
+            {
+                data += $"{emotion.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
+            foreach (QnA QnA in emotionManager.experiencedQnA)
+            {
+                data += $"{QnA.question}\n";
+                data += $"{QnA.answer}\n\n";
+            }
+            data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
+            foreach (QnA QnA in emotionManager.nonExperiencedQnA)
+            {
+                data += $"{QnA.question}\n";
+                data += $"{QnA.answer}\n\n";
+            }
         }
 
         return data;
@@ -67,16 +98,33 @@ public class EndDataFiller : MonoBehaviour
     {
         string data = "";
 
-        data += "Jullie top 3 sterke kanten:\n";
-        foreach (Strength strength in strengthManager.learnedStrengths)
+        if (translateToEnglish)
         {
-            data += $"{strength.name}, ";
+            data += "Your top 3 strengths:\n";
+            foreach (Strength strength in strengthManager.learnedStrengths)
+            {
+                data += $"{strength.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += "\n\nAssignments based on your strengths:\n";
+            foreach (Strength strength in strengthManager.learnedStrengths)
+            {
+                data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+            }
         }
-        data = data.TrimEnd(',', ' ');
-        data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
-        foreach (Strength strength in strengthManager.learnedStrengths)
+        else 
         {
-            data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+            data += "Jullie top 3 sterke kanten:\n";
+            foreach (Strength strength in strengthManager.learnedStrengths)
+            {
+                data += $"{strength.name}, ";
+            }
+            data = data.TrimEnd(',', ' ');
+            data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
+            foreach (Strength strength in strengthManager.learnedStrengths)
+            {
+                data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+            }
         }
 
         return data;
