@@ -3462,6 +3462,14 @@ PrefabInstance:
       propertyPath: m_text
       value: Congratulations!
       objectReference: {fileID: 0}
+    - target: {fileID: 391535839972294985, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Confirm
+      objectReference: {fileID: 0}
+    - target: {fileID: 391535840888507175, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: 'Choose 3 strengths:'
+      objectReference: {fileID: 0}
     - target: {fileID: 697865072539993554, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -4274,6 +4282,52 @@ PrefabInstance:
     - target: {fileID: 8845047444959828205, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: 'Hi everybody!
+
+        Are you familiar with the 24 ''character strengths''?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Here are a few. Each choose a strength that suits you well.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0]
+      value: 'Your strengths are:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[1]
+      value: Let's see if you found the right tasks here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0]
+      value: Unfortunately, not all chosen tasks match your strengths.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1]
+      value: No problem! Just try again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0]
+      value: Well done! You have found the right tasks!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1]
+      value: Capitalizing on your strengths in what you do...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2]
+      value: improves your performance and makes you have more fun.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[3]
+      value: So this can help you to reduce Math Anxiety.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[4]
+      value: Therefore, try to complete one of the tasks this week.
       objectReference: {fileID: 0}
     - target: {fileID: 8845047444960616380, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
       propertyPath: UIPanel
