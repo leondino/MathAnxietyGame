@@ -3416,10 +3416,26 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1077447286, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Confirm
+      objectReference: {fileID: 0}
     - target: {fileID: 1329885141, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
+    - target: {fileID: 1716245106, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: 'Ask your teacher for an assignment.
+
+        Then solve it together.
+
+        Have
+        it checked by the teacher.
+
+        If the answer is correct, you will receive
+        a code to enter below.'
+      objectReference: {fileID: 0}
     - target: {fileID: 697865072539993554, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3428,6 +3444,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
+    - target: {fileID: 697865072829055081, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Do you want to close the game?
+      objectReference: {fileID: 0}
+    - target: {fileID: 697865072966566678, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 697865074279395055, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: No
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214622898785695528, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Answer...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214622899779279501, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Question?
+      objectReference: {fileID: 0}
     - target: {fileID: 6214622900055309808, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3638,6 +3674,62 @@ PrefabInstance:
     - target: {fileID: 1531409554347810831, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Hello! To get to the other side you have to repair this bridge.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Fortunately, there are a number of planks there to use.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: But you have to do the calculation yourself...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3]
+      value: The planks must be measured. There are different lengths.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4]
+      value: There are X amount of planks per length.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5]
+      value: So you will have to calculate X with a mathematical equation.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0]
+      value: Are you going to repair the bridge?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0]
+      value: I can't do it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1]
+      value: I don't get it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[2]
+      value: ARHGH! I don't want it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0]
+      value: I don't know if I can do this?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1]
+      value: Together we will figure it out!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2]
+      value: Yeah okay, let's just try it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[0]
+      value: Well done! You repaired the bridge!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
