@@ -1192,6 +1192,266 @@ PrefabInstance:
       propertyPath: strengthButtons
       value: 
       objectReference: {fileID: 336024753}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[0].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Create a drawing using only mathematical shapes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[0].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Make sure these shapes have the right angles and measurements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[0].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Use your math compass and geotriangle for this.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[1].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Flip through the future pages of your math book.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[1].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Choose 3 new topics and ask the teacher what they are about.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[2].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Together with a classmate, each find a mathematical equations problem.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[2].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Find one that you find well-developed and instructive.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[2].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Compare your statement with the others and discuss which one is best.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[3].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Look online for a math subject you'd like to learn to master...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[3].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: because it can be useful for your vision of the future.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[3].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Write down why you chose this.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[4].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Find a math equation with little context.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[4].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Give your own perspective to this exercise and share it with a classmate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[5].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Be honest with yourself and the teacher about your performance in math.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[5].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Tell the teacher what you are still struggling with and what you would
+        like help with.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[6].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Try to solve a tricky math equation on the board...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[6].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: while the whole class watches.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[7].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Discuss in your group a setback that you have (recently) experienced...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[7].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: on the way to a goal.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[7].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Exchange ideas on how you might deal with such a setback
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[8].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Find a time when you are full of energy and enthusiasm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[8].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Put on your favorite music and solve 5 math equations.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[9].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Ask your classmate if you can help them with a math equation.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[9].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: If not? Tell them they're doing a good job.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[10].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Meet up with one of your loved ones, a close friend or family.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[10].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Solve 10 math equations together or do homework assignments.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[10].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: As a reward, you will do something fun together afterwards.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[11].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Look around you in math class.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[11].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Try to observe if some students are struggling.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[11].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: See if you can help one of them by talking about it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[12].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Do a little research with your group about something math related.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[12].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Divide the tasks as evenly as possible.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[12].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Do this by thinking of everyone's individual differences and what they
+        are capable of.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[13].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Solve 20 mathematical equations with a group.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[13].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: You have to direct the group and divide the tasks as well as possible
+        among your group.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[14].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Communication, Time management, Problem solving skills...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[14].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Collaboration, Social skills and Interpersonal skills...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[14].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: are important for teamwork.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[14].tasksDialogue.Array.data[0].dialogueSentences.Array.data[3]
+      value: Write a piece about what you will do from now on to grow in 3 of these
+        skills.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[15].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Grab your exercise book or completed test and find an assignment that
+        you made a mistake.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[15].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Read the assignment again and find out why you made this assignment
+        wrong.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[16].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Look for someone who got a lower grade on the test than you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[16].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Tell this person that you are worth the same...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[16].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: and that even in math you both have equal potential.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[17].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Solve a math task.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[17].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Go over your steps extra carefully to make sure you got the right answer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[18].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Think of a difficult time where you had to adapt and grow personally.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[18].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Try applying these techniques too...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[18].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: to positively influence your motivation and attitude towards mathematics.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[18].tasksDialogue.Array.data[0].dialogueSentences.Array.data[3]
+      value: Write down your approach.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[19].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Find an example of a mathematical idea online or in a (math) book...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[19].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: in which you see beauty.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[19].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Discuss with others where that beauty lies.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[20].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Thank your teacher for teaching the lesson and their contribution to
+        your development.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[20].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Also thank a fellow student for helping with your assignments.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[21].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Discuss what you think you can learn in a week/month/year...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[21].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: in terms of your math skills.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[21].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Also discuss what you hope to be able to do with those skills afterwards.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[22].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Come up with and write math equation assignment.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[22].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Try to make the context of the assignment funny...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[22].tasksDialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: so that it can make someone laugh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[23].tasksDialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: Think of a religious proverb that can provide inspiration regarding
+        mathematics...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: allStrenghts.Array.data[23].tasksDialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: Discuss in your group what you can get out of this.
+      objectReference: {fileID: 0}
     - target: {fileID: 4789916352405869578, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3585,6 +3845,18 @@ PrefabInstance:
     - target: {fileID: 6214622900055309809, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886450298822243768, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886450298959525575, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Does this task match one of your strengths?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886450300193773633, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: No
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
