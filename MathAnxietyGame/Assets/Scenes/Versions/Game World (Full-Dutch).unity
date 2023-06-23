@@ -3716,6 +3716,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1803833990, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1531409553693777758, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
       propertyPath: UIPanel
       value: 
@@ -3766,6 +3770,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531409554347810831, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428152829608226533, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458778769967879135, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
