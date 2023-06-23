@@ -100,7 +100,7 @@ public class PlayerControler : MonoBehaviour
         }
         playersTrueCenter = playerCenter;
         playersTrueCenter.y = centerPoint.transform.position.y;
-        centerPoint.transform.position = playersTrueCenter;
+        centerPoint.transform.position = Vector3.Lerp(centerPoint.transform.position, playersTrueCenter, 10*Time.deltaTime);
     }
 
     /// <summary>

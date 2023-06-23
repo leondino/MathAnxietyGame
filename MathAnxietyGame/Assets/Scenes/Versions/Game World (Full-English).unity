@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 30e33df21c555274dabe60fe1f5fb417, type: 2}
 --- !u!1 &65238280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,62 +3869,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
-      value: Hello! To get to the other side you have to repair this bridge.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
-      value: Fortunately, there are a number of planks there to use.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[2]
-      value: But you have to do the calculation yourself...
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3]
-      value: The planks must be measured. There are different lengths.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4]
-      value: There are X amount of planks per length.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5]
-      value: So you will have to calculate X with a mathematical equation.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0]
-      value: Are you going to repair the bridge?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0]
-      value: I can't do it!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1]
-      value: I don't get it...
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[2]
-      value: ARHGH! I don't want it!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0]
-      value: I don't know if I can do this?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1]
-      value: Together we will figure it out!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2]
-      value: Yeah okay, let's just try it.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350340080854225359, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
-      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[0]
-      value: Well done! You repaired the bridge!
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c95a715e330de0f4a94b7763953ed275, type: 3}
@@ -4277,15 +4221,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8650142885895540182, guid: 6e0ae2f89b9446349ae73894ee6abb09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.4
+      value: 48.42
       objectReference: {fileID: 0}
     - target: {fileID: 8650142885895540182, guid: 6e0ae2f89b9446349ae73894ee6abb09, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.5
+      value: 41.49
       objectReference: {fileID: 0}
     - target: {fileID: 8650142885895540182, guid: 6e0ae2f89b9446349ae73894ee6abb09, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 83.3
+      value: 31.13
       objectReference: {fileID: 0}
     - target: {fileID: 8650142885895540182, guid: 6e0ae2f89b9446349ae73894ee6abb09, type: 3}
       propertyPath: m_LocalRotation.w

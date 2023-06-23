@@ -49,9 +49,15 @@ public class PlayerCharacterMovement : MonoBehaviour
 
         // Check if close to center point
         if (targetVelocity.magnitude > MIN_CENTER_DISTANCE)
+        {
             applyVelocity = true;
-        else 
+            navMeshAgent.isStopped = false;
+        }
+        else
+        {
             applyVelocity = false;
+            navMeshAgent.isStopped = true;
+        }
 
         // Apply movement
         if (applyVelocity)
@@ -63,13 +69,13 @@ public class PlayerCharacterMovement : MonoBehaviour
         }
 
         // Apply move away from other characters movement
-        if (applyMoveAwayVelocity)
-        {
-            foreach (Collider moveAwayTarget in moveAwayTargets)
-            {
-                MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
-            }
-        }
+       //if (applyMoveAwayVelocity)
+       //{
+       //    foreach (Collider moveAwayTarget in moveAwayTargets)
+       //    {
+       //        MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
+       //    }
+       //}
 
         // Change animation speed based on movement
         if (!(applyMoveAwayVelocity && applyVelocity))
@@ -82,7 +88,7 @@ public class PlayerCharacterMovement : MonoBehaviour
         }
 
         //Apply animation
-        animator.SetFloat("Vertical", rBody.velocity.magnitude / 2.8f, 0.1f, Time.deltaTime);
+        animator.SetFloat("Vertical", navMeshAgent.velocity.magnitude / 2.8f, 0.1f, Time.deltaTime);
 
         // Calculate and apply rotation
         Quaternion targetRotation = Quaternion.LookRotation(targetVelocity);

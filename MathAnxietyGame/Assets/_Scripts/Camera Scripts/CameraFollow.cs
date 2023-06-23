@@ -18,6 +18,6 @@ public class CameraFollow : MonoBehaviour
     {
         Vector3 target = Vector3.Lerp(this.transform.position, player.playersTrueCenter - offset, speed * Time.deltaTime);
         this.transform.position = target;
-        transform.LookAt(player.playersTrueCenter);
+        transform.LookAt(player.centerPoint.transform.position);
     }
 }
