@@ -159,7 +159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3354543630816845971
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3354543631218303489
 Transform:
   m_ObjectHideFlags: 0
@@ -340,8 +340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followPoint: {fileID: 3354543631218303490}
   centerPoint: {fileID: 1565769248}
+  playerCharacters: []
   playersTrueCenter: {x: 0, y: 0, z: 0}
-  movementSpeed: 0.95
+  movementSpeed: 0.9
 --- !u!114 &3354543631565994295
 MonoBehaviour:
   m_ObjectHideFlags: 0

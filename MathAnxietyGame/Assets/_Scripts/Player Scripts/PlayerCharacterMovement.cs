@@ -23,6 +23,8 @@ public class PlayerCharacterMovement : MonoBehaviour
     private bool applyMoveAwayVelocity = false;
     private List<Collider> moveAwayTargets = new List<Collider>();
     private NavMeshAgent navMeshAgent;
+    private int navMeshUpdateTimer;
+    public int frameTimeNavMeshUpdate = 5;
 
     void Awake()
     {
@@ -30,9 +32,10 @@ public class PlayerCharacterMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         followPoint = GetComponentInParent<PlayerControler>().followPoint;
         navMeshAgent = GetComponent<NavMeshAgent>();
+        navMeshUpdateTimer = frameTimeNavMeshUpdate;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         FollowTargetPosition();
     }
@@ -52,11 +55,13 @@ public class PlayerCharacterMovement : MonoBehaviour
         {
             applyVelocity = true;
             navMeshAgent.isStopped = false;
+            animator.SetFloat("WalkSpeed", 2.2f);
         }
         else
         {
             applyVelocity = false;
             navMeshAgent.isStopped = true;
+            animator.SetFloat("WalkSpeed", 1f);
         }
 
         // Apply movement
@@ -65,27 +70,23 @@ public class PlayerCharacterMovement : MonoBehaviour
             //targetVelocity *= followSpeed;
             //targetVelocity.y = rBody.velocity.y;
             //rBody.velocity = targetVelocity;
-            navMeshAgent.destination = targetPosition;
+            navMeshUpdateTimer -= 1;
+
+            if (navMeshUpdateTimer <= 0)
+            {
+                navMeshAgent.destination = targetPosition;
+                navMeshUpdateTimer = frameTimeNavMeshUpdate;
+            }
         }
 
         // Apply move away from other characters movement
-       //if (applyMoveAwayVelocity)
-       //{
-       //    foreach (Collider moveAwayTarget in moveAwayTargets)
-       //    {
-       //        MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
-       //    }
-       //}
-
-        // Change animation speed based on movement
-        if (!(applyMoveAwayVelocity && applyVelocity))
-        {
-            animator.SetFloat("WalkSpeed", 1f);
-        }
-        else
-        {
-            animator.SetFloat("WalkSpeed", 2.2f);
-        }
+       if (applyMoveAwayVelocity)
+       {
+           foreach (Collider moveAwayTarget in moveAwayTargets)
+           {
+               MoveAway(moveAwayTarget.GetComponent<Rigidbody>());
+           }
+       }
 
         //Apply animation
         animator.SetFloat("Vertical", navMeshAgent.velocity.magnitude / 2.8f, 0.1f, Time.deltaTime);
@@ -122,28 +123,28 @@ public class PlayerCharacterMovement : MonoBehaviour
         else rBody.velocity = direction;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.GetComponent<PlayerCharacterMovement>())
-        {
-            if (!moveAwayTargets.Contains(other))
-            {
-                moveAwayTargets.Add(other);
-            }
-            applyMoveAwayVelocity = true;
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.GetComponent<PlayerCharacterMovement>())
-        {
-            if (moveAwayTargets.Contains(other))
-            {
-                moveAwayTargets.Remove(other);
-            }
-
-            if (moveAwayTargets.Count == 0)
-                applyMoveAwayVelocity = false;
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.GetComponent<PlayerCharacterMovement>())
+    //    {
+    //        if (!moveAwayTargets.Contains(other))
+    //        {
+    //            moveAwayTargets.Add(other);
+    //        }
+    //        applyMoveAwayVelocity = true;
+    //    }
+    //}
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.GetComponent<PlayerCharacterMovement>())
+    //    {
+    //        if (moveAwayTargets.Contains(other))
+    //        {
+    //            moveAwayTargets.Remove(other);
+    //        }
+    //
+    //        if (moveAwayTargets.Count == 0)
+    //            applyMoveAwayVelocity = false;
+    //    }
+    //}
 }

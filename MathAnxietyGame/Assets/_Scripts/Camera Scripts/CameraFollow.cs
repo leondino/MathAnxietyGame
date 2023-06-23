@@ -14,10 +14,10 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;
     public float speed;
 
-    void FixedUpdate()
+    void Update()
     {
-        Vector3 target = Vector3.Lerp(this.transform.position, player.playersTrueCenter - offset, speed * Time.deltaTime);
+        Vector3 target = Vector3.Lerp(this.transform.position, player.playerCharacters[0].transform.position - offset, speed * Time.deltaTime);
         this.transform.position = target;
-        transform.LookAt(player.centerPoint.transform.position);
+        transform.LookAt(player.playerCharacters[0].transform.position);
     }
 }

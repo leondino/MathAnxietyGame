@@ -3638,6 +3638,10 @@ PrefabInstance:
       propertyPath: m_text
       value: No
       objectReference: {fileID: 0}
+    - target: {fileID: 6214622898663015494, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_text
+      value: Confirm
+      objectReference: {fileID: 0}
     - target: {fileID: 6214622898785695528, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_text
       value: Answer...
@@ -4069,10 +4073,6 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
-    - target: {fileID: 7646454673081969072, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
-      propertyPath: followSpeed
-      value: 0.85
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
