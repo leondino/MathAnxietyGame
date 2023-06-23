@@ -2409,8 +2409,8 @@ PrefabInstance:
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
       value: 'Hi everybody!
 
-        You probably feel negative emotions during
-        math sometimes.'
+        You probably feel negative emotions during math
+        sometimes.'
       objectReference: {fileID: 0}
     - target: {fileID: 1343255725376459024, guid: ca1bca60256914648b7ce2e5c2b0dbc7, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
@@ -4126,6 +4126,10 @@ PrefabInstance:
       value: and continue with an empty and fresh mind on the second half of the
         exercises.
       objectReference: {fileID: 0}
+    - target: {fileID: 1916128530264955046, guid: 4b427d51e890d3d4db0b61c4a9e60ecd, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f8e716480554cd7459696aba1edabb61, type: 3}
     - target: {fileID: 1916128532262870914, guid: 4b427d51e890d3d4db0b61c4a9e60ecd, type: 3}
       propertyPath: m_Name
       value: Meditation Task
