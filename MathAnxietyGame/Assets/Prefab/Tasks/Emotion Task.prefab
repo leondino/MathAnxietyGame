@@ -55,7 +55,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804821052922466
 Transform:
@@ -180,7 +180,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804821250083662
 Transform:
@@ -280,7 +280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804821596151342
 Transform:
@@ -446,7 +446,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804821679978045
 Transform:
@@ -618,7 +618,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804822539006808
 Transform:
@@ -746,7 +746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2997804822674516493
 Transform:
@@ -948,7 +948,7 @@ Transform:
   - {fileID: 2997804820966600083}
   - {fileID: 2997804821618145778}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &125922985
 PrefabInstance:
@@ -1935,9 +1935,96 @@ PrefabInstance:
     m_TransformParent: {fileID: 760662357770937754}
     m_Modifications:
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
+      value: 'Hi everybody!
+
+        You probably feel negative emotions during math
+        sometimes.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1]
+      value: However, it is more important to focus on the positive emotions!
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[2]
+      value: Which of these emotions DO you experience in math class and which do
+        you NOT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3]
+      value: Discuss each emotion well with each other and push them into the right
+        box.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0]
+      value: Have you categorize all emotions?
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0]
+      value: You have not categorized all the emotions yet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1]
+      value: No problem! Think carefully about all 10 positive emotions!
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0]
+      value: Well done! You have categorized all positive emotions.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1]
+      value: By paying close attention to these positive emotions...
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2]
+      value: the negative emotions are less effective.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[3]
+      value: You will also get better results during math and have more fun.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[4]
+      value: This in turn leads to more positive emotions, and so on. We call this
+        Broaden-Build.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[5]
+      value: Therefore it is important that you take in the positive emotions you
+        experience.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[6]
+      value: And it is also important that you think about the unexperienced positive
+        emotions.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[7]
-      value: "Er zijn twee discussie kamers geopend. Kies voor beide categorie\xEBn
-        een emotie."
+      value: Two discussion rooms have been opened. Choose an emotion for both categories.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[8]
+      value: Bring this emotion to the corresponding room to discuss this in more
+        detail together.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[0]
+      value: Have you discussed both an experienced and an unexperienced emotion?
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[5].dialogueSentences.Array.data[0]
+      value: Doesn't look like it yet. No problem, bring the emotions to the discussion
+        rooms.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[6].dialogueSentences.Array.data[0]
+      value: Great! You have thought deeply about an experienced and an unexperienced
+        emotion.
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[6].dialogueSentences.Array.data[1]
+      value: From now on, try to pay close attention to the positive emotions within
+        the math class!
       objectReference: {fileID: 0}
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.size
@@ -2465,7 +2552,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
       propertyPath: m_text
-      value: Niet ervaren emoties
+      value: Non-experienced emotions
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1316699160042391192, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
       propertyPath: m_Name
@@ -4431,6 +4526,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 2997804821679978045}
     m_Modifications:
+    - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
+      propertyPath: m_text
+      value: Experienced emotions
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316699158823809009, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1316699160042391192, guid: 6264fa5de51463b44bcd328a96da83e3, type: 3}
       propertyPath: m_Name
       value: Sign wel

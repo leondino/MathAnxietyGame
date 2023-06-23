@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 /// <summary>
 /// Handles that this player character follows the center point smoothly 
@@ -21,12 +22,14 @@ public class PlayerCharacterMovement : MonoBehaviour
     private bool applyVelocity = true;
     private bool applyMoveAwayVelocity = false;
     private List<Collider> moveAwayTargets = new List<Collider>();
+    private NavMeshAgent navMeshAgent;
 
     void Awake()
     {
         rBody = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         followPoint = GetComponentInParent<PlayerControler>().followPoint;
+        navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
     void FixedUpdate()
@@ -53,9 +56,10 @@ public class PlayerCharacterMovement : MonoBehaviour
         // Apply movement
         if (applyVelocity)
         {
-            targetVelocity *= followSpeed;
-            targetVelocity.y = rBody.velocity.y;
-            rBody.velocity = targetVelocity;
+            //targetVelocity *= followSpeed;
+            //targetVelocity.y = rBody.velocity.y;
+            //rBody.velocity = targetVelocity;
+            navMeshAgent.destination = targetPosition;
         }
 
         // Apply move away from other characters movement
@@ -94,6 +98,7 @@ public class PlayerCharacterMovement : MonoBehaviour
         if(GameManager.Instance.UIIsActive || DialogueManager.Instance.dialogueBox.activeSelf)
         {
             rBody.velocity = Vector3.zero;
+            navMeshAgent.ResetPath();
             animator.SetFloat("Vertical", 0, 0, Time.deltaTime);
         }
     }
