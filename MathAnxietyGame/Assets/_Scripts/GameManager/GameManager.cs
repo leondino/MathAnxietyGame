@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class GameManager : MonoBehaviour
 {
@@ -87,5 +89,23 @@ public class GameManager : MonoBehaviour
         pauseScreen.transform.parent.gameObject.SetActive(!pauseScreen.activeSelf);
         pauseScreen.SetActive(!pauseScreen.activeSelf);
         UIIsActive = pauseScreen.activeSelf;
+    }
+
+    /// <summary>
+    /// Changes the language of the game to the next language in line.
+    /// </summary>
+    public void ChangeLanguage()
+    {
+        int availableLanguages = LocalizationSettings.AvailableLocales.Locales.Count;
+        int nextLocaleID = LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale) + 1;
+        if (nextLocaleID >= availableLanguages)
+            nextLocaleID = 0;
+        StartCoroutine(SetLanguage(nextLocaleID));
+    }
+
+    IEnumerator SetLanguage(int localeID)
+    {
+        yield return LocalizationSettings.InitializationOperation;
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
     }
 }

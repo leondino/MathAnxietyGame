@@ -17,4 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Versions/Strength Maze Demo.unity
     guid: 4d1aa6cbc280b694cad0bd556d4ef8ab
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: a07fd468ee62105488ced9531a756684, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 16a1b4dc7b096a74f8622bc3925c9a0d, type: 2}
