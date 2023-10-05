@@ -55,6 +55,26 @@ MonoBehaviour:
     m_Key: EndScreenText2
     m_Metadata:
       m_Items: []
+  - m_Id: 30957700661248
+    m_Key: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31212634652672
+    m_Key: GateCodeExplain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32472301584384
+    m_Key: Answer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33433849970688
+    m_Key: HighlightStrength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34507172364288
+    m_Key: ChooseStrengths
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

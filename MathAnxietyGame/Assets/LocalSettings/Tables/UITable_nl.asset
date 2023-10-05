@@ -60,6 +60,28 @@ MonoBehaviour:
       in je portfolio."
     m_Metadata:
       m_Items: []
+  - m_Id: 30957700661248
+    m_Localized: Bevestig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31212634652672
+    m_Localized: "Vraag een opdracht aan jullie docent. \nLos deze vervolgens samen
+      op. \nLaat het controleren door de docent.\nAls het antwoord goed is krijgen
+      jullie een code om hieronder in te vullen.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32472301584384
+    m_Localized: Antwoord...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33433849970688
+    m_Localized: Past deze taak bij een van je sterke kanten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34507172364288
+    m_Localized: 'Kies 3 sterke kanten:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

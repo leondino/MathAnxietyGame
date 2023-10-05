@@ -60,6 +60,34 @@ MonoBehaviour:
       Screenshot these for your portfolio.'
     m_Metadata:
       m_Items: []
+  - m_Id: 30957700661248
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31212634652672
+    m_Localized: 'Ask your teacher for an assignment.
+
+      Then solve it together.
+
+      Have
+      it checked by the teacher.
+
+      If the answer is correct, you will receive
+      a code to enter below.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32472301584384
+    m_Localized: Answer...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33433849970688
+    m_Localized: Does this task match one of your strengths?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34507172364288
+    m_Localized: 'Choose 3 strengths:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
