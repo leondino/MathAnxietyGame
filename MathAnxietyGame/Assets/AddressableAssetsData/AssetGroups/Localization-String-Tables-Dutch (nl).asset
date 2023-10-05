@@ -10,26 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Assets-Shared
+  m_Name: Localization-String-Tables-Dutch (nl)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Assets-Shared
+  m_GroupName: Localization-String-Tables-Dutch (nl)
   m_Data:
     m_SerializedData: []
-  m_GUID: cf1bf85de7de9e14b9b2b8d5c5f39334
+  m_GUID: 123443867b64d6a428c376c69b980e57
   m_SerializeEntries:
-  - m_GUID: ea55f8f3602864245a81f8a53512851e
-    m_Address: Assets/LocalSettings/Tables/FlagTable Shared Data.asset
+  - m_GUID: ff1bc52c0567b5443ba48d355444f4b4
+    m_Address: UITable_nl
     m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f64726d121fff1d43a255158e6ce6905
-    m_Address: Assets/LocalSettings/Tables/UITable Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8a4dfa2489f61bb48ba8d8e65e177c35, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: d0cacd9f5b1fd214da58b4cc354d52d9, type: 2}
-    - {fileID: 11400000, guid: 6d5892d8ee8de174983889a9246972cd, type: 2}
+    - {fileID: 11400000, guid: 9c52ce07762b46e48aad4f80feb0663a, type: 2}
+    - {fileID: 11400000, guid: 8cc1541add675f141b1d601f8547e365, type: 2}
