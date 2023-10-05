@@ -34,6 +34,32 @@ MonoBehaviour:
     m_Localized: Wil je de game afsluiten?
     m_Metadata:
       m_Items: []
+  - m_Id: 4688376250368
+    m_Localized: Sluit Spel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4803996434432
+    m_Localized: Positieve emoties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4946393055232
+    m_Localized: Persoonlijke sterkte kanten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5316716544000
+    m_Localized: Gefeliciteerd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5531267776512
+    m_Localized: Jullie hebben succesvol geleerd hoe je beter om kan gaan met Math
+      Axniety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5575710621696
+    m_Localized: "Hieronder staan jullie gemaakte keuzes. \nScreenshot deze voor
+      in je portfolio."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

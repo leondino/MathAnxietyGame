@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public AnxietyBar mathAnxietyBar;
     public GameObject endScreen, pauseScreen;
     public AudioSource backgroundMusic;
+    private bool afterLoad = true;
 
     public bool UIIsActive { get; set; }
     //! Saves if the meditation has been completed
@@ -44,6 +45,17 @@ public class GameManager : MonoBehaviour
         MeditationCompleted = false;
     }
 
+    private void Update()
+    {
+        if (afterLoad && Time.fixedTime > 5)
+        {
+            //Set language at start to load default for text not connected to localization tables (endScreen)
+            StartCoroutine(SetLanguage(LocalizationSettings.AvailableLocales.
+                Locales.IndexOf(LocalizationSettings.SelectedLocale)));
+            afterLoad = false;
+        }
+    }
+
     /// <summary>
     /// Reduces Math Anxiety levels based on a given parameter
     /// </summary>
@@ -59,8 +71,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void EndGame()
     {
-        //Fill in all data for EndScreen (with EndScreen script or something)
-
+        // EndScreen data gets filled in through EndDataFiller script
         UIIsActive = true;
         endScreen.SetActive(true);
     }
@@ -107,5 +118,21 @@ public class GameManager : MonoBehaviour
     {
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+
+        // Change endData screen static text to English (Switch case for potential future languages)
+        EndDataFiller endData = endScreen.GetComponent<EndDataFiller>();
+
+        switch (localeID)
+        {
+            default:
+                Debug.Log("No language found");
+                break;
+            case 0:
+                endData.language = EndDataFiller.Language.Dutch;
+                break;
+            case 1:
+                endData.language = EndDataFiller.Language.English;
+                break;
+        }
     }
 }

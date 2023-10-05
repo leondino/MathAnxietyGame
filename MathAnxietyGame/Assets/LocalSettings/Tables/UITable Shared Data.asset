@@ -31,6 +31,30 @@ MonoBehaviour:
     m_Key: Close Game
     m_Metadata:
       m_Items: []
+  - m_Id: 4688376250368
+    m_Key: Exit game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4803996434432
+    m_Key: Positive Emotions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4946393055232
+    m_Key: Character strengths
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5316716544000
+    m_Key: congratulations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5531267776512
+    m_Key: EndScreenText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5575710621696
+    m_Key: EndScreenText2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

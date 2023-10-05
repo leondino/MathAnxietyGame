@@ -34,6 +34,32 @@ MonoBehaviour:
     m_Localized: Do you want to close the game?
     m_Metadata:
       m_Items: []
+  - m_Id: 4688376250368
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4803996434432
+    m_Localized: Positive emotions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4946393055232
+    m_Localized: Character strengths
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5316716544000
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5531267776512
+    m_Localized: You have successfully learned how to better deal with Math Axniety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5575710621696
+    m_Localized: 'Below are your choices.
+
+      Screenshot these for your portfolio.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
