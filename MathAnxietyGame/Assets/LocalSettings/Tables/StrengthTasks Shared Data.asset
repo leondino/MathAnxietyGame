@@ -14,7 +14,259 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: StrengthTasks
   m_TableCollectionNameGuidString: 740bc9e783d22a6498ef90dad6ded707
-  m_Entries: []
+  m_Entries:
+  - m_Id: 11354454900736
+    m_Key: Creativity1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11426580152320
+    m_Key: Creativity2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11440094199808
+    m_Key: Creativity3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11443281870848
+    m_Key: Curiosity1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11470532263936
+    m_Key: Curiosity2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11474567184384
+    m_Key: Open-Mindedness1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11478035873792
+    m_Key: Open-Mindedness2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11480917360640
+    m_Key: Open-Mindedness3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11483152924672
+    m_Key: Love of Learning1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11485011001344
+    m_Key: Love of Learning2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11486667751424
+    m_Key: Love of Learning3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11488290947072
+    m_Key: Perspective1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11489792507904
+    m_Key: Perspective2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11491243737088
+    m_Key: Honesty1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11492732715008
+    m_Key: Honesty2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11494158778368
+    m_Key: Bravery1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11495639367680
+    m_Key: Bravery2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11497136734208
+    m_Key: Persistence1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11498722181120
+    m_Key: Persistence2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11500404097024
+    m_Key: Persistence3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11501939212288
+    m_Key: Zest1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11503491104768
+    m_Key: Zest2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11505114300416
+    m_Key: Kindness1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11506771050496
+    m_Key: Kindness2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14150977732608
+    m_Key: Love1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14155809570816
+    m_Key: Love2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14158259044352
+    m_Key: Love3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781503258624
+    m_Key: Social Intelegence1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14783734628352
+    m_Key: Social Intelegence2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14785596899328
+    m_Key: Social Intelegence3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14984880865280
+    m_Key: Fairness1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14986525032448
+    m_Key: Fairness2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14987774935040
+    m_Key: Fairness3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15102812110848
+    m_Key: Leadership1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15132163850240
+    m_Key: Leadership2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15210786078720
+    m_Key: Teamwork1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15246680932352
+    m_Key: Teamwork2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15252666204160
+    m_Key: Teamwork3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15272312324096
+    m_Key: Teamwork4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15393536098304
+    m_Key: Forgiveness1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15397201920000
+    m_Key: Forgiveness2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16001856978944
+    m_Key: Modesty1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16052859715584
+    m_Key: Modesty2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16063739740160
+    m_Key: Modesty3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16143733506048
+    m_Key: Prudence1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16179842269184
+    m_Key: Prudence2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16315582529536
+    m_Key: Self-regulation1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16597603336192
+    m_Key: Self-regulation2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16613063540736
+    m_Key: Self-regulation3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16622915960832
+    m_Key: Self-regulation4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16744559165440
+    m_Key: Appreciation of Beauty1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16849546788864
+    m_Key: Appreciation of Beauty2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16864759529472
+    m_Key: Appreciation of Beauty3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16939640438784
+    m_Key: gratitude1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16984884396032
+    m_Key: gratitude2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17076051787776
+    m_Key: Hope1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17116090613760
+    m_Key: Hope2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17127255851008
+    m_Key: Hope3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17185984495616
+    m_Key: Humor1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17856913752064
+    m_Key: Humor2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17862060163072
+    m_Key: Humor3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18063336423424
+    m_Key: Religiousness1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18119154221056
+    m_Key: Religiousness2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
