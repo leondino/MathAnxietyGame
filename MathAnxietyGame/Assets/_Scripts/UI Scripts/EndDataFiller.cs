@@ -44,22 +44,22 @@ public class EndDataFiller : MonoBehaviour
                 data += "Wel ervaren positieve emoties:\n";
                 foreach (GameObject emotion in emotionManager.finalExperiencedEmotions)
                 {
-                    data += $"{emotion.name}, ";
+                    data += $"{emotion.GetComponentInChildren<TextMeshProUGUI>().text}, ";
                 }
                 data = data.TrimEnd(',', ' ');
                 data += "\n\nNiet ervaren positieve emoties:\n";
                 foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
                 {
-                    data += $"{emotion.name}, ";
+                    data += $"{emotion.GetComponentInChildren<TextMeshProUGUI>().text}, ";
                 }
                 data = data.TrimEnd(',', ' ');
-                data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.name}\n\n";
+                data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.experiencedQnA)
                 {
                     data += $"{QnA.question}\n";
                     data += $"{QnA.answer}\n\n";
                 }
-                data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
+                data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.nonExperiencedQnA)
                 {
                     data += $"{QnA.question}\n";
@@ -70,22 +70,22 @@ public class EndDataFiller : MonoBehaviour
                 data += "Experienced positive emotions:\n";
                 foreach (GameObject emotion in emotionManager.finalExperiencedEmotions)
                 {
-                    data += $"{emotion.name}, ";
+                    data += $"{emotion.GetComponentInChildren<TextMeshProUGUI>().text}, ";
                 }
                 data = data.TrimEnd(',', ' ');
                 data += "\n\nNon-experienced positive emotions:\n";
                 foreach (GameObject emotion in emotionManager.finalNonExperiencedEmotions)
                 {
-                    data += $"{emotion.name}, ";
+                    data += $"{emotion.GetComponentInChildren<TextMeshProUGUI>().text}, ";
                 }
                 data = data.TrimEnd(',', ' ');
-                data += $"\n\nDiscussed experienced emotion: {emotionManager.experiencedDiscussEmotion.name}\n\n";
+                data += $"\n\nDiscussed experienced emotion: {emotionManager.experiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.experiencedQnA)
                 {
                     data += $"{QnA.question}\n";
                     data += $"{QnA.answer}\n\n";
                 }
-                data += $"Discussed non-experienced emotion: {emotionManager.nonExperiencedDiscussEmotion.name}\n\n";
+                data += $"Discussed non-experienced emotion: {emotionManager.nonExperiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.nonExperiencedQnA)
                 {
                     data += $"{QnA.question}\n";
