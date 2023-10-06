@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [System.Serializable]
 public class Strength
 {
-    public string name;
+    public LocalizedString name;
 
     public Dialogue[] tasksDialogue;
 }

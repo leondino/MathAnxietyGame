@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization;
 
 public class EndDataFiller : MonoBehaviour
 {
@@ -110,26 +111,26 @@ public class EndDataFiller : MonoBehaviour
                 data += "Jullie top 3 sterke kanten:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"{strength.name}, ";
+                    data += $"{strength.name.GetLocalizedString()}, ";
                 }
                 data = data.TrimEnd(',', ' ');
                 data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                    data += $"\n{strength.name.GetLocalizedString()}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
                 }
                 break;
             case Language.English:
                 data += "Your top 3 strengths:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"{strength.name}, ";
+                    data += $"{strength.name.GetLocalizedString()}, ";
                 }
                 data = data.TrimEnd(',', ' ');
                 data += "\n\nAssignments based on your strengths:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"\n{strength.name}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                    data += $"\n{strength.name.GetLocalizedString()}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
                 }
                 break;
             default:

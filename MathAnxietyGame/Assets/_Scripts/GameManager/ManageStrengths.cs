@@ -59,7 +59,7 @@ public class ManageStrengths : MonoBehaviour
         for (int iStrenght = 0; iStrenght < RANDOM_STRENGTHS; iStrenght++)
         {
             GameObject strenghtButton = strengthButtons.transform.GetChild(iStrenght).gameObject;
-            strenghtButton.GetComponentInChildren<TextMeshProUGUI>().text = randomStrengths[iStrenght].name;
+            strenghtButton.GetComponentInChildren<TextMeshProUGUI>().text = randomStrengths[iStrenght].name.GetLocalizedString();
         }
     }
 
@@ -72,7 +72,7 @@ public class ManageStrengths : MonoBehaviour
         {
             GameObject strenghtNote = strengthNotes.transform.GetChild(iStrenght).gameObject;
             strenghtNote.GetComponentInChildren<DialogueTrigger>().dialogue = randomStrengths[iStrenght].tasksDialogue;
-            strenghtNote.GetComponentInChildren<StrengthNote>().strength = randomStrengths[iStrenght].name;
+            strenghtNote.GetComponentInChildren<StrengthNote>().strength = randomStrengths[iStrenght].name.GetLocalizedString();
         }
     }
 
@@ -86,7 +86,7 @@ public class ManageStrengths : MonoBehaviour
         {
             foreach (Strength strength in randomStrengths)
             {
-                if (goalStrength == strength.name)
+                if (goalStrength == strength.name.GetLocalizedString())
                 {
                     learnedStrengths.Add(strength);
                     break;
