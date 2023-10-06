@@ -117,7 +117,8 @@ public class EndDataFiller : MonoBehaviour
                 data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"\n{strength.name.GetLocalizedString()}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                    data += $"\n{strength.name.GetLocalizedString()}:" +
+                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
                 }
                 break;
             case Language.English:
@@ -130,7 +131,8 @@ public class EndDataFiller : MonoBehaviour
                 data += "\n\nAssignments based on your strengths:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
-                    data += $"\n{strength.name.GetLocalizedString()}:\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                    data += $"\n{strength.name.GetLocalizedString()}:" +
+                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
                 }
                 break;
             default:
