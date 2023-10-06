@@ -17,7 +17,53 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 733e51734f19e66419f702658e65aeae, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5477664571392
+    m_Localized: 'Hi everybody!
+
+      Are you familiar with the 24 ''character strengths''?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5922638282752
+    m_Localized: Here are a few. Each choose a strength that suits you well.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5936949248000
+    m_Localized: 'Your strengths are: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6900842250240
+    m_Localized: Let's see if you found the right tasks here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6944555286528
+    m_Localized: Unfortunately, not all chosen tasks match your strengths.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993360207872
+    m_Localized: No problem! Just try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7298969780224
+    m_Localized: Well done! You have found the right tasks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7324387262464
+    m_Localized: Capitalizing on your strengths in what you do...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342586347520
+    m_Localized: improves your performance and makes you have more fun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7354628194304
+    m_Localized: So this can help you to reduce Math Anxiety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7364581277696
+    m_Localized: Therefore, try to complete one of the tasks this week.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

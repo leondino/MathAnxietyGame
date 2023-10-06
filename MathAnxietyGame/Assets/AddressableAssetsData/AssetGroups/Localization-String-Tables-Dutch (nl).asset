@@ -52,6 +52,41 @@ MonoBehaviour:
     - Locale-nl
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5805cff0994a79a4b8e6ce105e20c122
+    m_Address: StartTeacher_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 860cc22f1a99f8941a9ba2514adc99a6
+    m_Address: StrengthTeacher_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1049650a8ee398846ab512464723c04b
+    m_Address: EmotionTeacher_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739302ea08a3c15488133bf5772bea38
+    m_Address: BridgeTeacher_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494dd2d485e0c4d4c933312fa5f26a27
+    m_Address: MeditationTeacher_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8a4dfa2489f61bb48ba8d8e65e177c35, type: 2}
   m_SchemaSet:

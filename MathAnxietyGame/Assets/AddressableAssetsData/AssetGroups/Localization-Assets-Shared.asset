@@ -52,6 +52,31 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 747e98c63203b9f4a9718dcee41c5b6c
+    m_Address: Assets/LocalSettings/Tables/StartTeacher Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 733e51734f19e66419f702658e65aeae
+    m_Address: Assets/LocalSettings/Tables/StrengthTeacher Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 416bd3fd5d1000e4a96bf24c993547cc
+    m_Address: Assets/LocalSettings/Tables/EmotionTeacher Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48abf8603d682f3438799401d8ae76b1
+    m_Address: Assets/LocalSettings/Tables/BridgeTeacher Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88f55766d525c0a4ba006859bb8583a6
+    m_Address: Assets/LocalSettings/Tables/MeditationTeacher Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8a4dfa2489f61bb48ba8d8e65e177c35, type: 2}
   m_SchemaSet:

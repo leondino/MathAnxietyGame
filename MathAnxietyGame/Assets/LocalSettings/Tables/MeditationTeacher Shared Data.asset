@@ -13,8 +13,76 @@ MonoBehaviour:
   m_Name: MeditationTeacher Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: MeditationTeacher
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 88f55766d525c0a4ba006859bb8583a6
+  m_Entries:
+  - m_Id: 7836843130880
+    m_Key: Dialogue[0]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7922113331200
+    m_Key: Dialogue[0]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7934771740672
+    m_Key: Dialogue[0]3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7953876795392
+    m_Key: Dialogue[0]4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8006079102976
+    m_Key: Dialogue[0]5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8017638604800
+    m_Key: Dialogue[0]6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8028300525568
+    m_Key: Dialogue[0]7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8044851249152
+    m_Key: Dialogue[1]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8063759171584
+    m_Key: Dialogue[2]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8082436407296
+    m_Key: Dialogue[2]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8101516296192
+    m_Key: Dialogue[3]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8156625256448
+    m_Key: Dialogue[3]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8167916322816
+    m_Key: Dialogue[3]3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8179165446144
+    m_Key: Dialogue[3]4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8188627795968
+    m_Key: Dialogue[3]5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8198123700224
+    m_Key: Dialogue[3]6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8208051617792
+    m_Key: Dialogue[3]7
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

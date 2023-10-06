@@ -17,7 +17,100 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 416bd3fd5d1000e4a96bf24c993547cc, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 3715641655296
+    m_Localized: 'Hi everybody!
+
+      You probably feel negative emotions during
+      math sometimes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3742984323072
+    m_Localized: However, it is more important to focus on the positive emotions!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3759979642880
+    m_Localized: Which of these emotions DO you experience in math class and which
+      do you NOT?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3772600303616
+    m_Localized: Discuss each emotion well with each other and push them into the
+      right box.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3797313142784
+    m_Localized: Have you categorize all emotions?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3817504522240
+    m_Localized: You have not categorized all the emotions yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3842997501952
+    m_Localized: No problem! Think carefully about all 10 positive emotions!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3869572612096
+    m_Localized: Well done! You have categorized all positive emotions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3913537306624
+    m_Localized: By paying close attention to these positive emotions...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3929265946624
+    m_Localized: the negative emotions are less effective.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3944281554944
+    m_Localized: You will also get better results during math and have more fun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3955769753600
+    m_Localized: This in turn leads to more positive emotions, and so on. We call
+      this Broaden-Build.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3967236980736
+    m_Localized: Therefore it is important that you take in the positive emotions
+      you experience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3978565795840
+    m_Localized: And it is also important that you think about the unexperienced
+      positive emotions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3989793947648
+    m_Localized: Two discussion rooms have been opened. Choose an emotion for both
+      categories.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4032911392768
+    m_Localized: Bring this emotion to the corresponding room to discuss this in
+      more detail together.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4045926318080
+    m_Localized: Have you discussed both an experienced and an unexperienced emotion?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4063563366400
+    m_Localized: Doesn't look like it yet. No problem, bring the emotions to the
+      discussion rooms.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4086162276352
+    m_Localized: Great! You have thought deeply about an experienced and an unexperienced
+      emotion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4107972657152
+    m_Localized: From now on, try to pay close attention to the positive emotions
+      within the math class!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -17,7 +17,93 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 747e98c63203b9f4a9718dcee41c5b6c, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1316101308416
+    m_Localized: Hoi Allemaal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1361668227072
+    m_Localized: Jullie wilde graag het examen halen om vervolgens jullie dromen
+      na te streven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377396867072
+    m_Localized: Helaas hebben jullie het wiskundige deel niet behaald.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1389350633472
+    m_Localized: Uit onze observatie blijkt dat jullie alle 3 last hebben van een
+      vorm van 'Math Anxiety'.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405255434240
+    m_Localized: Dit betekend dat jullie angstig zijn bij het zien en denken aan
+      wiskundige problemen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427518799872
+    m_Localized: Jullie kunnen zo niet meer logisch nadenken en willen wiskunde liever
+      vermijden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1462591569920
+    m_Localized: Gelukkig is falen een leerprocess en geeft het een kans om het volgende
+      keer beter te doen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1485215645696
+    m_Localized: Daarom gaan jullie samen op avontuur om te leren hoe je om kan gaan
+      met Math Anxiety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1498956185600
+    m_Localized: Ik als leraar zal jullie hierbij helpen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1514965843968
+    m_Localized: Zo krijgen jullie een nieuwe kans voor het examen om je dromen te
+      achtervolgen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000817242112
+    m_Localized: Zijn jullie klaar om het examen opnieuw te doen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2094681571328
+    m_Localized: NEE, ik durf het niet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133856370688
+    m_Localized: Ik wil nooit meer zo een examen maken!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163115835392
+    m_Localized: 'Ik begin helemaal te trillen...
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211744595968
+    m_Localized: Denk je dat we het aankunnen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2250281861120
+    m_Localized: We hebben wel veel geleerd... Laten we het proberen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2260713095168
+    m_Localized: JA, ik voel me zelfverzekerd. We gaan ons best doen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2277985239040
+    m_Localized: Wat goed! Jullie hebben het alle 3 gehaald!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2310692421632
+    m_Localized: Blijf oefenen om met je Math Anxiety om te gaan en achtervolg je
+      dromen!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

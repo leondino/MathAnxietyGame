@@ -17,7 +17,81 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 88f55766d525c0a4ba006859bb8583a6, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 8208051617792
+    m_Localized: en met een leeg en fris hoofd weer verder gaan aan de tweede helft
+      van de opgaven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8198123700224
+    m_Localized: Zo kan je ook een meditatie doen halverwege je huiswerk...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8188627795968
+    m_Localized: Ook is het goed om een meditatie te gebruiken als pauze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8179165446144
+    m_Localized: voordat je aan je wiskunde huiswerk of een toets begint.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8167916322816
+    m_Localized: Probeer dus ook eens een korte meditatie...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8156625256448
+    m_Localized: Door regelamtig te blijven oefenen met mediteren zullen jullie minder
+      stress en angst ervaren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8101516296192
+    m_Localized: Goed gedaan! Jullie hebben een meditatie gedaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8082436407296
+    m_Localized: Geen probleem! Neem plaats op de boomstronk en probeer de meditatie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8063759171584
+    m_Localized: Volgensmij hebben jullie geen meditatie gedaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8044851249152
+    m_Localized: Hebben jullie allemaal gemediteerd?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8028300525568
+    m_Localized: Die boomstronk ziet er uit als een goede plek om rusitg op te zitten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8017638604800
+    m_Localized: Het lijkt mij een goed idee als jullie ook een meditatie doen, begeleid
+      door mij.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8006079102976
+    m_Localized: Het wordt gebruikt om je hoofd leeg te maken en stress te verminderen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7953876795392
+    m_Localized: Mediteren is al een eeuwenoude vaardigheid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7934771740672
+    m_Localized: De mensen die daar bij de boom zitten, zijn aan het mediteren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7922113331200
+    m_Localized: Deze gevoelens kunnen ervoor zorgen dat je minder goed kan nadenken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7836843130880
+    m_Localized: 'Hoi Allemaal!
+
+      Jullie voelen vast wel eens stress of angst
+      bij wiskunde.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

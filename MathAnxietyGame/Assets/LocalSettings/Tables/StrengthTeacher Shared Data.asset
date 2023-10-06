@@ -13,8 +13,52 @@ MonoBehaviour:
   m_Name: StrengthTeacher Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: StrengthTeacher
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 733e51734f19e66419f702658e65aeae
+  m_Entries:
+  - m_Id: 5477664571392
+    m_Key: Dialogue[0]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5922638282752
+    m_Key: Dialogue[0]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5936949248000
+    m_Key: Dialogue[1]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6900842250240
+    m_Key: Dialogue[1]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6944555286528
+    m_Key: Dialogue[2]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993360207872
+    m_Key: Dialogue[2]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7298969780224
+    m_Key: Dialogue[3]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7324387262464
+    m_Key: Dialogue[3]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342586347520
+    m_Key: Dialogue[3]3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7354628194304
+    m_Key: Dialogue[3]4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7364581277696
+    m_Key: Dialogue[3]5
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

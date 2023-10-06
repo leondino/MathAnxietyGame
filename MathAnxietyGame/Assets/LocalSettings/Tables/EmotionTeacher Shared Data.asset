@@ -13,8 +13,88 @@ MonoBehaviour:
   m_Name: EmotionTeacher Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: EmotionTeacher
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 416bd3fd5d1000e4a96bf24c993547cc
+  m_Entries:
+  - m_Id: 3715641655296
+    m_Key: Dialogue[0]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3742984323072
+    m_Key: Dialogue[0]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3759979642880
+    m_Key: Dialogue[0]3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3772600303616
+    m_Key: Dialogue[0]4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3797313142784
+    m_Key: Dialogue[1]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3817504522240
+    m_Key: Dialogue[2]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3842997501952
+    m_Key: Dialogue[2]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3869572612096
+    m_Key: Dialogue[3]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3913537306624
+    m_Key: Dialogue[3]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3929265946624
+    m_Key: Dialogue[3]3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3944281554944
+    m_Key: Dialogue[3]4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3955769753600
+    m_Key: Dialogue[3]5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3967236980736
+    m_Key: Dialogue[3]6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3978565795840
+    m_Key: Dialogue[3]7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3989793947648
+    m_Key: Dialogue[3]8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4032911392768
+    m_Key: Dialogue[3]9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4045926318080
+    m_Key: Dialogue[4]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4063563366400
+    m_Key: Dialogue[5]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4086162276352
+    m_Key: Dialogue[6]1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4107972657152
+    m_Key: Dialogue[6]2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -17,7 +17,55 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 733e51734f19e66419f702658e65aeae, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 7364581277696
+    m_Localized: "Probeer daarom deze week ieder \xE9\xE9n van de taken uit te voeren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7354628194304
+    m_Localized: Dit kan jullie dus helpen om Math Anxiety te verminderen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342586347520
+    m_Localized: "\rverbetert je prestaties en zorgt ervoor dat je meer plezier heb."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7324387262464
+    m_Localized: Het inspelen op je sterke kanten in hetgene wat je doet...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7298969780224
+    m_Localized: Goed gedaan! Jullie hebben de juiste taken gevonden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993360207872
+    m_Localized: Geen probleem! Probeer het opnieuw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6944555286528
+    m_Localized: Helaas niet alle gekozen taken passen bij jullie sterke kanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6900842250240
+    m_Localized: Eens kijken of jullie de juiste taken hierbij hebben gevonden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5936949248000
+    m_Localized: 'Jullie sterke kanten zijn: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5922638282752
+    m_Localized: Hier zijn er een paar. Kies ieder een sterke kant die goed bij jou
+      past.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5477664571392
+    m_Localized: 'Hoi Allemaal!
+
+      Zijn jullie bekend met de 24 persoonlijke
+      sterke kanten?'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
