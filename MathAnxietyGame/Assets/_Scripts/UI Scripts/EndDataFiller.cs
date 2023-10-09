@@ -57,13 +57,13 @@ public class EndDataFiller : MonoBehaviour
                 data += $"\n\nBesproken wel ervaren emotie: {emotionManager.experiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.experiencedQnA)
                 {
-                    data += $"{QnA.question}\n";
+                    data += $"{QnA.question.GetLocalizedString()}\n";
                     data += $"{QnA.answer}\n\n";
                 }
                 data += $"Besproken niet ervaren emotie: {emotionManager.nonExperiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.nonExperiencedQnA)
                 {
-                    data += $"{QnA.question}\n";
+                    data += $"{QnA.question.GetLocalizedString()}\n";
                     data += $"{QnA.answer}\n\n";
                 }
                 break;
@@ -83,13 +83,13 @@ public class EndDataFiller : MonoBehaviour
                 data += $"\n\nDiscussed experienced emotion: {emotionManager.experiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.experiencedQnA)
                 {
-                    data += $"{QnA.question}\n";
+                    data += $"{QnA.question.GetLocalizedString()}\n";
                     data += $"{QnA.answer}\n\n";
                 }
                 data += $"Discussed non-experienced emotion: {emotionManager.nonExperiencedDiscussEmotion.GetComponentInChildren<TextMeshProUGUI>().text}\n\n";
                 foreach (QnA QnA in emotionManager.nonExperiencedQnA)
                 {
-                    data += $"{QnA.question}\n";
+                    data += $"{QnA.question.GetLocalizedString()}\n";
                     data += $"{QnA.answer}\n\n";
                 }
                 break;

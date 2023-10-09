@@ -9,7 +9,8 @@ public class QnAInputHandler : MonoBehaviour
     public TextMeshProUGUI questionText;
     public TMP_InputField answerInput;
 
-    private Queue<string> questionSentences = new Queue<string>();
+    private Queue<LocalizedString> questionSentences = new Queue<LocalizedString>();
+    private LocalizedString currentQuestion = null;
 
     [SerializeField]
     private List<QnA> QnAList;
@@ -23,7 +24,7 @@ public class QnAInputHandler : MonoBehaviour
 
         foreach (LocalizedString question in questions.dialogueSentences)
         {
-            questionSentences.Enqueue(question.GetLocalizedString());
+            questionSentences.Enqueue(question);
         }
         NextQuestion();
     }
@@ -39,7 +40,7 @@ public class QnAInputHandler : MonoBehaviour
             }
             QnA newQnA = new QnA()
             {
-                question = questionText.text,
+                question = currentQuestion,
                 answer = answerInput.text
             };
             QnAList.Add(newQnA);
@@ -51,8 +52,8 @@ public class QnAInputHandler : MonoBehaviour
             return;
         }
 
-        string question = questionSentences.Dequeue();
-        questionText.text = question;
+        currentQuestion = questionSentences.Dequeue();
+        questionText.text = currentQuestion.GetLocalizedString();
         answerInput.text = null;
     }
 
