@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StrengthNote : DialogueInteractable
 {
-    public string strength;
+    public Strength strength;
     [SerializeField]
     private Material normalMaterial, highlightedMaterial;
 

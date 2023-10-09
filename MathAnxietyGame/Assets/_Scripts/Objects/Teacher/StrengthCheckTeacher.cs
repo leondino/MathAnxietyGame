@@ -11,7 +11,6 @@ public class StrengthCheckTeacher : TeacherTaskCheck
     public override void CheckTask()
     {
         base.CheckTask();
-        SetChosenStrengths();
         if (GameManager.Instance.strenghtsManager.CompareCorrectStrengths())
         {
             dialogueTrigger.SwitchToDialogue(3);
@@ -37,8 +36,11 @@ public class StrengthCheckTeacher : TeacherTaskCheck
     public void SetChosenStrengths()
     {
         LocalizedString[] chosenStrengths = GameManager.Instance.strenghtsManager.goalStrengths.ToArray();
-        string chosenStrengthsString = chosenStrengths[0].GetLocalizedString() + ", " + 
-            chosenStrengths[1].GetLocalizedString() + " & " + chosenStrengths[2].GetLocalizedString() + ".";
-        dialogueTrigger.dialogue[1].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
+        if (chosenStrengths.Length > 1)
+        {
+            string chosenStrengthsString = chosenStrengths[0].GetLocalizedString() + ", " +
+                chosenStrengths[1].GetLocalizedString() + " & " + chosenStrengths[2].GetLocalizedString() + ".";
+            dialogueTrigger.dialogue[1].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
+        }
     }
 }

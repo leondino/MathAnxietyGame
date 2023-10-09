@@ -18,7 +18,7 @@ public class ManageStrengths : MonoBehaviour
     [SerializeField]
     public List<LocalizedString> goalStrengths = new List<LocalizedString>();
     [SerializeField]
-    private List<string> highlightedStrengths = new List<string>();
+    private List<Strength> highlightedStrengths = new List<Strength>();
 
     [SerializeField]
     private Strength[] allStrenghts = new Strength[TOTAL_STRENGTHS];
@@ -73,39 +73,16 @@ public class ManageStrengths : MonoBehaviour
         {
             GameObject strenghtNote = strengthNotes.transform.GetChild(iStrenght).gameObject;
             strenghtNote.GetComponentInChildren<DialogueTrigger>().dialogue = randomStrengths[iStrenght].tasksDialogue;
-            strenghtNote.GetComponentInChildren<StrengthNote>().strength = randomStrengths[iStrenght].name.GetLocalizedString();
+            strenghtNote.GetComponentInChildren<StrengthNote>().strength = randomStrengths[iStrenght];
         }
-    }
-
-    public List<string> GetGoalStrengths()
-    {
-        List<string> goalStrengthsStrings = new List<string>();
-
-        foreach (LocalizedString strength in goalStrengths)
-        {
-            goalStrengthsStrings.Add(strength.GetLocalizedString());
-        }
-
-        return goalStrengthsStrings;
     }
 
     /// <summary>
-    /// Compares the goal strengths string value to the names of strength objects.
-    /// Adds the correct ones to a list to use for data collection.
+    /// Saves the highlighted/goal strengths as the learned strengths
     /// </summary>
     private void SaveLearnedStrengths()
     {
-        foreach (LocalizedString goalStrength in goalStrengths)
-        {
-            foreach (Strength strength in randomStrengths)
-            {
-                if (goalStrength == strength.name)
-                {
-                    learnedStrengths.Add(strength);
-                    break;
-                }
-            }
-        }
+        learnedStrengths = highlightedStrengths;
     }
 
     /// <summary>
@@ -126,10 +103,10 @@ public class ManageStrengths : MonoBehaviour
     /// <param name="strenghtNote">Note that should be highlighted</param>
     public void HighlightStrenght(StrengthNote strenghtNote)
     {
-        string strenght = strenghtNote.strength;
-        if (!highlightedStrengths.Contains(strenght) && highlightedStrengths.Count < 3)
+        Strength strength = strenghtNote.strength;
+        if (!highlightedStrengths.Contains(strength) && highlightedStrengths.Count < 3)
         {
-            highlightedStrengths.Add(strenght);
+            highlightedStrengths.Add(strength);
             strenghtNote.HighlightColor();
         }
         else Debug.Log("Strenght already highlighted or already highlighted 3 strenghts");
@@ -139,7 +116,7 @@ public class ManageStrengths : MonoBehaviour
     /// Unselects the strength note
     /// </summary>
     /// <param name="strength"></param>
-    public void DeHighlightStrength(string strength)
+    public void DeHighlightStrength(Strength strength)
     {
         if (highlightedStrengths.Contains(strength))
             highlightedStrengths.Remove(strength);
@@ -158,9 +135,9 @@ public class ManageStrengths : MonoBehaviour
             return false;
         }
 
-        foreach (string strenght in highlightedStrengths)
+        foreach (Strength strenght in highlightedStrengths)
         {
-            if (!GetGoalStrengths().Contains(strenght))
+            if (goalStrengths.Contains(strenght.name))
             {
                 Debug.Log("Wrong Strength!");
                 return false;

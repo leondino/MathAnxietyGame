@@ -48,8 +48,6 @@ public class ChooseStrenghts : MonoBehaviour
         {
             GameManager.Instance.strenghtsManager.ReceiveStrenghtSelection(selectedStrenghts);
 
-            StrengthTeacher.SetChosenStrengths();
-
             gameObject.SetActive(false);
             transform.parent.gameObject.SetActive(false);
             GameManager.Instance.UIIsActive = false;
