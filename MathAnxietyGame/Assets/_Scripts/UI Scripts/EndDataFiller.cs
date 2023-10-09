@@ -117,8 +117,16 @@ public class EndDataFiller : MonoBehaviour
                 data += "\n\nOpdrachten op basis van jullie sterke kanten:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
+                    string[] strengthTaskSentences = new string[strength.tasksDialogue[0].dialogueSentences.Length];
+
+                    for (int iSentence = 0; iSentence < strengthTaskSentences.Length; iSentence++)
+                    {
+                        strengthTaskSentences[iSentence] = 
+                            strength.tasksDialogue[0].dialogueSentences[iSentence].GetLocalizedString();
+                    }
+
                     data += $"\n{strength.name.GetLocalizedString()}:" +
-                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences.ToString())}\n";
+                        $"\n{string.Concat(strengthTaskSentences)}\n";
                 }
                 break;
             case Language.English:
@@ -131,8 +139,16 @@ public class EndDataFiller : MonoBehaviour
                 data += "\n\nAssignments based on your strengths:\n";
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
+                    string[] strengthTaskSentences = new string[strength.tasksDialogue[0].dialogueSentences.Length];
+
+                    for (int iSentence = 0; iSentence < strengthTaskSentences.Length; iSentence++)
+                    {
+                        strengthTaskSentences[iSentence] =
+                            strength.tasksDialogue[0].dialogueSentences[iSentence].GetLocalizedString();
+                    }
+
                     data += $"\n{strength.name.GetLocalizedString()}:" +
-                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences.ToString())}\n";
+                        $"\n{string.Concat(strengthTaskSentences)}\n";
                 }
                 break;
             default:
