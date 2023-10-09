@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class StrengthCheckTeacher : TeacherTaskCheck
 {
@@ -10,6 +11,7 @@ public class StrengthCheckTeacher : TeacherTaskCheck
     public override void CheckTask()
     {
         base.CheckTask();
+        SetChosenStrengths();
         if (GameManager.Instance.strenghtsManager.CompareCorrectStrengths())
         {
             dialogueTrigger.SwitchToDialogue(3);
@@ -34,8 +36,9 @@ public class StrengthCheckTeacher : TeacherTaskCheck
     /// </summary>
     public void SetChosenStrengths()
     {
-        string[] chosenStrengths = GameManager.Instance.strenghtsManager.GetGoalStrengths;
-        string chosenStrengthsString = chosenStrengths[0] + ", " + chosenStrengths[1] + " & " + chosenStrengths[2] + ".";
+        LocalizedString[] chosenStrengths = GameManager.Instance.strenghtsManager.goalStrengths.ToArray();
+        string chosenStrengthsString = chosenStrengths[0].GetLocalizedString() + ", " + 
+            chosenStrengths[1].GetLocalizedString() + " & " + chosenStrengths[2].GetLocalizedString() + ".";
         dialogueTrigger.dialogue[1].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
     }
 }

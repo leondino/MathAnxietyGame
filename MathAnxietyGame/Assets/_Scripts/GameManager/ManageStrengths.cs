@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
 
 public class ManageStrengths : MonoBehaviour
 {
@@ -9,14 +11,12 @@ public class ManageStrengths : MonoBehaviour
 
     private bool isRandomized = false;
 
-    public string[] GetGoalStrengths { get { return goalStrengths.ToArray(); } }
-
     [SerializeField]
     private GameObject strengthButtons, strengthNotes;
 
     // Remove serialize in final version
     [SerializeField]
-    private List<string> goalStrengths = new List<string>();
+    public List<LocalizedString> goalStrengths = new List<LocalizedString>();
     [SerializeField]
     private List<string> highlightedStrengths = new List<string>();
 
@@ -59,7 +59,8 @@ public class ManageStrengths : MonoBehaviour
         for (int iStrenght = 0; iStrenght < RANDOM_STRENGTHS; iStrenght++)
         {
             GameObject strenghtButton = strengthButtons.transform.GetChild(iStrenght).gameObject;
-            strenghtButton.GetComponentInChildren<TextMeshProUGUI>().text = randomStrengths[iStrenght].name.GetLocalizedString();
+            strenghtButton.GetComponent<LocalizeStringEvent>().StringReference.SetReference(
+                randomStrengths[iStrenght].name.TableReference, randomStrengths[iStrenght].name.TableEntryReference);
         }
     }
 
@@ -76,17 +77,29 @@ public class ManageStrengths : MonoBehaviour
         }
     }
 
+    public List<string> GetGoalStrengths()
+    {
+        List<string> goalStrengthsStrings = new List<string>();
+
+        foreach (LocalizedString strength in goalStrengths)
+        {
+            goalStrengthsStrings.Add(strength.GetLocalizedString());
+        }
+
+        return goalStrengthsStrings;
+    }
+
     /// <summary>
     /// Compares the goal strengths string value to the names of strength objects.
     /// Adds the correct ones to a list to use for data collection.
     /// </summary>
     private void SaveLearnedStrengths()
     {
-        foreach (string goalStrength in goalStrengths)
+        foreach (LocalizedString goalStrength in goalStrengths)
         {
             foreach (Strength strength in randomStrengths)
             {
-                if (goalStrength == strength.name.GetLocalizedString())
+                if (goalStrength == strength.name)
                 {
                     learnedStrengths.Add(strength);
                     break;
@@ -103,7 +116,7 @@ public class ManageStrengths : MonoBehaviour
     {
         foreach (GameObject strength in selectedStrengths)
         {
-            goalStrengths.Add(strength.GetComponentInChildren<TextMeshProUGUI>().text);
+            goalStrengths.Add(strength.GetComponent<LocalizeStringEvent>().StringReference);
         }
     }
 
@@ -147,7 +160,7 @@ public class ManageStrengths : MonoBehaviour
 
         foreach (string strenght in highlightedStrengths)
         {
-            if (!goalStrengths.Contains(strenght))
+            if (!GetGoalStrengths().Contains(strenght))
             {
                 Debug.Log("Wrong Strength!");
                 return false;
