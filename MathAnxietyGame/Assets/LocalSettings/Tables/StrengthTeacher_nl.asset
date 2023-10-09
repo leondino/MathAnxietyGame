@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: nl
   m_SharedData: {fileID: 11400000, guid: 733e51734f19e66419f702658e65aeae, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 2994002265740673024
   m_TableData:
   - m_Id: 7364581277696
     m_Localized: "Probeer daarom deze week ieder \xE9\xE9n van de taken uit te voeren."
@@ -51,9 +52,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5936949248000
-    m_Localized: 'Jullie sterke kanten zijn: '
+    m_Localized: 'Jullie sterke kanten zijn: {0}'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 2994002265740673024
   - m_Id: 5922638282752
     m_Localized: Hier zijn er een paar. Kies ieder een sterke kant die goed bij jou
       past.
@@ -68,4 +70,8 @@ MonoBehaviour:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2994002265740673024
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0040c04d66050000

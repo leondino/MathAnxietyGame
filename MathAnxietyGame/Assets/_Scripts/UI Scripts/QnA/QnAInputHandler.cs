@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class QnAInputHandler : MonoBehaviour
 {
@@ -20,9 +21,9 @@ public class QnAInputHandler : MonoBehaviour
         questionSentences.Clear();
         this.QnAList = QnAList;
 
-        foreach (string question in questions.dialogueSentences)
+        foreach (LocalizedString question in questions.dialogueSentences)
         {
-            questionSentences.Enqueue(question);
+            questionSentences.Enqueue(question.GetLocalizedString());
         }
         NextQuestion();
     }

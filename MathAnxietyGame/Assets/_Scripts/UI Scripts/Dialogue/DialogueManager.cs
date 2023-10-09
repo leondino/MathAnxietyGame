@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -44,9 +45,9 @@ public class DialogueManager : MonoBehaviour
 
         dialogueSentences.Clear();
 
-        foreach (string sentence in dialogue.dialogueSentences)
+        foreach (LocalizedString sentence in dialogue.dialogueSentences)
         {
-            dialogueSentences.Enqueue(sentence);
+            dialogueSentences.Enqueue(sentence.GetLocalizedString());
         }
         DisplayNextSentence();
     }

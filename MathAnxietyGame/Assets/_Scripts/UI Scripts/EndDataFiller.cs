@@ -118,7 +118,7 @@ public class EndDataFiller : MonoBehaviour
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
                     data += $"\n{strength.name.GetLocalizedString()}:" +
-                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences.ToString())}\n";
                 }
                 break;
             case Language.English:
@@ -132,7 +132,7 @@ public class EndDataFiller : MonoBehaviour
                 foreach (Strength strength in strengthManager.learnedStrengths)
                 {
                     data += $"\n{strength.name.GetLocalizedString()}:" +
-                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences)}\n";
+                        $"\n{string.Concat(strength.tasksDialogue[0].dialogueSentences.ToString())}\n";
                 }
                 break;
             default:

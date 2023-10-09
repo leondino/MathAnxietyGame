@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: 733e51734f19e66419f702658e65aeae, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 2994002265740673025
   m_TableData:
   - m_Id: 5477664571392
     m_Localized: 'Hi everybody!
@@ -29,9 +30,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5936949248000
-    m_Localized: 'Your strengths are: '
+    m_Localized: 'Your strengths are: {0}'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 2994002265740673025
   - m_Id: 6900842250240
     m_Localized: Let's see if you found the right tasks here.
     m_Metadata:
@@ -66,4 +68,8 @@ MonoBehaviour:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2994002265740673025
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0040c04d66050000

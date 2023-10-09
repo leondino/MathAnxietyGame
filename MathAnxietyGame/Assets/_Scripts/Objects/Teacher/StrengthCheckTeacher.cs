@@ -35,7 +35,7 @@ public class StrengthCheckTeacher : TeacherTaskCheck
     public void SetChosenStrengths()
     {
         string[] chosenStrengths = GameManager.Instance.strenghtsManager.GetGoalStrengths;
-        dialogueTrigger.dialogue[1].dialogueSentences[0] += 
-            chosenStrengths[0] + ", " + chosenStrengths[1] + " & " + chosenStrengths[2] + ".";
+        string chosenStrengthsString = chosenStrengths[0] + ", " + chosenStrengths[1] + " & " + chosenStrengths[2] + ".";
+        dialogueTrigger.dialogue[1].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
     }
 }
