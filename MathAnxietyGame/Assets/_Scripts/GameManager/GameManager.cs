@@ -97,6 +97,10 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void PauseGame()
     {
+        // Doesn't pause game when Another UI screen is active
+        if (UIIsActive & !pauseScreen.activeSelf)
+            return;
+
         pauseScreen.transform.parent.gameObject.SetActive(!pauseScreen.activeSelf);
         pauseScreen.SetActive(!pauseScreen.activeSelf);
         UIIsActive = pauseScreen.activeSelf;
