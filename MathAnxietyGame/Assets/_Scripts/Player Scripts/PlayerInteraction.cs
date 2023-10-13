@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     private Interactable interactableObject;
-    private List<Interactable> objectsInRange;
+    private List<Interactable> objectsInRange = new List<Interactable>();
 
     /// <summary>
     /// Calls the Interaction within the interactable object
