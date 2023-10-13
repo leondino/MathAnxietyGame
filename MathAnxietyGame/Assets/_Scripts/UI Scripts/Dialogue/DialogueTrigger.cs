@@ -8,6 +8,9 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue[] dialogue;
     public UnityEvent[] onDialogueEnd;
 
+    [SerializeField]
+    private bool isStatic = true;
+
     private int dialogueNumber = 0;
 
     //! Use to change where dialogue position apears
@@ -24,6 +27,8 @@ public class DialogueTrigger : MonoBehaviour
     /// </summary>
     public void TriggerDialogue()
     {
+        if (!isStatic)
+            DialoguePosition = transform.position;
         DialogueManager.Instance.StartDialogue(dialogue[dialogueNumber], this, DialoguePosition);
     }
 

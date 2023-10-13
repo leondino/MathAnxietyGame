@@ -639,6 +639,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isStatic: 0
   references:
     version: 2
     RefIds: []
