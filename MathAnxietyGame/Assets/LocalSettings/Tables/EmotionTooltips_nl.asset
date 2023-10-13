@@ -19,43 +19,85 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 11404328960
-    m_Localized: Vreugde
+    m_Localized: Vreugde is het super blije gevoel dat je krijgt wanneer iets je
+      heel gelukkig maakt, zoals een verrassing, een feestje of spelen met vrienden.
+      Het is als een dansje van blijdschap in je hart.
     m_Metadata:
       m_Items: []
   - m_Id: 117922873344
-    m_Localized: Dankbaarheid
+    m_Localized: Dankbaarheid is wanneer je heel blij bent omdat iemand aardig voor
+      je is geweest, of omdat je blij bent met de goede dingen in je leven. Het is
+      als een stralende glimlach van binnen.
     m_Metadata:
       m_Items: []
   - m_Id: 132695212032
-    m_Localized: Sereniteit
+    m_Localized: Sereniteit is wanneer je je kalm en rustig voelt, net als een rustig
+      meertje waarop het water glad als een spiegel is. Het is als een zachte deken
+      van vrede om je heen.
     m_Metadata:
       m_Items: []
   - m_Id: 145148100608
-    m_Localized: Interesse
+    m_Localized: '
+
+      Interesse is wanneer je heel nieuwsgierig en opgewonden
+      bent over iets, zoals een spannend boek, een raadsel of een coole weetjesvideo.
+      Het is als een lichtje in je hoofd dat zegt: "Vertel me meer!"'
     m_Metadata:
       m_Items: []
   - m_Id: 160025296896
-    m_Localized: Hoop
+    m_Localized: Hoop is het geloof dat dingen beter kunnen worden, zelfs als het
+      nu niet perfect is. Het is als een vriendelijke glimlach van de toekomst.
     m_Metadata:
       m_Items: []
   - m_Id: 189284761600
-    m_Localized: Trots
+    m_Localized: Trots is het fijne gevoel als je blij bent over iets wat je goed
+      hebt gedaan, zoals een prijs winnen of een taak voltooien. Het is als een stralende
+      glimlach in je hart!
     m_Metadata:
       m_Items: []
   - m_Id: 206162640896
-    m_Localized: Amusement
+    m_Localized: 'Amusement is wanneer je heel hard moet lachen en veel plezier hebt
+      door iets grappigs of leuks, zoals een grappige film of een grappenmaker. Het
+      is als een feestje voor je lach!
+
+      
+
+      
+
+      
+
+      
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 223220875264
-    m_Localized: Inspiratie
+    m_Localized: Inspiratie is wanneer je heel enthousiast en creatief wordt door
+      een supergoed idee of iets moois dat je ziet of hoort. Het is als magie voor
+      je creatieve kant!
     m_Metadata:
       m_Items: []
   - m_Id: 242107826176
-    m_Localized: Ontzag
+    m_Localized: 'Ontzag is het gevoel van verbazing en bewondering als iets heel
+      speciaal of buitengewoon is, zoals een prachtige zonsondergang of een gigantische
+      waterval. Het is wanneer je denkt: "Wow, dat is echt geweldig!"'
     m_Metadata:
       m_Items: []
   - m_Id: 258901819392
-    m_Localized: Liefde
+    m_Localized: 'Liefde is het fijne gevoel dat je hebt voor mensen en dingen waar
+      je heel veel om geeft. Het maakt je hart blij!
+
+      
+
+      
+
+      
+
+      
+
+      
+
+'
     m_Metadata:
       m_Items: []
   references:
