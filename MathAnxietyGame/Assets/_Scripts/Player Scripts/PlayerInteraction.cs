@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [SerializeField]
     private Interactable interactableObject;
 
     /// <summary>
@@ -24,7 +25,8 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<Interactable>())
+        if (other.GetComponent<Interactable>() && 
+            interactableObject == other.GetComponent<Interactable>())
             interactableObject = null;
     }
 }
