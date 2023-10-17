@@ -60,7 +60,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 242107826176
     m_Localized: Ontzag is het gevoel van verbazing en bewondering als iets heel
-      speciaal of buitengewoon is,
+      speciaal...
     m_Metadata:
       m_Items: []
   - m_Id: 258901819392
@@ -136,7 +136,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1464027475644416
-    m_Localized: zoals een prachtige zonsondergang of een gigantische waterval.
+    m_Localized: of buitengewoon is, zoals een prachtige zonsondergang of een gigantische
+      waterval.
     m_Metadata:
       m_Items: []
   - m_Id: 1464781020106752
