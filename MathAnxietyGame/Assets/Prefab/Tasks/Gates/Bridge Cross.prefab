@@ -1209,8 +1209,120 @@ PrefabInstance:
       value: OpenUIPanel
       objectReference: {fileID: 0}
     - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
+      value: 2707557466112
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1].m_TableEntryReference.m_KeyId
+      value: 2744962269184
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[2].m_TableEntryReference.m_KeyId
+      value: 2772078444544
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3].m_TableEntryReference.m_KeyId
+      value: 2783596003328
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4].m_TableEntryReference.m_KeyId
+      value: 2797139410944
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5].m_TableEntryReference.m_KeyId
+      value: 2830488322048
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
+      value: 2846166630400
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
+      value: 2868195115008
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1].m_TableEntryReference.m_KeyId
+      value: 2893600014336
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[2].m_TableEntryReference.m_KeyId
+      value: 2904501010432
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
+      value: 2915095822336
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1].m_TableEntryReference.m_KeyId
+      value: 2956044812288
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2].m_TableEntryReference.m_KeyId
+      value: 2967742726144
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
+      value: 2982452150272
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onDialogueEnd.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GateTeacher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[2].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[5].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[1].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[2].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[1].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[3].dialogueSentences.Array.data[2].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
+      value: GUID:48abf8603d682f3438799401d8ae76b1
       objectReference: {fileID: 0}
     - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.size
