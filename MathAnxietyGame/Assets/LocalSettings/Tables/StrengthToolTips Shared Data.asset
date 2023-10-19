@@ -10,115 +10,115 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Strengths Shared Data
+  m_Name: StrengthToolTips Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Strengths
-  m_TableCollectionNameGuidString: e3c48fe3a5bfb3b44a1b9cfa55a3d09d
+  m_TableCollectionName: StrengthToolTips
+  m_TableCollectionNameGuidString: d1ff234ad9576954d8677772f9293254
   m_Entries:
-  - m_Id: 168778809344
+  - m_Id: 184620695552
     m_Key: Creativity
     m_Metadata:
       m_Items: []
-  - m_Id: 283069399040
+  - m_Id: 189242818560
     m_Key: Curiosity
     m_Metadata:
       m_Items: []
-  - m_Id: 306779799552
-    m_Key: Judgment
+  - m_Id: 191998476288
+    m_Key: Judgement
     m_Metadata:
       m_Items: []
-  - m_Id: 326270730240
-    m_Key: Love of learning
+  - m_Id: 195181953024
+    m_Key: Love of Learning
     m_Metadata:
       m_Items: []
-  - m_Id: 342292971520
+  - m_Id: 199661469696
     m_Key: Perspective
     m_Metadata:
       m_Items: []
-  - m_Id: 359950991360
+  - m_Id: 203071438848
     m_Key: Honesty
     m_Metadata:
       m_Items: []
-  - m_Id: 377705480192
+  - m_Id: 206263304192
     m_Key: Bravery
     m_Metadata:
       m_Items: []
-  - m_Id: 395040538624
+  - m_Id: 208117186560
     m_Key: Perseverance
     m_Metadata:
       m_Items: []
-  - m_Id: 409968066560
+  - m_Id: 209220288512
     m_Key: Zest
     m_Metadata:
       m_Items: []
-  - m_Id: 424866234368
+  - m_Id: 209857822720
     m_Key: Kindness
     m_Metadata:
       m_Items: []
-  - m_Id: 443186954240
+  - m_Id: 210512134144
     m_Key: Love
     m_Metadata:
       m_Items: []
-  - m_Id: 462401060864
-    m_Key: Social intelligence
+  - m_Id: 211128696832
+    m_Key: Social Intelligence
     m_Metadata:
       m_Items: []
-  - m_Id: 479094390784
+  - m_Id: 211783008256
     m_Key: Fairness
     m_Metadata:
       m_Items: []
-  - m_Id: 493778649088
+  - m_Id: 212324073472
     m_Key: Leadership
     m_Metadata:
       m_Items: []
-  - m_Id: 509461151744
+  - m_Id: 212949024768
     m_Key: Teamwork
     m_Metadata:
       m_Items: []
-  - m_Id: 547692232704
+  - m_Id: 213519450112
+    m_Key: Forgiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214064709632
     m_Key: Humility
     m_Metadata:
       m_Items: []
-  - m_Id: 566935699456
+  - m_Id: 214651912192
     m_Key: Prudence
     m_Metadata:
       m_Items: []
-  - m_Id: 583545143296
-    m_Key: Self-regulation
+  - m_Id: 215293640704
+    m_Key: Self-Regulation
     m_Metadata:
       m_Items: []
-  - m_Id: 603686191104
-    m_Key: Appreciation of beauty
+  - m_Id: 216002478080
+    m_Key: Appreciation of Beauty
     m_Metadata:
       m_Items: []
-  - m_Id: 650565926912
+  - m_Id: 216581292032
     m_Key: Gratitude
     m_Metadata:
       m_Items: []
-  - m_Id: 680521646080
+  - m_Id: 217193660416
     m_Key: Hope
     m_Metadata:
       m_Items: []
-  - m_Id: 692387332096
+  - m_Id: 217931857920
     m_Key: Humor
     m_Metadata:
       m_Items: []
-  - m_Id: 716273893376
+  - m_Id: 218581975040
     m_Key: Spirituality
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1807707291648
-    m_Key: Forgiveness
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 2994002195853344768
+    rid: 2994002488784584773
   references:
     version: 2
     RefIds:
-    - rid: 2994002195853344768
+    - rid: 2994002488784584773
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1696594981359
+        m_CustomEpoch: 1697719046195

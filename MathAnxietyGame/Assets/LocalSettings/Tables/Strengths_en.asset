@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 306779799552
-    m_Localized: 'Open-mindedness '
+    m_Localized: 'Judgment '
     m_Metadata:
       m_Items: []
   - m_Id: 326270730240
@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 395040538624
-    m_Localized: 'Persistence '
+    m_Localized: 'Perseverance '
     m_Metadata:
       m_Items: []
   - m_Id: 409968066560
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 547692232704
-    m_Localized: 'Modesty '
+    m_Localized: 'Humility '
     m_Metadata:
       m_Items: []
   - m_Id: 566935699456

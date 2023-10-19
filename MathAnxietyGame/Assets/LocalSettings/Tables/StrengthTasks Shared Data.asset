@@ -36,15 +36,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11474567184384
-    m_Key: Open-Mindedness1
+    m_Key: Judgment1
     m_Metadata:
       m_Items: []
   - m_Id: 11478035873792
-    m_Key: Open-Mindedness2
+    m_Key: Judgment2
     m_Metadata:
       m_Items: []
   - m_Id: 11480917360640
-    m_Key: Open-Mindedness3
+    m_Key: Judgment3
     m_Metadata:
       m_Items: []
   - m_Id: 11483152924672
@@ -84,15 +84,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11497136734208
-    m_Key: Persistence1
+    m_Key: Perseverance1
     m_Metadata:
       m_Items: []
   - m_Id: 11498722181120
-    m_Key: Persistence2
+    m_Key: Perseverance2
     m_Metadata:
       m_Items: []
   - m_Id: 11500404097024
-    m_Key: Persistence3
+    m_Key: Perseverance3
     m_Metadata:
       m_Items: []
   - m_Id: 11501939212288
@@ -180,15 +180,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16001856978944
-    m_Key: Modesty1
+    m_Key: Humility1
     m_Metadata:
       m_Items: []
   - m_Id: 16052859715584
-    m_Key: Modesty2
+    m_Key: Humility2
     m_Metadata:
       m_Items: []
   - m_Id: 16063739740160
-    m_Key: Modesty3
+    m_Key: Humility3
     m_Metadata:
       m_Items: []
   - m_Id: 16143733506048
@@ -260,11 +260,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18063336423424
-    m_Key: Religiousness1
+    m_Key: Spirituality1
     m_Metadata:
       m_Items: []
   - m_Id: 18119154221056
-    m_Key: Religiousness2
+    m_Key: Spirituality2
     m_Metadata:
       m_Items: []
   m_Metadata:

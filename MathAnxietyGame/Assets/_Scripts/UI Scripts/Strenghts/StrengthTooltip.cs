@@ -25,10 +25,9 @@ public class StrengthTooltip : MonoBehaviour
     /// <param name="eventTrigger"></param>
     public void OnPointerEnter(EventTrigger eventTrigger)
     {
-        toolTipBox.GetComponentInChildren<TextMeshProUGUI>().text = MyStrength.name.GetLocalizedString();
+        toolTipBox.GetComponentInChildren<TextMeshProUGUI>().text = MyStrength.toolTip.GetLocalizedString();
         toolTipBox.SetActive(true);
         toolTipBox.transform.position = myPosition;
-        Debug.Log("open pop-up");
     }
 
     /// <summary>
@@ -38,6 +37,5 @@ public class StrengthTooltip : MonoBehaviour
     public void OnPointerLeave(EventTrigger eventTrigger)
     {
         toolTipBox.SetActive(false);
-        Debug.Log("close pop-up");
     }
 }
