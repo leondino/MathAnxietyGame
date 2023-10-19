@@ -61,6 +61,7 @@ public class ManageStrengths : MonoBehaviour
             GameObject strenghtButton = strengthButtons.transform.GetChild(iStrenght).gameObject;
             strenghtButton.GetComponent<LocalizeStringEvent>().StringReference.SetReference(
                 randomStrengths[iStrenght].name.TableReference, randomStrengths[iStrenght].name.TableEntryReference);
+            strenghtButton.GetComponent<StrengthTooltip>().MyStrength = randomStrengths[iStrenght];
         }
     }
 

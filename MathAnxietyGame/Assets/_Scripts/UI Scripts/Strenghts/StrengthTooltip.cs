@@ -2,20 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Localization;
 
 public class StrengthTooltip : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Strength MyStrength { get; set; }
 
     public void OnPointerEnter(EventTrigger eventTrigger)
     {

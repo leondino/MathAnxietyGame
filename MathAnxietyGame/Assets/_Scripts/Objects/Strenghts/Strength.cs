@@ -7,6 +7,7 @@ using UnityEngine.Localization;
 public class Strength
 {
     public LocalizedString name;
+    public LocalizedString toolTip;
 
     public Dialogue[] tasksDialogue;
 }

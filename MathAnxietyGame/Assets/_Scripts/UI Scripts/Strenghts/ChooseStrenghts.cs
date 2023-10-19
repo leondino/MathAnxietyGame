@@ -11,6 +11,9 @@ public class ChooseStrenghts : MonoBehaviour
 
     public StrengthCheckTeacher StrengthTeacher { get; set; }
 
+    private bool firstTimeSelected = true;
+    private ColorBlock nonSelectedColor;
+
     /// <summary>
     /// Adds or removes the selected strengt to the list of chosen strenghts.
     /// Changes the color of the button to visualize selection.
@@ -19,11 +22,17 @@ public class ChooseStrenghts : MonoBehaviour
     {
         GameObject selectedStrenght = EventSystem.current.currentSelectedGameObject;
 
+        if (firstTimeSelected)
+        {
+            nonSelectedColor = selectedStrenght.GetComponent<Button>().colors;
+            firstTimeSelected = false;
+        }
+
         // Only select when strenght isn't selected yet and less then 3 strenghts are selected
         if (!selectedStrenghts.Contains(selectedStrenght) && selectedStrenghts.Count < 3)
         {
             // Highlight color
-            ColorBlock selectedColor = selectedStrenght.GetComponent<Button>().colors;
+            ColorBlock selectedColor = nonSelectedColor;
             selectedColor.normalColor = Color.green;
             selectedColor.selectedColor = Color.green;
             selectedStrenght.GetComponent<Button>().colors = selectedColor;
@@ -33,10 +42,7 @@ public class ChooseStrenghts : MonoBehaviour
         else
         {
             // Remove highlight color
-            ColorBlock selectedColor = selectedStrenght.GetComponent<Button>().colors;
-            selectedColor.normalColor = Color.white;
-            selectedColor.selectedColor = Color.white;
-            selectedStrenght.GetComponent<Button>().colors = selectedColor;
+            selectedStrenght.GetComponent<Button>().colors = nonSelectedColor;
 
             selectedStrenghts.Remove(selectedStrenght);
         }
