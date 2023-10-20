@@ -14,6 +14,9 @@ public class ManageStrengths : MonoBehaviour
     [SerializeField]
     private GameObject strengthButtons, strengthNotes;
 
+    [SerializeField]
+    private StrengthCheckTeacher strengthTeacher;
+
     // Remove serialize in final version
     [SerializeField]
     public List<LocalizedString> goalStrengths = new List<LocalizedString>();
@@ -96,6 +99,7 @@ public class ManageStrengths : MonoBehaviour
         {
             goalStrengths.Add(strength.GetComponent<LocalizeStringEvent>().StringReference);
         }
+        strengthTeacher.SetChosenStrengths();
     }
 
     /// <summary>
