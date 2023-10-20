@@ -17,7 +17,131 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: d1ff234ad9576954d8677772f9293254, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 184620695552
+    m_Localized: "\"Ik ben creatief, bedenk nuttige dingen en kom met idee\xEBn die
+      resulteren in iets dat de moeite waard is.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189242818560
+    m_Localized: "\u201CIk zoek situaties op waarin ik nieuwe ervaringen opdoe, zonder
+      mezelf of anderen in de weg te lopen.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191998476288
+    m_Localized: '"Ik weeg alle punten af bij het nemen van beslissingen, ook argumenten
+      die in strijd zijn met mijn overtuigingen."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195181953024
+    m_Localized: '"Ik ben gemotiveerd om nieuwe dingen te leren, of mijn bestaande
+      kennis of vaardigheden sterk te verdiepen."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199661469696
+    m_Localized: '"Ik geef advies aan anderen door verschillende visies te overwegen
+      en mijn eigen ervaringen en kennis te gebruiken om het geheel te verduidelijken."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203071438848
+    m_Localized: "\u201CIk ben eerlijk tegenover mezelf en tegenover anderen, ik
+      probeer mezelf eerlijk aan iedereen te presenteren, en ik neem verantwoordelijkheid
+      voor mijn acties.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206263304192
+    m_Localized: '"Ik handel volgens mijn overtuigingen en overkom bedreigingen,
+      uitdagingen, moeilijkheden en pijn, ondanks mijn twijfels en angsten."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208117186560
+    m_Localized: '"Ik zet door in mijn doelen, ondanks obstakels, ontmoedigingen
+      of teleurstellingen."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209220288512
+    m_Localized: '"Ik voel me fit en vol energie, ik ga het leven tegemoet met een
+      geactiveerd en enthousiast gevoel."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209857822720
+    m_Localized: '"Ik ben behulpzaam en empathisch en doe regelmatig leuke gunsten
+      voor anderen zonder daar iets voor terug te verwachten."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210512134144
+    m_Localized: '"Ik ervaar hechte, liefdevolle relaties die worden gekenmerkt door
+      het geven en ontvangen van liefde, warmte en zorgzaamheid."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211128696832
+    m_Localized: '"Ik ben me bewust van en begrijp mijn gevoelens en gedachten, evenals
+      de gevoelens van de mensen om mij heen."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211783008256
+    m_Localized: "\u201CIk behandel iedereen gelijk en eerlijk, en geef iedereen
+      dezelfde kans door voor iedereen dezelfde regels toe te passen.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212324073472
+    m_Localized: '"Ik neem de leiding en begeleid groepen naar zinvolle doelen, en
+      zorg voor goede relaties tussen groepsleden."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212949024768
+    m_Localized: '"Ik ben een behulpzame en bijdragende teamlid, en voel me verantwoordelijk
+      om het team te helpen zijn doelen te bereiken."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213519450112
+    m_Localized: "\u201CIk vergeef anderen als ze mij van streek maken en zich slecht
+      tegenover mij gedragen, en ik gebruik die informatie in mijn toekomstige relaties
+      met hen.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214064709632
+    m_Localized: "\"Ik zie mijn sterke punten en talenten, maar ik ben bescheiden
+      en probeer niet in het middelpunt van de belangstelling te staan \u200B\u200Bof
+      erkenning te krijgen.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214651912192
+    m_Localized: '"Ik handel zorgvuldig en voorzichtig, probeer onnodige risico''s
+      te vermijden en plan met de toekomst in gedachten."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215293640704
+    m_Localized: '"Ik beheer mijn gevoelens en acties, ben gedisciplineerd en heb
+      zelfbeheersing."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216002478080
+    m_Localized: '"Ik herken, ervaar en waardeer de schoonheid om mij heen en de
+      vaardigheden van anderen."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216581292032
+    m_Localized: "\u201CIk ben voor veel dingen dankbaar en die dankbaarheid spreek
+      ik uit aan anderen.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217193660416
+    m_Localized: "\u201CIk ben realistisch en ook vol optimisme over de toekomst,
+      geloof in mijn daden en heb er vertrouwen in dat alles goed zal aflopen.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217931857920
+    m_Localized: '"Ik benader het leven speels, maak anderen aan het lachen en vind
+      humor in moeilijke en stressvolle tijden."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218581975040
+    m_Localized: '"Ik voel me spiritueel en geloof in een gevoel van doel of betekenis
+      in mijn leven. Ik zie mijn plaats in het grote geheel van het universum en
+      vind betekenis in het dagelijks leven."'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
