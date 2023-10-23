@@ -12,6 +12,16 @@ public class TeacherTaskCheck : DialogueInteractable
     public GameObject questMarker;
     private bool questComplete = false;
 
+    //protected override void Start()
+    //{
+    //    base.Start();
+    //    ShowQuestMarker();
+    //}
+    private void Update()
+    {
+        ShowQuestMarker();
+    }
+
     public virtual void CheckTask()
     {
         HasInteraction = false;
