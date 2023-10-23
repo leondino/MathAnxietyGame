@@ -12,13 +12,9 @@ public class TeacherTaskCheck : DialogueInteractable
     public GameObject questMarker;
     private bool questComplete = false;
 
-    //protected override void Start()
-    //{
-    //    base.Start();
-    //    ShowQuestMarker();
-    //}
-    private void Update()
+    protected override void Start()
     {
+        base.Start();
         ShowQuestMarker();
     }
 
@@ -56,7 +52,7 @@ public class TeacherTaskCheck : DialogueInteractable
         if (!questComplete)
         {
             questMarker.SetActive(true);
-            questMarker.GetComponentInChildren<Bilboard>().SetBilboard();
+            questMarker.GetComponentInChildren<Bilboard>().ResetGlobaRotation();
         }
     }
 

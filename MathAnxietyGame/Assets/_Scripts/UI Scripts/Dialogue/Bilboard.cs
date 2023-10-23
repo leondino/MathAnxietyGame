@@ -11,4 +11,9 @@ public class Bilboard : MonoBehaviour
     {
         transform.LookAt(transform.position + mainCamera.forward);
     }
+
+    public void ResetGlobaRotation()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+    }
 }
