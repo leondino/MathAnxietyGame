@@ -39,6 +39,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (onDialogueEnd[dialogueNumber].GetPersistentEventCount() != 0)
         {
+            if (GetComponent<TeacherTaskCheck>())
+                GetComponent<TeacherTaskCheck>().ShowQuestMarker();
             onDialogueEnd[dialogueNumber].Invoke();
         }
     }

@@ -37,7 +37,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.GetComponentInParent<Bilboard>().SetBilboard();
         Vector3 dialoguePosition = position;
-        dialoguePosition.y += 2;
+        dialoguePosition.y += 2.5f;
         dialogueBox.transform.position = dialoguePosition;
         dialogueBox.SetActive(true);
 
