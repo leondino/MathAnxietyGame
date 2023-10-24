@@ -16,6 +16,8 @@ public class ManageStrengths : MonoBehaviour
 
     [SerializeField]
     private StrengthCheckTeacher strengthTeacher;
+    [SerializeField]
+    private StrenghtNoteTracker highlightStrengthUI;
 
     // Remove serialize in final version
     [SerializeField]
@@ -100,6 +102,7 @@ public class ManageStrengths : MonoBehaviour
             goalStrengths.Add(strength.GetComponent<LocalizeStringEvent>().StringReference);
         }
         strengthTeacher.SetChosenStrengths();
+        highlightStrengthUI.SetStrenghtHighlightUI();
     }
 
     /// <summary>
