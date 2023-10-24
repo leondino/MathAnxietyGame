@@ -75,6 +75,10 @@ MonoBehaviour:
     m_Key: ChooseStrengths
     m_Metadata:
       m_Items: []
+  - m_Id: 6884183047704576
+    m_Key: None
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
