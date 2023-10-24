@@ -4035,7 +4035,7 @@ PrefabInstance:
       objectReference: {fileID: 505797159}
     - target: {fileID: 6214622899417361450, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6214622899905440610, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: strengthButtons.Array.size
@@ -4279,7 +4279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6886450300498016117, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:

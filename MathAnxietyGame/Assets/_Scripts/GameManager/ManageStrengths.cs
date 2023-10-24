@@ -124,10 +124,14 @@ public class ManageStrengths : MonoBehaviour
     /// Unselects the strength note
     /// </summary>
     /// <param name="strength"></param>
-    public void DeHighlightStrength(Strength strength)
+    public void DeHighlightStrength(StrengthNote strenghtNote)
     {
+        Strength strength = strenghtNote.strength;
         if (highlightedStrengths.Contains(strength))
+        {
             highlightedStrengths.Remove(strength);
+            strenghtNote.RemoveHighlightColor();
+        }
     }
 
     /// <summary>

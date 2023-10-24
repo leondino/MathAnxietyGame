@@ -17,13 +17,17 @@ public class StrengthNote : DialogueInteractable
     public void UnselectThisStrength()
     {
         GameManager.Instance.strenghtsManager.DeHighlightStrength(strength);
-        GetComponent<Renderer>().material = normalMaterial;
         CloseUIPanel();
     }
 
     public void HighlightColor()
     {
         GetComponent<Renderer>().material = highlightedMaterial;
+    }
+
+    public void RemoveHighlightColor()
+    {
+        GetComponent<Renderer>().material = normalMaterial;
     }
 
     public void UpdateNoteTracker()
