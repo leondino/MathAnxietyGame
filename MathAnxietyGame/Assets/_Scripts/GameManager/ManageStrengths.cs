@@ -127,6 +127,12 @@ public class ManageStrengths : MonoBehaviour
         }
         highlightedStrengths.Add(strengthNote);
         strengthNote.HighlightColor();
+
+        if (goalStrengths.Contains(strengthNote.strength.name))
+        {
+            //Give super power (glow + destroy wall)
+            Debug.Log("Correct!!!");
+        }
     }
 
     /// <summary>
