@@ -23,10 +23,12 @@ public class ManageStrengths : MonoBehaviour
     [SerializeField]
     public List<LocalizedString> goalStrengths = new List<LocalizedString>();
     [SerializeField]
-    private List<Strength> highlightedStrengths = new List<Strength>();
+    private List<StrengthNote> highlightedStrengths = new List<StrengthNote>();
 
     [SerializeField]
     private Strength[] allStrenghts = new Strength[TOTAL_STRENGTHS];
+    [SerializeField]
+    private List<StrengthNote> allStrengthNotes = new List<StrengthNote>();
 
     // Remove serialize in final version
     [SerializeField]
@@ -80,6 +82,7 @@ public class ManageStrengths : MonoBehaviour
             GameObject strenghtNote = strengthNotes.transform.GetChild(iStrenght).gameObject;
             strenghtNote.GetComponentInChildren<DialogueTrigger>().dialogue = randomStrengths[iStrenght].tasksDialogue;
             strenghtNote.GetComponentInChildren<StrengthNote>().strength = randomStrengths[iStrenght];
+            allStrengthNotes.Add(strenghtNote.GetComponentInChildren<StrengthNote>());
         }
     }
 
@@ -88,7 +91,10 @@ public class ManageStrengths : MonoBehaviour
     /// </summary>
     private void SaveLearnedStrengths()
     {
-        learnedStrengths = highlightedStrengths;
+        foreach (StrengthNote note in highlightedStrengths)
+        {
+            learnedStrengths.Add(note.strength);
+        }
     }
 
     /// <summary>
@@ -109,28 +115,30 @@ public class ManageStrengths : MonoBehaviour
     /// Highlights a strength note when interacting with it
     /// </summary>
     /// <param name="strenghtNote">Note that should be highlighted</param>
-    public void HighlightStrenght(StrengthNote strenghtNote)
+    public void HighlightStrenght(StrengthNote strengthNote)
     {
-        Strength strength = strenghtNote.strength;
-        if (!highlightedStrengths.Contains(strength) && highlightedStrengths.Count < 3)
+        DeHighlightStrength(strengthNote);
+        foreach (StrengthNote note in allStrengthNotes)
         {
-            highlightedStrengths.Add(strength);
-            strenghtNote.HighlightColor();
+            if (strengthNote.strengthButton == note.strengthButton)
+            {
+                DeHighlightStrength(note);
+            }
         }
-        else Debug.Log("Strenght already highlighted or already highlighted 3 strenghts");
+        highlightedStrengths.Add(strengthNote);
+        strengthNote.HighlightColor();
     }
 
     /// <summary>
     /// Unselects the strength note
     /// </summary>
     /// <param name="strength"></param>
-    public void DeHighlightStrength(StrengthNote strenghtNote)
+    public void DeHighlightStrength(StrengthNote strengthNote)
     {
-        Strength strength = strenghtNote.strength;
-        if (highlightedStrengths.Contains(strength))
+        if (highlightedStrengths.Contains(strengthNote))
         {
-            highlightedStrengths.Remove(strength);
-            strenghtNote.RemoveHighlightColor();
+            highlightedStrengths.Remove(strengthNote);
+            strengthNote.RemoveHighlightColor();
         }
     }
 
@@ -147,9 +155,9 @@ public class ManageStrengths : MonoBehaviour
             return false;
         }
 
-        foreach (Strength strenght in highlightedStrengths)
+        foreach (StrengthNote note in highlightedStrengths)
         {
-            if (goalStrengths.Contains(strenght.name))
+            if (goalStrengths.Contains(note.strength.name))
             {
                 Debug.Log("Wrong Strength!");
                 return false;

@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class StrengthNote : DialogueInteractable
 {
     public Strength strength;
     [SerializeField]
     private Material normalMaterial, highlightedMaterial;
+    [HideInInspector]
+    public LocalizedString strengthButton;
 
-    public void SelectThisStrength()
+    public void SelectThisStrength(LocalizedString strengthButton)
     {
+        this.strengthButton = strengthButton;
         GameManager.Instance.strenghtsManager.HighlightStrenght(this);
         CloseUIPanel();
     }
 
     public void UnselectThisStrength()
     {
-        GameManager.Instance.strenghtsManager.DeHighlightStrength(strength);
+        strengthButton = null;
+        GameManager.Instance.strenghtsManager.DeHighlightStrength(this);
         CloseUIPanel();
     }
 

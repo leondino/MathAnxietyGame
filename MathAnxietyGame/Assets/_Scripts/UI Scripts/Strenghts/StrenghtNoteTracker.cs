@@ -1,19 +1,28 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
+using UnityEngine.UI;
 
 public class StrenghtNoteTracker : MonoBehaviour
 {
     [SerializeField]
-    private List<LocalizeStringEvent> strengthButtons = new List<LocalizeStringEvent>();
+    private List<Button> strengthButtons = new List<Button>();
+
+    private void Start()
+    {
+        foreach (Button strengthButton in strengthButtons)
+        {
+            strengthButton.onClick.AddListener(delegate
+                { HighlightNote(strengthButton.GetComponentInChildren<LocalizeStringEvent>().StringReference); });
+        }
+    }
 
     public StrengthNote CurrentNote { get; set; }
 
-    public void HighlightNote()
+    public void HighlightNote(LocalizedString strengthButton)
     {
-        CurrentNote.SelectThisStrength();
+        CurrentNote.SelectThisStrength(strengthButton);
     }
 
     public void DeHighlightNote()
@@ -25,9 +34,9 @@ public class StrenghtNoteTracker : MonoBehaviour
     {
         ManageStrengths strengthsManager = GameManager.Instance.strenghtsManager;
 
-        for (int i = 0; i < strengthButtons.Count; i++) 
+        for (int i = 0; i < strengthButtons.Count; i++)
         {
-            strengthButtons[i].StringReference = strengthsManager.goalStrengths[i];
+            strengthButtons[i].GetComponentInChildren<LocalizeStringEvent>().StringReference = strengthsManager.goalStrengths[i];
         }
     }
 }
