@@ -128,10 +128,15 @@ public class ManageStrengths : MonoBehaviour
         highlightedStrengths.Add(strengthNote);
         strengthNote.HighlightColor();
 
-        if (goalStrengths.Contains(strengthNote.strength.name))
+        foreach (LocalizedString strength in goalStrengths)
         {
-            //Give super power (glow + destroy wall)
-            Debug.Log("Correct!!!");
+            if (strength.GetLocalizedString() == strengthNote.strength.name.GetLocalizedString())
+            {
+                //Give super power (glow + destroy wall)
+                GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
+                Debug.Log("Correct!!!: " + strength);
+            }
+            else Debug.Log("not: " + strength);
         }
     }
 

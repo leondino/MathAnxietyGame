@@ -119,6 +119,23 @@ public class PlayerControler : MonoBehaviour
     }
 
     /// <summary>
+    /// Gives one of the 3 characters super powers based on if they already received it once
+    /// </summary>
+    public void GiveSuperStrength()
+    {
+        foreach (GameObject playerCharacter in playerCharacters)
+        {
+            DestroyWall power = playerCharacter.GetComponent<DestroyWall>();
+            if (power.CanGetPower)
+            {
+                power.PowerUp();
+                return;
+            }
+        }
+        Debug.Log("All 3 characters have received the super powers once already");
+    }
+
+    /// <summary>
     /// Checks if the player should interact with somthing and then calls the interaction from the playerInteraction script
     /// Also goes through dialogue.
     /// </summary>

@@ -1274,7 +1274,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.9131694, b: 0.28773582, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.7
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2959,6 +2959,7 @@ GameObject:
   - component: {fileID: 6440023306536870105}
   - component: {fileID: -7075261975141025279}
   - component: {fileID: 7445396297979401017}
+  - component: {fileID: 5457123831304407747}
   - component: {fileID: -8998621201237389795}
   - component: {fileID: 7431313759706213347}
   m_Layer: 0
@@ -3047,6 +3048,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 0
+--- !u!114 &5457123831304407747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440023306536870107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b44de4ab4164c540937a460d8e54b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerGlow: {fileID: 1423572609005315056}
 --- !u!54 &-8998621201237389795
 Rigidbody:
   m_ObjectHideFlags: 0
