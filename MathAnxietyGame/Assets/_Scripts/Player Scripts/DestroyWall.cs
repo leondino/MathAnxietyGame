@@ -21,12 +21,20 @@ public class DestroyWall : MonoBehaviour
         StartCoroutine(OnPunchWall(wall, adjacentWall));
     }
 
+    /// <summary>
+    /// Player character punches wall and then destroys walls after animation. Loses power afterwards.
+    /// </summary>
+    /// <param name="wall"></param>
+    /// <param name="adjacentWall"></param>
+    /// <returns></returns>
     private IEnumerator OnPunchWall(GameObject wall, GameObject adjacentWall)
     {
         //Punch animation to be implemented here
-        yield return new WaitForSeconds(2f);
-        Destroy(wall);
-        Destroy(adjacentWall);
+        GetComponent<Animator>().SetBool("IsPunching", true);
+        yield return new WaitForSeconds(1.15f);
+        GetComponent<Animator>().SetBool("IsPunching", false);
+        wall.SetActive(false);
+        adjacentWall.SetActive(false);
         powerGlow.SetActive(false);
     }
 }
