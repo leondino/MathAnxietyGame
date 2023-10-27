@@ -134,9 +134,8 @@ public class ManageStrengths : MonoBehaviour
             {
                 //Give super power (glow + destroy wall)
                 GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
-                Debug.Log("Correct!!!: " + strength);
+                Debug.Log("Correct!!!");
             }
-            else Debug.Log("not: " + strength);
         }
     }
 

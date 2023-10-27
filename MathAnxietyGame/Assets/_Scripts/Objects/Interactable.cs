@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
-    public UnityEvent onInteract;
+    public UnityEvent onInteract = new UnityEvent();
 
     //! Boolean to disable Interaction
     public bool InteractionEnabled = true;

@@ -15,16 +15,17 @@ public class DestroyWall : MonoBehaviour
         HasPower = true;
     }
 
-    public void PunchWall()
+    public void PunchWall(GameObject wall)
     {
         HasPower = false;
-        StartCoroutine(OnPunchWall());
+        StartCoroutine(OnPunchWall(wall));
     }
 
-    private IEnumerator OnPunchWall()
+    private IEnumerator OnPunchWall(GameObject wall)
     {
         //Punch animation to be implemented here
         yield return new WaitForSeconds(2f);
+        Destroy(wall);
         powerGlow.SetActive(false);
     }
 }
