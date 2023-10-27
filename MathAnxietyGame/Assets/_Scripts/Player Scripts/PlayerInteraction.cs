@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public Interactable interactableObject;
-    public List<Interactable> objectsInRange = new List<Interactable>();
+    private Interactable interactableObject;
+    private List<Interactable> objectsInRange = new List<Interactable>();
 
     /// <summary>
     /// Calls the Interaction within the interactable object
