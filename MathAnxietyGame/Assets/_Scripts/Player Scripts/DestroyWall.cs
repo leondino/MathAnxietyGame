@@ -11,6 +11,7 @@ public class DestroyWall : MonoBehaviour
 
     public void PowerUp()
     {
+        CanGetPower = false;
         powerGlow.SetActive(true);
         HasPower = true;
     }

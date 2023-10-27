@@ -5241,6 +5241,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1].m_TableEntryReference.m_KeyId
+      value: 5922638282752
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[1].m_TableEntryReference.m_KeyId
+      value: 7610463256854528
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[2].m_TableEntryReference.m_KeyId
+      value: 6900842250240
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[1].m_TableReference.m_TableCollectionName
+      value: GUID:733e51734f19e66419f702658e65aeae
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845047444960616326, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[2].m_TableReference.m_TableCollectionName
+      value: GUID:733e51734f19e66419f702658e65aeae
+      objectReference: {fileID: 0}
     - target: {fileID: 8845047444960616380, guid: f2180bffafa45ab4d886ff7319c5b59b, type: 3}
       propertyPath: UIPanel
       value: 
