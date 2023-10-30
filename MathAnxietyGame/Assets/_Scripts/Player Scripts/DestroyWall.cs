@@ -18,8 +18,14 @@ public class DestroyWall : MonoBehaviour
 
     public void PunchWall(GameObject wall, GameObject adjacentWall)
     {
-        HasPower = false;
-        StartCoroutine(OnPunchWall(wall, adjacentWall));
+        // Only punch when not in active UI like dialogue
+        if (!GameManager.Instance.UIIsActive)
+        {
+            // Use UIISActive to prefent player from walking while punching
+            GameManager.Instance.UIIsActive = true;
+            HasPower = false;
+            StartCoroutine(OnPunchWall(wall, adjacentWall));
+        }
     }
 
     /// <summary>
@@ -37,5 +43,6 @@ public class DestroyWall : MonoBehaviour
         wall.SetActive(false);
         adjacentWall.SetActive(false);
         powerGlow.SetActive(false);
+        GameManager.Instance.UIIsActive = false; ;
     }
 }
