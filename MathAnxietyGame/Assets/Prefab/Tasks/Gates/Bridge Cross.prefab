@@ -1562,6 +1562,10 @@ PrefabInstance:
       value: OpenUIPanel
       objectReference: {fileID: 0}
     - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HideQuestMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: 475042050752831316, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
       value: 2707557466112
       objectReference: {fileID: 0}
@@ -1683,7 +1687,7 @@ PrefabInstance:
       objectReference: {fileID: 1766977063}
     - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4443315977939161541, guid: 8bfebeb1a85be6c45bf199fe9921ecfd, type: 3}
       propertyPath: onOpenGate.m_PersistentCalls.m_Calls.Array.size

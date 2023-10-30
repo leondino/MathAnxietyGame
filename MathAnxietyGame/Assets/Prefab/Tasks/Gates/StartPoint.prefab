@@ -764,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6959044663540038884, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6959044663540038884, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -943,12 +943,32 @@ PrefabInstance:
       value: Keep practicing how to deal with your Math Anxiety and chase your dreams!
       objectReference: {fileID: 0}
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2017654764807432338}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: EndGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: HideQuestMarker
       objectReference: {fileID: 0}
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
@@ -1031,6 +1051,10 @@ PrefabInstance:
       value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TeacherTaskCheck, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0].m_TableReference.m_TableCollectionName
       value: GUID:747e98c63203b9f4a9718dcee41c5b6c
       objectReference: {fileID: 0}
@@ -1105,6 +1129,10 @@ PrefabInstance:
     - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
       propertyPath: dialogue.Array.data[4].dialogueSentences.Array.data[1].m_TableReference.m_TableCollectionName
       value: GUID:747e98c63203b9f4a9718dcee41c5b6c
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201426287611396375, guid: a2c62e64a7a725449be588cd17bccf43, type: 3}
+      propertyPath: onDialogueEnd.Array.data[4].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
