@@ -10,6 +10,7 @@ public class StrengthNote : DialogueInteractable
     private Material normalMaterial, highlightedMaterial;
     [HideInInspector]
     public LocalizedString strengthButton;
+    public bool canGivePower = true;
 
     public void SelectThisStrength(LocalizedString strengthButton)
     {

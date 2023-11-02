@@ -132,8 +132,12 @@ public class ManageStrengths : MonoBehaviour
         {
             if (strength.GetLocalizedString() == strengthNote.strength.name.GetLocalizedString())
             {
-                //Give super power (glow + destroy wall)
-                GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
+                if (strengthNote.canGivePower)
+                {
+                    //Give super power (glow + destroy wall)
+                    GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
+                    strengthNote.canGivePower = false;
+                }
                 Debug.Log("Correct!!!");
             }
         }
@@ -165,16 +169,30 @@ public class ManageStrengths : MonoBehaviour
             return false;
         }
 
+        int matchingStrengths = 0;
+
         foreach (StrengthNote note in highlightedStrengths)
         {
-            if (goalStrengths.Contains(note.strength.name))
+            foreach (LocalizedString goalStrength in goalStrengths)
             {
-                Debug.Log("Wrong Strength!");
-                return false;
+                if (goalStrength.GetLocalizedString() == note.strength.name.GetLocalizedString())
+                {
+                    matchingStrengths++;
+                    break;
+                }
             }
         }
-        Debug.Log("All correct!");
-        SaveLearnedStrengths();
-        return true;
+
+        if (matchingStrengths == 3)
+        {
+            Debug.Log("All correct!");
+            SaveLearnedStrengths();
+            return true;
+        }
+        else
+        {
+            Debug.Log("Not all strengths are correct!");
+            return false;
+        }
     }
 }
