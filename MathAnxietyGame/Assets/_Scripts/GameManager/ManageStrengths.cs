@@ -107,7 +107,7 @@ public class ManageStrengths : MonoBehaviour
         {
             goalStrengths.Add(strength.GetComponent<LocalizeStringEvent>().StringReference);
         }
-        strengthTeacher.SetChosenStrengths();
+        strengthTeacher.ContinueTaskExplanation();
         highlightStrengthUI.SetStrenghtHighlightUI();
     }
 

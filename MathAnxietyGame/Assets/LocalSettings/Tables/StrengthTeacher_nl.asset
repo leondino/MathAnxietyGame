@@ -71,7 +71,22 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7610463256854528
     m_Localized: Het vinden van een sterke kant laat je zo krachtig voelen dat je
-      een gat door het doolhof kan slaan!
+      gloeid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9793836387700736
+    m_Localized: Voor iedere strength is er 1 notitie met een voorbeeld taak verstopt
+      in het doolhof.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9794168287170560
+    m_Localized: Probeer de 3 taken te selecteren die passen bij jullie 3 gekozen
+      sterke kanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9795103080091648
+    m_Localized: Met deze kracht kun je zelfs door de muren van het doolhof heen
+      slaan.
     m_Metadata:
       m_Items: []
   references:

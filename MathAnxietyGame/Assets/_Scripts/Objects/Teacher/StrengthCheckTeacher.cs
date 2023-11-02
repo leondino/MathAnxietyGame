@@ -13,13 +13,13 @@ public class StrengthCheckTeacher : TeacherTaskCheck
         base.CheckTask();
         if (GameManager.Instance.strenghtsManager.CompareCorrectStrengths())
         {
-            dialogueTrigger.SwitchToDialogue(3);
+            dialogueTrigger.SwitchToDialogue(4);
             dialogueType = DialogueType.Single;
             Interact();
         }
         else
         {
-            dialogueTrigger.SwitchToDialogue(2);
+            dialogueTrigger.SwitchToDialogue(3);
             Interact();
         }
     }
@@ -39,8 +39,18 @@ public class StrengthCheckTeacher : TeacherTaskCheck
         if (chosenStrengths.Length > 1)
         {
             string chosenStrengthsString = chosenStrengths[0].GetLocalizedString() + ", " +
-                chosenStrengths[1].GetLocalizedString() + " & " + chosenStrengths[2].GetLocalizedString() + ".";
-            dialogueTrigger.dialogue[1].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
+                chosenStrengths[1].GetLocalizedString() + "& " + chosenStrengths[2].GetLocalizedString() + ".";
+            dialogueTrigger.dialogue[2].dialogueSentences[0].Arguments = new object[] { chosenStrengthsString };
+            Debug.Log(chosenStrengthsString);
         }
+    }
+
+    /// <summary>
+    /// Continues dialogue boxes after chosing 3 strengths
+    /// </summary>
+    public void ContinueTaskExplanation()
+    {
+        autoOpenUI = false;
+        Interact();
     }
 }

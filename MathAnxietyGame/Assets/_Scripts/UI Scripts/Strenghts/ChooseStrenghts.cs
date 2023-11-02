@@ -52,11 +52,11 @@ public class ChooseStrenghts : MonoBehaviour
     {
         if (selectedStrenghts.Count >= 3)
         {
-            GameManager.Instance.strenghtsManager.ReceiveStrenghtSelection(selectedStrenghts);
-
             gameObject.SetActive(false);
             transform.parent.gameObject.SetActive(false);
             GameManager.Instance.UIIsActive = false;
+
+            GameManager.Instance.strenghtsManager.ReceiveStrenghtSelection(selectedStrenghts);
         }
         else Debug.Log("Choose 3 strenghts please!");
     }

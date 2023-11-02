@@ -67,8 +67,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7610463256854528
-    m_Localized: "\rFinding a strength makes you feel so empowered that you can punch
-      a hole through the maze!"
+    m_Localized: "\rFinding a strength makes you feel so empowered that you glow!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9793836387700736
+    m_Localized: For each strength, 1 note with an example task is hidden in the
+      maze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9794168287170560
+    m_Localized: Try to select the 3 tasks that fit your 3 chosen strengths.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9795103080091648
+    m_Localized: With this power you can even punch through the maze walls.
     m_Metadata:
       m_Items: []
   references:
