@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7610463256854528
-    m_Localized: "\rFinding a strength makes you feel so empowered that you glow!"
+    m_Localized: "\rFinding a fitting task makes you feel so empowered that you glow!"
     m_Metadata:
       m_Items: []
   - m_Id: 9793836387700736
@@ -80,7 +80,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9795103080091648
-    m_Localized: With this power you can even punch through the maze walls.
+    m_Localized: With this power you can even punch through maze walls by interacting
+      with them.
     m_Metadata:
       m_Items: []
   references:
