@@ -86,6 +86,10 @@ MonoBehaviour:
     m_Localized: Geen
     m_Metadata:
       m_Items: []
+  - m_Id: 10503336241434624
+    m_Localized: Weet je zeker dat je de vorige selectie wilt wijzigen naar deze?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

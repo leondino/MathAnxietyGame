@@ -18,6 +18,8 @@ public class ManageStrengths : MonoBehaviour
     private StrengthCheckTeacher strengthTeacher;
     [SerializeField]
     private StrenghtNoteTracker highlightStrengthUI;
+    [SerializeField]
+    private GameObject highlightConfirmUI;
 
     // Remove serialize in final version
     [SerializeField]
@@ -120,27 +122,36 @@ public class ManageStrengths : MonoBehaviour
         DeHighlightStrength(strengthNote);
         foreach (StrengthNote note in allStrengthNotes)
         {
+            // Code for already selected strength on another note
             if (strengthNote.strengthButton == note.strengthButton)
             {
+                if (note.giveConfirmation)
+                {
+                    highlightStrengthUI.gameObject.SetActive(false);
+                    highlightConfirmUI.SetActive(true);
+                    note.giveConfirmation = false;
+                    return;
+                }
                 DeHighlightStrength(note);
             }
         }
         highlightedStrengths.Add(strengthNote);
         strengthNote.HighlightColor();
-
-        foreach (LocalizedString strength in goalStrengths)
+        strengthNote.giveConfirmation = true;
+        strengthNote.CloseUIPanel();
+        highlightConfirmUI.SetActive(false);
+        
+        if (strengthNote.strengthButton.GetLocalizedString() == strengthNote.strength.name.GetLocalizedString())
         {
-            if (strength.GetLocalizedString() == strengthNote.strength.name.GetLocalizedString())
+            if (strengthNote.canGivePower)
             {
-                if (strengthNote.canGivePower)
-                {
-                    //Give super power (glow + destroy wall)
-                    GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
-                    strengthNote.canGivePower = false;
-                }
-                Debug.Log("Correct!!!");
+                //Give super power (glow + destroy wall)
+                GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
+                strengthNote.canGivePower = false;
             }
+            Debug.Log("Correct!!!");
         }
+        
     }
 
     /// <summary>
@@ -154,6 +165,8 @@ public class ManageStrengths : MonoBehaviour
             highlightedStrengths.Remove(strengthNote);
             strengthNote.RemoveHighlightColor();
         }
+        highlightConfirmUI.SetActive(false);
+        strengthNote.giveConfirmation = false;
     }
 
     /// <summary>

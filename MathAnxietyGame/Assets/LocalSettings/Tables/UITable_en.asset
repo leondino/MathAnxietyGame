@@ -92,6 +92,11 @@ MonoBehaviour:
     m_Localized: None
     m_Metadata:
       m_Items: []
+  - m_Id: 10503336241434624
+    m_Localized: "\rAre you sure you want to change the previous selection to this
+      one?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

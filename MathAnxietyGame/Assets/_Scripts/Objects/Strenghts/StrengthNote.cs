@@ -11,12 +11,12 @@ public class StrengthNote : DialogueInteractable
     [HideInInspector]
     public LocalizedString strengthButton;
     public bool canGivePower = true;
+    public bool giveConfirmation = false;
 
     public void SelectThisStrength(LocalizedString strengthButton)
     {
         this.strengthButton = strengthButton;
         GameManager.Instance.strenghtsManager.HighlightStrenght(this);
-        CloseUIPanel();
     }
 
     public void UnselectThisStrength()

@@ -1,15 +1,18 @@
 trackSelection = true
 fetchPreview = true
-defaultFlags = 0
+defaultFlags = 8
 keepOpen = false
 queryFolder = "Assets"
-onBoardingDoNotAskAgain = false
+onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
 	"last_search.8C24D059" = "input debug"
 	"OpenInspectorPreview.8C24D059" = "0"
 	"currentGroup.8C24D059" = "all"
+	"last_search.B655092D" = "Confirmation"
+	"OpenInspectorPreview.B655092D" = "0"
+	"currentGroup.B655092D" = "all"
 }
 providers = {
 	adb = {
@@ -50,6 +53,16 @@ providers = {
 	scene = {
 		active = true
 		priority = 50
+		defaultAction = null
+	}
+	at = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	st = {
+		active = true
+		priority = 100
 		defaultAction = null
 	}
 }

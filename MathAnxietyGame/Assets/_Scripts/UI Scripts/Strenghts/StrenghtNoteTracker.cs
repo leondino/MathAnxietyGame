@@ -9,12 +9,17 @@ public class StrenghtNoteTracker : MonoBehaviour
     [SerializeField]
     private List<Button> strengthButtons = new List<Button>();
 
+    [SerializeField]
+    private Button confirmButton;
+
     private void Start()
     {
         foreach (Button strengthButton in strengthButtons)
         {
             strengthButton.onClick.AddListener(delegate
-                { HighlightNote(strengthButton.GetComponentInChildren<LocalizeStringEvent>().StringReference); });
+                { HighlightNote(strengthButton.GetComponentInChildren<LocalizeStringEvent>().StringReference);
+                    confirmButton.onClick = strengthButton.onClick;
+                });
         }
     }
 
