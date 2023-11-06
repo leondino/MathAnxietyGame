@@ -9,7 +9,7 @@ using UnityEngine.AI;
 public class PlayerCharacterMovement : MonoBehaviour
 {
     const float MOVE_AWAY_INFLUENCE = 0.3f;
-    const float MIN_CENTER_DISTANCE = 2f;
+    const float MIN_CENTER_DISTANCE = 1f;
 
     //! Reference to center point of the player characters
     private GameObject followPoint;
