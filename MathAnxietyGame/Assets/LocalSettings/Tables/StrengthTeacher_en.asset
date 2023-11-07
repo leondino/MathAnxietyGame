@@ -84,6 +84,13 @@ MonoBehaviour:
       with them.
     m_Metadata:
       m_Items: []
+  - m_Id: 11582165789741056
+    m_Localized: 'If you have selected 3 tasks in blue, you can have them checked
+      with me.
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

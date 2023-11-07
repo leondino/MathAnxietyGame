@@ -71,7 +71,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7610463256854528
     m_Localized: Het vinden van een passende taak laat je zo krachtig voelen dat
-      je gloeid!
+      je gloeit!
     m_Metadata:
       m_Items: []
   - m_Id: 9793836387700736
@@ -85,8 +85,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9795103080091648
-    m_Localized: Met deze kracht kun je zelfs door doolhof muren heen slaan door
+    m_Localized: Met deze kracht kun je zelfs door doolhof-muren heen slaan door
       ermee te interacteren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11582165789741056
+    m_Localized: Als jullie 3 taken blauw geselecteerd hebben kunnen jullie deze
+      bij mij laten checken.
     m_Metadata:
       m_Items: []
   references:

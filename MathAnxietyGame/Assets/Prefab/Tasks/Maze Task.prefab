@@ -42575,7 +42575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: dialogue.Array.data[1].dialogueSentences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: dialogue.Array.data[3].dialogueSentences.Array.size
@@ -42744,6 +42744,10 @@ PrefabInstance:
       value: 9795103080091648
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[4].m_TableEntryReference.m_KeyId
+      value: 11582165789741056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: dialogue.Array.data[2].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
       value: 5936949248000
       objectReference: {fileID: 0}
@@ -42833,6 +42837,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
       propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[3].m_TableReference.m_TableCollectionName
+      value: GUID:733e51734f19e66419f702658e65aeae
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
+      propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[4].m_TableReference.m_TableCollectionName
       value: GUID:733e51734f19e66419f702658e65aeae
       objectReference: {fileID: 0}
     - target: {fileID: 4268959916592155347, guid: 61f0fe7af27001b4182bab6969fed21b, type: 3}
