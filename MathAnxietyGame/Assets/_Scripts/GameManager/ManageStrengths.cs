@@ -130,6 +130,7 @@ public class ManageStrengths : MonoBehaviour
                     highlightStrengthUI.gameObject.SetActive(false);
                     highlightConfirmUI.SetActive(true);
                     note.giveConfirmation = false;
+                    highlightStrengthUI.ConfirmationNote = note;
                     return;
                 }
                 DeHighlightStrength(note);
