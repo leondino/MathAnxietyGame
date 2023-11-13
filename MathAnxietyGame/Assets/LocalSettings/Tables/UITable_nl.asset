@@ -94,6 +94,10 @@ MonoBehaviour:
     m_Localized: Start Spel
     m_Metadata:
       m_Items: []
+  - m_Id: 14169431020179456
+    m_Localized: Terug
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

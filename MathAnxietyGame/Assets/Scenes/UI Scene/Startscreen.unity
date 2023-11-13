@@ -2387,6 +2387,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6286975005965011843}
     m_Modifications:
+    - target: {fileID: 7492193816553784873, guid: d804dffcf5eb47a48aa88f3391aeb026, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 14169431020179456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492193817132188938, guid: d804dffcf5eb47a48aa88f3391aeb026, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 7635767296
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492193817132188938, guid: d804dffcf5eb47a48aa88f3391aeb026, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:874c32133e7c8c44599d9e9b2bcb7710
+      objectReference: {fileID: 0}
     - target: {fileID: 7492193817781064092, guid: d804dffcf5eb47a48aa88f3391aeb026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
