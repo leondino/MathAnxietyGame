@@ -90,6 +90,10 @@ MonoBehaviour:
     m_Localized: Weet je zeker dat je de vorige selectie wilt wijzigen naar deze?
     m_Metadata:
       m_Items: []
+  - m_Id: 14165415410307072
+    m_Localized: Start Spel
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

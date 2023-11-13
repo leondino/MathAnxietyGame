@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
 
 public class StartScreenManager : MonoBehaviour
@@ -10,13 +11,13 @@ public class StartScreenManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     /// <summary>
@@ -42,5 +43,23 @@ public class StartScreenManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    /// <summary>
+    /// Changes the language of the game to the next language in line.
+    /// </summary>
+    public void ChangeLanguage()
+    {
+        int availableLanguages = LocalizationSettings.AvailableLocales.Locales.Count;
+        int nextLocaleID = LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale) + 1;
+        if (nextLocaleID >= availableLanguages)
+            nextLocaleID = 0;
+        StartCoroutine(SetLanguage(nextLocaleID));
+    }
+
+    IEnumerator SetLanguage(int localeID)
+    {
+        yield return LocalizationSettings.InitializationOperation;
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
     }
 }

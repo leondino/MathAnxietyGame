@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
         mathAnxietyLevel = START_MATH_ANXIETY;
         mathAnxietyBar.SetMaxMathAnxiety(START_MATH_ANXIETY);
         MeditationCompleted = false;
+
+        //Resets language to current one to update endscreen language
+        StartCoroutine(SetLanguage(LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale)));
     }
 
     private void Update()

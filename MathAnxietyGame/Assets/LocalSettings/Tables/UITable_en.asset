@@ -97,6 +97,10 @@ MonoBehaviour:
       one?"
     m_Metadata:
       m_Items: []
+  - m_Id: 14165415410307072
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
