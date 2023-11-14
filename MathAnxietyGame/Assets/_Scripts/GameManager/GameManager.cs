@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public ManageStrengths strenghtsManager;
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
-    public GameObject endScreen, pauseScreen;
+    public GameObject endScreen, pauseScreen, tutorialScreen;
     public AudioSource backgroundMusic;
     private bool afterLoad = true;
 
@@ -107,6 +107,15 @@ public class GameManager : MonoBehaviour
         pauseScreen.transform.parent.gameObject.SetActive(!pauseScreen.activeSelf);
         pauseScreen.SetActive(!pauseScreen.activeSelf);
         UIIsActive = pauseScreen.activeSelf;
+    }
+
+    /// <summary>
+    /// Toggles tutorial screen on or off.
+    /// </summary>
+    public void ToggleTutorial()
+    {
+        tutorialScreen.SetActive(!tutorialScreen.activeSelf);
+        pauseScreen.SetActive(!tutorialScreen.activeSelf);
     }
 
     /// <summary>

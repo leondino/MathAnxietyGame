@@ -1200,6 +1200,10 @@ PrefabInstance:
       propertyPath: mathAnxietyBar
       value: 
       objectReference: {fileID: 149405777}
+    - target: {fileID: 4789916351799538877, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
+      propertyPath: tutorialScreen
+      value: 
+      objectReference: {fileID: 809801956}
     - target: {fileID: 4789916351799538878, guid: 49e5d4cefed3b09429caf7e3b367e96c, type: 3}
       propertyPath: strengthNotes
       value: 
@@ -1963,6 +1967,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &809801956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7950768704166828599, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+  m_PrefabInstance: {fileID: 1912494693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &817892138
 GameObject:
   m_ObjectHideFlags: 0
@@ -3566,26 +3575,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
-    - target: {fileID: 1514360550, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+    - target: {fileID: 2026012734, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 505797159}
-    - target: {fileID: 697865072539993554, guid: dbdfc4d33f515b64481146c211987058, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 505797159}
-    - target: {fileID: 697865072693091791, guid: dbdfc4d33f515b64481146c211987058, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 505797159}
-    - target: {fileID: 697865074511790555, guid: dbdfc4d33f515b64481146c211987058, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6214622899417361450, guid: dbdfc4d33f515b64481146c211987058, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6214622900055309808, guid: dbdfc4d33f515b64481146c211987058, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3674,6 +3667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7492193817056384266, guid: dbdfc4d33f515b64481146c211987058, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 505797159}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: dbdfc4d33f515b64481146c211987058, type: 3}
@@ -4005,7 +4002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 198.9
+      value: 50.14
       objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4013,7 +4010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 222.8
+      value: 49.41
       objectReference: {fileID: 0}
     - target: {fileID: 3354543631565994288, guid: 6fb97d82a4d7ed445a826985d7ded227, type: 3}
       propertyPath: m_LocalRotation.w

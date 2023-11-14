@@ -152,7 +152,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:f64726d121fff1d43a255158e6ce6905
     m_TableEntryReference:
-      m_KeyId: 105281241088
+      m_KeyId: 14169431020179456
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -299,8 +299,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ChangeLanguage
+        m_TargetAssemblyTypeName: StartScreenManager, Assembly-CSharp
+        m_MethodName: ToggleTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:f64726d121fff1d43a255158e6ce6905
+      m_TableCollectionName: GUID:874c32133e7c8c44599d9e9b2bcb7710
     m_TableEntryReference:
-      m_KeyId: 491526307840
+      m_KeyId: 7635767296
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -501,7 +501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7950768703780019872
 RectTransform:
   m_ObjectHideFlags: 0
