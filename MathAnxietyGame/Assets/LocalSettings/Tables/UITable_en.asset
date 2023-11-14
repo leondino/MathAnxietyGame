@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 491526307840
-    m_Localized: Do you want to close the game?
+    m_Localized: Pause Menu
     m_Metadata:
       m_Items: []
   - m_Id: 4688376250368
@@ -103,6 +103,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14169431020179456
     m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14485038240403456
+    m_Localized: Continue
     m_Metadata:
       m_Items: []
   references:

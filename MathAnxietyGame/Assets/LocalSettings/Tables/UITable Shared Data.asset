@@ -28,7 +28,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 491526307840
-    m_Key: Close Game
+    m_Key: Pause
     m_Metadata:
       m_Items: []
   - m_Id: 4688376250368
@@ -89,6 +89,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14169431020179456
     m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14485038240403456
+    m_Key: Continue
     m_Metadata:
       m_Items: []
   m_Metadata:
