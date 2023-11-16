@@ -21,6 +21,9 @@ public class ManageStrengths : MonoBehaviour
     [SerializeField]
     private GameObject highlightConfirmUI;
 
+    [SerializeField]
+    private AudioClip correctSound;
+
     // Remove serialize in final version
     [SerializeField]
     public List<LocalizedString> goalStrengths = new List<LocalizedString>();
@@ -147,6 +150,8 @@ public class ManageStrengths : MonoBehaviour
             if (strengthNote.canGivePower)
             {
                 //Give super power (glow + destroy wall)
+                GameManager.Instance.soundManager.clip = correctSound;
+                GameManager.Instance.soundManager.Play();
                 GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
                 strengthNote.canGivePower = false;
             }

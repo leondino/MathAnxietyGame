@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
     public GameObject endScreen, pauseScreen, tutorialScreen;
+    public AudioSource soundManager;
     public AudioSource backgroundMusic;
     private bool afterLoad = true;
 
