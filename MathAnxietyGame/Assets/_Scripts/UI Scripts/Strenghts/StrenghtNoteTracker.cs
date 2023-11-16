@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
@@ -12,18 +13,20 @@ public class StrenghtNoteTracker : MonoBehaviour
     [SerializeField]
     private Button confirmButton;
 
+    public StrengthNote CurrentNote { get; set; }
+    public StrengthNote ConfirmationNote { get; set; }
+
     private void Start()
     {
         foreach (Button strengthButton in strengthButtons)
         {
             strengthButton.onClick.AddListener(delegate
-                { HighlightNote(strengthButton.GetComponentInChildren<LocalizeStringEvent>().StringReference);
-                    confirmButton.onClick = strengthButton.onClick;
-                });
+            {
+                HighlightNote(strengthButton.GetComponentInChildren<LocalizeStringEvent>().StringReference);
+                confirmButton.onClick = strengthButton.onClick;
+            });
         }
     }
-
-    public StrengthNote CurrentNote { get; set; }
 
     public void HighlightNote(LocalizedString strengthButton)
     {
@@ -32,6 +35,11 @@ public class StrenghtNoteTracker : MonoBehaviour
 
     public void DeHighlightNote()
     {
+        if (ConfirmationNote != null)
+        {
+            ConfirmationNote.giveConfirmation = true;
+            ConfirmationNote = null;
+        }
         CurrentNote.UnselectThisStrength();
     }
 

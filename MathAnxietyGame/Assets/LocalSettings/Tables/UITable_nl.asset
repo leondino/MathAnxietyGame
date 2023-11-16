@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 491526307840
-    m_Localized: Wil je de game afsluiten?
+    m_Localized: Pauze Menu
     m_Metadata:
       m_Items: []
   - m_Id: 4688376250368
@@ -88,6 +88,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 10503336241434624
     m_Localized: Weet je zeker dat je de vorige selectie wilt wijzigen naar deze?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14165415410307072
+    m_Localized: Start Spel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14169431020179456
+    m_Localized: Terug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14485038240403456
+    m_Localized: Doorgaan
     m_Metadata:
       m_Items: []
   references:

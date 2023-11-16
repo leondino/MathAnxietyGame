@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Game World.unity
-    guid: ec5020c0578ba2049bb24ebab3a5bed5
+  - enabled: 1
+    path: Assets/Scenes/UI Scene/Startscreen.unity
+    guid: 54e5d636da8cd8a44ab771ee3964e2f8
   - enabled: 1
     path: Assets/Scenes/Versions/Game World (Multi-Language).unity
     guid: 302961b390823784d887c095d34f0e5e
-  - enabled: 0
-    path: Assets/Scenes/Versions/Game World (Full-English).unity
-    guid: a4579d6981821b04a800bf8ce7a1fba7
   - enabled: 0
     path: Assets/Scenes/Versions/Strength Maze Demo.unity
     guid: 4d1aa6cbc280b694cad0bd556d4ef8ab
