@@ -2463,6 +2463,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 760662357770937754}
     m_Modifications:
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[0]
       value: 'Hi everybody!
 
@@ -2635,6 +2639,10 @@ PrefabInstance:
       value: 3772600303616
       objectReference: {fileID: 0}
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4].m_TableEntryReference.m_KeyId
+      value: 22464514609942528
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: dialogue.Array.data[1].dialogueSentences.Array.data[0].m_TableEntryReference.m_KeyId
       value: 3797313142784
       objectReference: {fileID: 0}
@@ -2724,6 +2732,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
       propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[3].m_TableReference.m_TableCollectionName
+      value: GUID:416bd3fd5d1000e4a96bf24c993547cc
+      objectReference: {fileID: 0}
+    - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}
+      propertyPath: dialogue.Array.data[0].dialogueSentences.Array.data[4].m_TableReference.m_TableCollectionName
       value: GUID:416bd3fd5d1000e4a96bf24c993547cc
       objectReference: {fileID: 0}
     - target: {fileID: 930917826624989061, guid: cdc659782ba065c4683cac9abee2d771, type: 3}

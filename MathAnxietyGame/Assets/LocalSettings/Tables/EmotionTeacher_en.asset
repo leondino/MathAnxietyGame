@@ -111,6 +111,10 @@ MonoBehaviour:
       within the math class!
     m_Metadata:
       m_Items: []
+  - m_Id: 22464514609942528
+    m_Localized: Interact with an emotion block to get an explanation of the emotion.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

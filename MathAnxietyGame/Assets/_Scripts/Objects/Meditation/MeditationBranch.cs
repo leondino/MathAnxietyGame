@@ -20,11 +20,22 @@ public class MeditationBranch : Interactable
         {
             FinishMeditation();
         }
+
+        // Press '[' to skip mediation during development tests
+        if (Input.GetKey(KeyCode.LeftBracket))
+        {
+            SkipMeditationCheat();
+        }
     }
 
     public override void Interact()
     {
         base.Interact();
+    }
+
+    private void SkipMeditationCheat()
+    {
+        meditationAudio.Stop();
     }
 
     public void StartMeditationSequence()

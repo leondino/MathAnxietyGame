@@ -112,6 +112,10 @@ MonoBehaviour:
       tijdens wiskunde.'
     m_Metadata:
       m_Items: []
+  - m_Id: 22464514609942528
+    m_Localized: Interacteer met een emotie blok om een uitleg van de emotie te zien.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

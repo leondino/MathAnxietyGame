@@ -2149,9 +2149,45 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6214622899417361449}
     m_Modifications:
+    - target: {fileID: 5107153626333854879, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153626458807406, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5107153627445686731, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203585, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -48.575
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203585, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -20.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203587, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203587, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203587, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628165203587, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107153628183184355, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5714805952693186606, guid: 491328d699a6fad44b80d1b6db274e66, type: 3}
       propertyPath: m_Name
@@ -4277,7 +4313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154671981546915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490953344130501, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4383,7 +4419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154672394145306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490954006322812, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4489,7 +4525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154672559970444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490953906555114, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4595,7 +4631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154673087167474 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490954462620564, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4701,7 +4737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154673256313311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490954753925561, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4807,7 +4843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154673620372761 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490955002092927, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -4913,7 +4949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &1460154673625975334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5305490954989083200, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -5019,7 +5055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!1 &7975415287230003809 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3696677850064497159, guid: 43920d2da7a0259459adf06a089908cf, type: 3}
@@ -5078,7 +5114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTipBox: {fileID: 1245093903}
-  yOffset: 30
+  yOffset: 45
 --- !u!114 &2055903226
 MonoBehaviour:
   m_ObjectHideFlags: 0
