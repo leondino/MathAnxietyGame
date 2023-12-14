@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: 416bd3fd5d1000e4a96bf24c993547cc, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 782857004735791150
   m_TableData:
   - m_Id: 3715641655296
     m_Localized: 'Hi everybody!
@@ -112,9 +113,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 22464514609942528
-    m_Localized: Interact with an emotion block to get an explanation of the emotion.
+    m_Localized: <b>Interact</b> with an emotion block to get an explanation of the
+      emotion.
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 782857004735791150
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 782857004735791150
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 009060655bcf4f00
