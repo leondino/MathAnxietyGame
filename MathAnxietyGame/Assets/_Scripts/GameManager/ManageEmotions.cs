@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +18,9 @@ public class ManageEmotions : MonoBehaviour
 
     public List<QnA> experiencedQnA = new List<QnA>();
     public List<QnA> nonExperiencedQnA = new List<QnA>();
+
+    private bool TenEmotionsCategorized { get { return experiencedEmotions.Count + nonExperiencedEmotions.Count == 10; } }
+    private bool NoFieldLeftEmpty { get { return experiencedEmotions.Count > 0 && nonExperiencedEmotions.Count > 0; } }
 
     [SerializeField]
     private GameObject QnAUI;
@@ -53,7 +55,7 @@ public class ManageEmotions : MonoBehaviour
     /// <returns></returns>
     public bool CheckAllCategorized()
     {
-        if (experiencedEmotions.Count + nonExperiencedEmotions.Count == 10)
+        if (TenEmotionsCategorized && NoFieldLeftEmpty)
         {
             finalExperiencedEmotions.AddRange(experiencedEmotions);
             finalNonExperiencedEmotions.AddRange(nonExperiencedEmotions);

@@ -85,7 +85,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3817504522240
-    m_Localized: "Jullie hebben nog niet alle emoties onder verdeeld.\r"
+    m_Localized: Jullie hebben nog niet alle emoties onder verdeeld., of...
     m_Metadata:
       m_Items: []
   - m_Id: 3797313142784
@@ -119,6 +119,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 782857004735791153
+  - m_Id: 32273614285869056
+    m_Localized: "\xE9\xE9n van de vakken is nog volledig leeg!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32274254986776576
+    m_Localized: Ook is het zo dat jullie een vak niet volledig leeg mag laten.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
