@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4086162276352
-    m_Localized: Toppers! Jullie heben diep nagedacht over een wel en een niet ervaren
+    m_Localized: Toppers! Jullie hebben diep nagedacht over een wel en een niet ervaren
       emotie.
     m_Metadata:
       m_Items: []
@@ -54,8 +54,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3967236980736
-    m_Localized: "En het is ook belangrijk dat jullie nadenken over de niet ervaren
-      positieve emoties.\r"
+    m_Localized: Daarom is het belangrijk dat je de positieve emoties die je ervaart,
+      in je opneemt.
     m_Metadata:
       m_Items: []
   - m_Id: 3955769753600
@@ -124,7 +124,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 32274254986776576
-    m_Localized: Ook is het zo dat jullie een vak niet volledig leeg mag laten.
+    m_Localized: Ook is het zo dat jullie een vak niet volledig leeg mogen laten.
     m_Metadata:
       m_Items: []
   references:
