@@ -150,8 +150,7 @@ public class ManageStrengths : MonoBehaviour
             if (strengthNote.canGivePower)
             {
                 //Give super power (glow + destroy wall)
-                GameManager.Instance.soundManager.clip = correctSound;
-                GameManager.Instance.soundManager.Play();
+                GameManager.Instance.soundManager.playCorrectSound();
                 GameManager.Instance.thePlayer.GetComponent<PlayerControler>().GiveSuperStrength();
                 strengthNote.canGivePower = false;
             }

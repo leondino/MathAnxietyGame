@@ -84,8 +84,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3989793947648
-    m_Localized: Two discussion rooms have been opened. Choose an emotion for both
-      categories.
+    m_Localized: Two discussion rooms have been opened. Choose one emotion for each
+      categorie.
     m_Metadata:
       m_Items: []
   - m_Id: 4032911392768

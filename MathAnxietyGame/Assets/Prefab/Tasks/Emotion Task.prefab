@@ -505,7 +505,7 @@ MonoBehaviour:
   discussEmotion: {fileID: 0}
   emotionRotationSpeed: 2
   floatHeight: 2.5
-  ascendSpeed: 0.01
+  ascendSpeed: 0.015
   isExperiencedEmotion: 0
 --- !u!1 &2997804821618145781
 GameObject:

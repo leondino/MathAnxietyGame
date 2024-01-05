@@ -49,6 +49,7 @@ public class ActivateDiscussEmotion : MonoBehaviour
     /// </summary>
     private void ActivateEmotion()
     {
+        GameManager.Instance.soundManager.playCorrectSound();
         discussEmotion.GetComponent<Rigidbody>().isKinematic = true;
         StartCoroutine(FlyToMid());
         myRotationSpeed = emotionRotationSpeed;

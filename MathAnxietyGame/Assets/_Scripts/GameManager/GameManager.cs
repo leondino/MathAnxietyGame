@@ -13,8 +13,8 @@ public class GameManager : MonoBehaviour
     public ManageEmotions emotionManager;
     public AnxietyBar mathAnxietyBar;
     public GameObject endScreen, pauseScreen, tutorialScreen;
-    public AudioSource soundManager;
     public AudioSource backgroundMusic;
+    public SoundManager soundManager;
     private bool afterLoad = true;
 
     public bool UIIsActive { get; set; }
