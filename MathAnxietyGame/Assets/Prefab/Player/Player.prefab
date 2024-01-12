@@ -176,7 +176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3354543630816845971
 Transform:
   m_ObjectHideFlags: 0
@@ -474,6 +474,10 @@ PrefabInstance:
       propertyPath: centerPoint
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: followSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1183833925408670812, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -538,6 +542,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7842334142630438805, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -581,6 +601,10 @@ PrefabInstance:
     - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: centerPoint
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: followSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 778881811047613711, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_IsActive
@@ -646,6 +670,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7842334142630438805, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -681,6 +721,10 @@ PrefabInstance:
     - target: {fileID: -8998621201237389795, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_AngularDrag
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7075261975141025279, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: followSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1215949206467089712, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_Name
@@ -737,6 +781,22 @@ PrefabInstance:
     - target: {fileID: 6440023306536870107, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431313759706213347, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7842334142630438805, guid: 9f8d53f5ff6049c478bbba903932d165, type: 3}
       propertyPath: m_Layer

@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: nl
   m_SharedData: {fileID: 11400000, guid: 416bd3fd5d1000e4a96bf24c993547cc, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 782857004735791153
   m_TableData:
   - m_Id: 4107972657152
     m_Localized: Probeer vanaf nu dus goed te letten op de positieve emoties binnen
@@ -24,7 +25,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4086162276352
-    m_Localized: Toppers! Jullie heben diep nagedacht over een wel en een niet ervaren
+    m_Localized: Toppers! Jullie hebben diep nagedacht over een wel en een niet ervaren
       emotie.
     m_Metadata:
       m_Items: []
@@ -43,8 +44,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3989793947648
-    m_Localized: "Er zijn twee discussie kamers geopend. Kies voor beide categorie\xEBn
-      een emotie.\r"
+    m_Localized: "Er zijn twee discussie kamers geopend. Kies \xE9\xE9n emotie per
+      categorie.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 3978565795840
@@ -53,8 +54,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3967236980736
-    m_Localized: "En het is ook belangrijk dat jullie nadenken over de niet ervaren
-      positieve emoties.\r"
+    m_Localized: Daarom is het belangrijk dat je de positieve emoties die je ervaart,
+      in je opneemt.
     m_Metadata:
       m_Items: []
   - m_Id: 3955769753600
@@ -84,7 +85,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3817504522240
-    m_Localized: "Jullie hebben nog niet alle emoties onder verdeeld.\r"
+    m_Localized: Jullie hebben nog niet alle emoties onder verdeeld., of...
     m_Metadata:
       m_Items: []
   - m_Id: 3797313142784
@@ -113,9 +114,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 22464514609942528
-    m_Localized: Interacteer met een emotie blok om een uitleg van de emotie te zien.
+    m_Localized: <b>Interacteer</b> met een emotie blok om een uitleg van de emotie
+      te zien.
+    m_Metadata:
+      m_Items:
+      - rid: 782857004735791153
+  - m_Id: 32273614285869056
+    m_Localized: "\xE9\xE9n van de vakken is nog volledig leeg!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32274254986776576
+    m_Localized: Ook is het zo dat jullie een vak niet volledig leeg mogen laten.
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 782857004735791153
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 009060655bcf4f00

@@ -40,7 +40,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3842997501952
-    m_Key: Dialogue[2]2
+    m_Key: Dialogue[2]3
     m_Metadata:
       m_Items: []
   - m_Id: 3869572612096
@@ -97,6 +97,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 22464514609942528
     m_Key: Dialogue[0]5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32273614285869056
+    m_Key: Dialogue[2]2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32274254986776576
+    m_Key: Dialogue[0]6
     m_Metadata:
       m_Items: []
   m_Metadata:
