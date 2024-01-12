@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Strengths_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e3c48fe3a5bfb3b44a1b9cfa55a3d09d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 168778809344
+    m_Localized: 'Creativity '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283069399040
+    m_Localized: 'Curiosity '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306779799552
+    m_Localized: 'Judgment '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326270730240
+    m_Localized: 'Love of learning '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342292971520
+    m_Localized: 'Perspective '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 359950991360
+    m_Localized: 'Honesty '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 377705480192
+    m_Localized: 'Bravery '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395040538624
+    m_Localized: 'Perseverance '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409968066560
+    m_Localized: 'Zest '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 424866234368
+    m_Localized: 'Kindness '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443186954240
+    m_Localized: 'Love '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462401060864
+    m_Localized: 'Social intelligence '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 479094390784
+    m_Localized: 'Fairness '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493778649088
+    m_Localized: 'Leadership '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509461151744
+    m_Localized: 'Teamwork '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547692232704
+    m_Localized: 'Humility '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566935699456
+    m_Localized: 'Prudence '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583545143296
+    m_Localized: 'Self-regulation '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 603686191104
+    m_Localized: 'Appreciation of beauty '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650565926912
+    m_Localized: 'Gratitude '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680521646080
+    m_Localized: 'Hope '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692387332096
+    m_Localized: 'Humor '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 716273893376
+    m_Localized: 'Religiousness '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807707291648
+    m_Localized: 'Forgiveness '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

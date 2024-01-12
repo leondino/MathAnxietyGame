@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EmotionTooltips_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0b5fcc970d342fb47b99b49617b39496, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11404328960
+    m_Localized: Joy is the super good feeling you get when something makes you very
+      happy,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117922873344
+    m_Localized: Gratitude is when you feel very happy because someone has been kind
+      to you,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132695212032
+    m_Localized: Serenity is when you feel calm and peaceful,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145148100608
+    m_Localized: Interest is when you are very curious and excited about something,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160025296896
+    m_Localized: Hope is the belief that things can get better, even if they are
+      not perfect now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189284761600
+    m_Localized: Pride is the nice feeling when you are happy about something you
+      have done well,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162640896
+    m_Localized: Amusement is when you laugh really hard and have a lot of fun...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223220875264
+    m_Localized: "\rInspiration is when you become very enthusiastic and creative..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242107826176
+    m_Localized: Awe is the feeling of amazement and admiration when something is
+      very special...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258901819392
+    m_Localized: Love is the nice feeling you have for people and things you care
+      about very much.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463772982054912
+    m_Localized: such as a surprise, a party or playing with friends.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463781022535680
+    m_Localized: or because you are happy with the good things in your life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463783430066176
+    m_Localized: "\rjust like a quiet lake where the water is smooth as a mirror."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463784763854848
+    m_Localized: "\rsuch as an exciting book, a riddle or a cool fact video."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463786001174528
+    m_Localized: "\rIt's like a friendly smile from the future."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463789700550656
+    m_Localized: such as winning a prize or completing a task.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463968050745344
+    m_Localized: "\rby something funny or enjoyable, such as a funny movie or a joker."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463971162918912
+    m_Localized: by a super good idea or something beautiful that you see or hear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464027475644416
+    m_Localized: or extraordinary, such as a beautiful sunset or a gigantic waterfall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464054705065984
+    m_Localized: It makes your heart happy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464533958823936
+    m_Localized: It's like a dance of happiness in your heart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464585288716288
+    m_Localized: It's like a radiant smile inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464613277306880
+    m_Localized: It's like a soft blanket of peace around you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464636958347264
+    m_Localized: It's like a light in your head that says, "Tell me more!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464673008390144
+    m_Localized: It's like a bright smile in your heart!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464694655193088
+    m_Localized: It's like a party for your smile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464735826481152
+    m_Localized: It's like magic for your creative side!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464781020106752
+    m_Localized: It's when you think, "Wow, that's really amazing!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

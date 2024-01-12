@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StrengthTeacher_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 733e51734f19e66419f702658e65aeae, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2994002265740673024
+  m_TableData:
+  - m_Id: 7364581277696
+    m_Localized: "Probeer daarom deze week ieder \xE9\xE9n van de taken uit te voeren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7354628194304
+    m_Localized: Dit kan jullie dus helpen om Math Anxiety te verminderen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342586347520
+    m_Localized: "\rverbetert je prestaties en zorgt ervoor dat je meer plezier heb."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7324387262464
+    m_Localized: Het inspelen op je sterke kanten in hetgene wat je doet...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7298969780224
+    m_Localized: Goed gedaan! Jullie hebben de juiste taken gevonden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993360207872
+    m_Localized: Geen probleem! Probeer de notities met taken te vinden die passen
+      bij jullie sterke punten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6944555286528
+    m_Localized: Helaas niet alle gekozen taken passen bij jullie sterke kanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6900842250240
+    m_Localized: Eens kijken of jullie de juiste taken hierbij al hebben gevonden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5936949248000
+    m_Localized: 'Jullie sterke kanten zijn: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 2994002265740673024
+  - m_Id: 5922638282752
+    m_Localized: Hier zijn er een paar. Kies ieder een sterke kant die goed bij jou
+      past.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5477664571392
+    m_Localized: 'Hoi Allemaal!
+
+      Zijn jullie bekend met de 24 persoonlijke
+      sterke kanten?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7610463256854528
+    m_Localized: Het vinden van een passende taak laat je zo krachtig voelen dat
+      je gloeit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9793836387700736
+    m_Localized: Voor iedere sterke kant is er 1 notitie met een voorbeeld taak verstopt
+      in het doolhof.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9794168287170560
+    m_Localized: Probeer de 3 taken te selecteren die passen bij jullie 3 gekozen
+      sterke kanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9795103080091648
+    m_Localized: Met deze kracht kun je zelfs door doolhof-muren heen slaan door
+      ermee te interacteren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11582165789741056
+    m_Localized: Als jullie 3 taken blauw geselecteerd hebben kunnen jullie deze
+      bij mij laten checken.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2994002265740673024
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0040c04d66050000

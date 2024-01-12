@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EmotionTooltips_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 0b5fcc970d342fb47b99b49617b39496, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11404328960
+    m_Localized: Vreugde is het super blije gevoel dat je krijgt wanneer iets je
+      heel gelukkig maakt,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117922873344
+    m_Localized: Dankbaarheid is wanneer je heel blij bent omdat iemand aardig voor
+      je is geweest,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132695212032
+    m_Localized: Sereniteit is wanneer je je kalm en rustig voelt,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145148100608
+    m_Localized: Interesse is wanneer je heel nieuwsgierig en opgewonden bent over
+      iets,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160025296896
+    m_Localized: Hoop is het geloof dat dingen beter kunnen worden, zelfs als het
+      nu niet perfect is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189284761600
+    m_Localized: Trots is het fijne gevoel als je blij bent over iets wat je goed
+      hebt gedaan,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162640896
+    m_Localized: 'Amusement is wanneer je heel hard moet lachen en veel plezier hebt...
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223220875264
+    m_Localized: Inspiratie is wanneer je heel enthousiast en creatief wordt...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242107826176
+    m_Localized: Ontzag is het gevoel van verbazing en bewondering als iets heel
+      speciaal...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258901819392
+    m_Localized: 'Liefde is het fijne gevoel dat je hebt voor mensen en dingen waar
+      je heel veel om geeft.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463772982054912
+    m_Localized: zoals een verrassing, een feestje of spelen met vrienden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464533958823936
+    m_Localized: Het is als een dansje van blijdschap in je hart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464054705065984
+    m_Localized: Het maakt je hart blij!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463781022535680
+    m_Localized: of omdat je blij bent met de goede dingen in je leven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464585288716288
+    m_Localized: Het is als een stralende glimlach van binnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463783430066176
+    m_Localized: net als een rustig meertje waarop het water glad als een spiegel
+      is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464613277306880
+    m_Localized: Het is als een zachte deken van vrede om je heen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463784763854848
+    m_Localized: zoals een spannend boek, een raadsel of een coole weetjesvideo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464636958347264
+    m_Localized: 'Het is als een lichtje in je hoofd dat zegt: "Vertel me meer!"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463786001174528
+    m_Localized: Het is als een vriendelijke glimlach van de toekomst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463789700550656
+    m_Localized: zoals een prijs winnen of een taak voltooien.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464673008390144
+    m_Localized: Het is als een stralende glimlach in je hart!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463968050745344
+    m_Localized: door iets grappigs of leuks, zoals een grappige film of een grappenmaker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464694655193088
+    m_Localized: Het is als een feestje voor je lach!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463971162918912
+    m_Localized: door een supergoed idee of iets moois dat je ziet of hoort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464735826481152
+    m_Localized: Het is als magie voor je creatieve kant!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464027475644416
+    m_Localized: of buitengewoon is, zoals een prachtige zonsondergang of een gigantische
+      waterval.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464781020106752
+    m_Localized: 'Het is wanneer je denkt: "Wow, dat is echt geweldig!"'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

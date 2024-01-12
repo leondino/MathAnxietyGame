@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Strengths Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Strengths
+  m_TableCollectionNameGuidString: e3c48fe3a5bfb3b44a1b9cfa55a3d09d
+  m_Entries:
+  - m_Id: 168778809344
+    m_Key: Creativity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283069399040
+    m_Key: Curiosity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306779799552
+    m_Key: Judgment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326270730240
+    m_Key: Love of learning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342292971520
+    m_Key: Perspective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 359950991360
+    m_Key: Honesty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 377705480192
+    m_Key: Bravery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395040538624
+    m_Key: Perseverance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409968066560
+    m_Key: Zest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 424866234368
+    m_Key: Kindness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443186954240
+    m_Key: Love
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462401060864
+    m_Key: Social intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 479094390784
+    m_Key: Fairness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493778649088
+    m_Key: Leadership
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509461151744
+    m_Key: Teamwork
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547692232704
+    m_Key: Humility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566935699456
+    m_Key: Prudence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583545143296
+    m_Key: Self-regulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 603686191104
+    m_Key: Appreciation of beauty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650565926912
+    m_Key: Gratitude
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680521646080
+    m_Key: Hope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692387332096
+    m_Key: Humor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 716273893376
+    m_Key: Spirituality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807707291648
+    m_Key: Forgiveness
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2994002195853344768
+  references:
+    version: 2
+    RefIds:
+    - rid: 2994002195853344768
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1696594981359
