@@ -1,1 +1,1 @@
-# Math-Anxiety-Game
+# MathAnxietyGame
